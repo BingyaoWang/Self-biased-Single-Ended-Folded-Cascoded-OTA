@@ -1,63 +1,65 @@
-timestamp 1776462439
+timestamp 1776553797
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use self_bias_FCOTA self_bias_FCOTA_0 0 1 9864 -1 0 37432
-port "ua[3]" 6 18770 0 18950 200 m4
-port "ua[4]" 7 14906 0 15086 200 m4
-port "ua[5]" 8 11042 0 11222 200 m4
-port "ua[6]" 9 7178 0 7358 200 m4
-port "ua[7]" 10 3314 0 3494 200 m4
-port "ena" 1 29318 44952 29378 45152 m4
-port "clk" 0 28766 44952 28826 45152 m4
-port "rst_n" 2 28214 44952 28274 45152 m4
-port "ui_in[0]" 11 27662 44952 27722 45152 m4
-port "ui_in[1]" 12 27110 44952 27170 45152 m4
-port "ui_in[2]" 13 26558 44952 26618 45152 m4
-port "ui_in[3]" 14 26006 44952 26066 45152 m4
-port "ui_in[4]" 15 25454 44952 25514 45152 m4
-port "ui_in[5]" 16 24902 44952 24962 45152 m4
-port "ui_in[6]" 17 24350 44952 24410 45152 m4
-port "ui_in[7]" 18 23798 44952 23858 45152 m4
-port "uio_in[0]" 19 23246 44952 23306 45152 m4
-port "uio_in[1]" 20 22694 44952 22754 45152 m4
-port "uio_in[2]" 21 22142 44952 22202 45152 m4
-port "uio_in[3]" 22 21590 44952 21650 45152 m4
-port "uio_in[4]" 23 21038 44952 21098 45152 m4
-port "uio_in[5]" 24 20486 44952 20546 45152 m4
-port "uio_in[6]" 25 19934 44952 19994 45152 m4
-port "uio_in[7]" 26 19382 44952 19442 45152 m4
-port "uo_out[0]" 43 18830 44952 18890 45152 m4
-port "uo_out[1]" 44 18278 44952 18338 45152 m4
-port "uo_out[2]" 45 17726 44952 17786 45152 m4
-port "uo_out[3]" 46 17174 44952 17234 45152 m4
-port "uo_out[4]" 47 16622 44952 16682 45152 m4
-port "uo_out[5]" 48 16070 44952 16130 45152 m4
-port "uo_out[6]" 49 15518 44952 15578 45152 m4
-port "uo_out[7]" 50 14966 44952 15026 45152 m4
-port "uio_out[0]" 35 14414 44952 14474 45152 m4
-port "uio_out[1]" 36 13862 44952 13922 45152 m4
-port "uio_out[2]" 37 13310 44952 13370 45152 m4
-port "uio_out[3]" 38 12758 44952 12818 45152 m4
-port "uio_out[4]" 39 12206 44952 12266 45152 m4
-port "uio_out[5]" 40 11654 44952 11714 45152 m4
-port "uio_out[6]" 41 11102 44952 11162 45152 m4
-port "uio_out[7]" 42 10550 44952 10610 45152 m4
-port "uio_oe[0]" 27 9998 44952 10058 45152 m4
-port "uio_oe[1]" 28 9446 44952 9506 45152 m4
-port "uio_oe[2]" 29 8894 44952 8954 45152 m4
-port "uio_oe[3]" 30 8342 44952 8402 45152 m4
-port "uio_oe[4]" 31 7790 44952 7850 45152 m4
-port "uio_oe[5]" 32 7238 44952 7298 45152 m4
-port "uio_oe[6]" 33 6686 44952 6746 45152 m4
-port "uio_oe[7]" 34 6134 44952 6194 45152 m4
-port "ua[2]" 5 22634 0 22814 200 m4
-port "ua[1]" 4 26498 0 26678 200 m4
-port "ua[0]" 3 30362 0 30542 200 m4
-port "VGND" 52 800 1000 1200 44152 m4
-port "VDPWR" 51 200 1000 600 44152 m4
+use OTA OTA_0 1 0 3084 0 1 8106
+use biasing biasing_0 1 0 5396 0 1 23200
+use Beta_mult Beta_mult_0 1 0 5350 0 1 34542
+port "ua[3]" 7 18770 0 18950 200 m4
+port "ua[4]" 8 14906 0 15086 200 m4
+port "ua[5]" 9 11042 0 11222 200 m4
+port "ua[6]" 10 7178 0 7358 200 m4
+port "ua[7]" 11 3314 0 3494 200 m4
+port "ena" 2 29318 44952 29378 45152 m4
+port "clk" 1 28766 44952 28826 45152 m4
+port "rst_n" 3 28214 44952 28274 45152 m4
+port "ui_in[0]" 12 27662 44952 27722 45152 m4
+port "ui_in[1]" 13 27110 44952 27170 45152 m4
+port "ui_in[2]" 14 26558 44952 26618 45152 m4
+port "ui_in[3]" 15 26006 44952 26066 45152 m4
+port "ui_in[4]" 16 25454 44952 25514 45152 m4
+port "ui_in[5]" 17 24902 44952 24962 45152 m4
+port "ui_in[6]" 18 24350 44952 24410 45152 m4
+port "ui_in[7]" 19 23798 44952 23858 45152 m4
+port "uio_in[0]" 20 23246 44952 23306 45152 m4
+port "uio_in[1]" 21 22694 44952 22754 45152 m4
+port "uio_in[2]" 22 22142 44952 22202 45152 m4
+port "uio_in[3]" 23 21590 44952 21650 45152 m4
+port "uio_in[4]" 24 21038 44952 21098 45152 m4
+port "uio_in[5]" 25 20486 44952 20546 45152 m4
+port "uio_in[6]" 26 19934 44952 19994 45152 m4
+port "uio_in[7]" 27 19382 44952 19442 45152 m4
+port "uo_out[0]" 44 18830 44952 18890 45152 m4
+port "uo_out[1]" 45 18278 44952 18338 45152 m4
+port "uo_out[2]" 46 17726 44952 17786 45152 m4
+port "uo_out[3]" 47 17174 44952 17234 45152 m4
+port "uo_out[4]" 48 16622 44952 16682 45152 m4
+port "uo_out[5]" 49 16070 44952 16130 45152 m4
+port "uo_out[6]" 50 15518 44952 15578 45152 m4
+port "uo_out[7]" 51 14966 44952 15026 45152 m4
+port "uio_out[0]" 36 14414 44952 14474 45152 m4
+port "uio_out[1]" 37 13862 44952 13922 45152 m4
+port "uio_out[2]" 38 13310 44952 13370 45152 m4
+port "uio_out[3]" 39 12758 44952 12818 45152 m4
+port "uio_out[4]" 40 12206 44952 12266 45152 m4
+port "uio_out[5]" 41 11654 44952 11714 45152 m4
+port "uio_out[6]" 42 11102 44952 11162 45152 m4
+port "uio_out[7]" 43 10550 44952 10610 45152 m4
+port "uio_oe[0]" 28 9998 44952 10058 45152 m4
+port "uio_oe[1]" 29 9446 44952 9506 45152 m4
+port "uio_oe[2]" 30 8894 44952 8954 45152 m4
+port "uio_oe[3]" 31 8342 44952 8402 45152 m4
+port "uio_oe[4]" 32 7790 44952 7850 45152 m4
+port "uio_oe[5]" 33 7238 44952 7298 45152 m4
+port "uio_oe[6]" 34 6686 44952 6746 45152 m4
+port "uio_oe[7]" 35 6134 44952 6194 45152 m4
+port "ua[2]" 6 22634 0 22814 200 m4
+port "ua[1]" 5 26498 0 26678 200 m4
+port "VGND" 53 800 1000 1200 44152 m4
+port "ua[0]" 4 30362 0 30542 200 m4
+port "VDPWR" 52 200 1000 600 44152 m4
 node "ua[3]" 0 146.962 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
 node "ua[4]" 0 146.962 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
 node "ua[5]" 0 146.962 11042 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
@@ -106,101 +108,138 @@ node "uio_oe[4]" 0 42.8754 7790 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "uio_oe[5]" 0 42.8754 7238 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
 node "uio_oe[6]" 0 42.8754 6686 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
 node "uio_oe[7]" 0 70.3847 6134 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
-node "ua[2]" 1 15283.3 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2281440 6232 10371124 18392 11828272 25316 0 0 0 0
-node "ua[1]" 2 16529.2 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 368080 2576 368080 2576 24725884 55628 0 0 0 0
-node "ua[0]" 3 19673.1 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 368080 2576 368080 2576 25504784 71888 0 0 0 0
-node "VGND" 6 20110 800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 544272 2956 932816 4080 8690312 20844 18483732 89780 0 0 0 0
-node "VDPWR" 6 23493.1 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1589760 5988 932816 4080 11004616 27940 17782860 88460 0 0 0 0
+node "m2_19020_11750#" 0 685.874 19020 11750 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 330048 2868 0 0 0 0 0 0 0 0
+node "ua[2]" 5 23433.7 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7958312 25716 13037256 53360 225848 1908 0 0 0 0
+node "ua[1]" 6 27849.4 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9662792 33204 15017820 61312 225848 1908 0 0 0 0
+node "VGND" 9 19026.1 800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197888 3148 1673880 9924 4163900 20552 17260800 87104 0 0 0 0
+node "ua[0]" 10 46835.9 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10761616 36308 15117216 38684 16688892 66976 225848 1908 0 0 0 0
+node "VDPWR" 9 20368.4 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 173272 3036 1714428 10160 4919940 23556 17260800 87104 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "uo_out[6]" "uo_out[5]" 31.0231
+cap "uio_in[5]" "uio_in[6]" 31.0231
+cap "uio_out[0]" "uo_out[7]" 31.0231
+cap "uo_out[4]" "uo_out[5]" 31.0231
+cap "uio_in[3]" "uio_in[2]" 31.0231
+cap "uo_out[2]" "uo_out[1]" 31.0231
 cap "uo_out[2]" "uo_out[3]" 31.0231
-cap "uio_out[4]" "uio_out[5]" 31.0231
-cap "uio_in[6]" "uio_in[5]" 31.0231
-cap "uo_out[4]" "uo_out[3]" 31.0231
-cap "uio_in[3]" "uio_in[4]" 31.0231
-cap "uio_in[7]" "uo_out[0]" 31.0231
-cap "rst_n" "ui_in[0]" 31.0231
-cap "ui_in[1]" "ui_in[2]" 31.0231
-cap "ui_in[7]" "ui_in[6]" 31.0231
-cap "uio_in[4]" "uio_in[5]" 31.0231
-cap "uio_out[7]" "uio_oe[0]" 31.0231
-cap "ui_in[3]" "ui_in[4]" 31.0231
-cap "uio_out[4]" "uio_out[3]" 31.0231
+cap "ui_in[5]" "ui_in[4]" 31.0231
+cap "ui_in[5]" "ui_in[6]" 31.0231
+cap "uio_in[1]" "uio_in[2]" 31.0231
+cap "uio_oe[4]" "uio_oe[3]" 31.0231
+cap "uio_oe[5]" "uio_oe[4]" 31.0231
+cap "VDPWR" "ua[0]" 14.7281
+cap "VGND" "ua[0]" 0.021753
 cap "ui_in[1]" "ui_in[0]" 31.0231
 cap "uio_oe[2]" "uio_oe[3]" 31.0231
-cap "uo_out[5]" "uo_out[6]" 31.0231
-cap "uio_oe[0]" "uio_oe[1]" 31.0231
-cap "uio_in[6]" "uio_in[7]" 31.0231
-cap "ui_in[6]" "ui_in[5]" 31.0231
-cap "ui_in[3]" "ui_in[2]" 31.0231
-cap "uio_in[2]" "uio_in[1]" 31.0231
-cap "uo_out[1]" "uo_out[2]" 31.0231
+cap "uio_out[7]" "uio_out[6]" 31.0231
+cap "uio_in[3]" "uio_in[4]" 31.0231
 cap "uio_oe[7]" "uio_oe[6]" 31.0231
-cap "uo_out[6]" "uo_out[7]" 31.0231
-cap "uio_in[0]" "uio_in[1]" 31.0231
 cap "uio_out[1]" "uio_out[0]" 31.0231
-cap "uio_oe[4]" "uio_oe[3]" 31.0231
-cap "uio_in[3]" "uio_in[2]" 31.0231
-cap "uio_out[2]" "uio_out[3]" 31.0231
-cap "uio_out[5]" "uio_out[6]" 31.0231
-cap "ena" "clk" 31.0231
-cap "uo_out[1]" "uo_out[0]" 31.0231
-cap "uio_out[0]" "uo_out[7]" 31.0231
-cap "VDPWR" "VGND" 15390.5
-cap "ui_in[4]" "ui_in[5]" 31.0231
-cap "uio_oe[2]" "uio_oe[1]" 31.0231
-cap "ui_in[7]" "uio_in[0]" 31.0231
-cap "rst_n" "clk" 31.0231
-cap "uio_oe[4]" "uio_oe[5]" 31.0231
+cap "uo_out[4]" "uo_out[3]" 31.0231
+cap "uio_out[5]" "uio_out[4]" 31.0231
+cap "uio_oe[1]" "uio_oe[2]" 31.0231
+cap "uio_oe[0]" "uio_oe[1]" 31.0231
+cap "rst_n" "ui_in[0]" 31.0231
+cap "uio_in[1]" "uio_in[0]" 31.0231
 cap "uio_oe[5]" "uio_oe[6]" 31.0231
-cap "uio_out[6]" "uio_out[7]" 31.0231
-cap "uio_out[2]" "uio_out[1]" 31.0231
-cap "uo_out[5]" "uo_out[4]" 31.0231
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vc" 0.24457
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vout" 0.433108
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vc" 0.202776
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vss" 0.0239459
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vss" 1.28907
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vout" 2.78583
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vout" 3.21817
-cap "self_bias_FCOTA_0/OTA_0/vdd" "ua[2]" 1.40692
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vout" 1.48776
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vss" 0.0172103
-cap "self_bias_FCOTA_0/OTA_0/vss" "self_bias_FCOTA_0/vout" 1.58531
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vout" 3.51296
-cap "self_bias_FCOTA_0/vout" "self_bias_FCOTA_0/OTA_0/vdd" 2.82187
-cap "self_bias_FCOTA_0/OTA_0/vdd" "ua[2]" 1.25765
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/XM17/G0" 0.122239
-cap "self_bias_FCOTA_0/OTA_0/XM17/B" "self_bias_FCOTA_0/vip" 34.4365
-cap "self_bias_FCOTA_0/OTA_0/XM17/B" "self_bias_FCOTA_0/OTA_0/m1_2718_2886#" 5.68434e-14
-cap "self_bias_FCOTA_0/OTA_0/m1_2718_2886#" "self_bias_FCOTA_0/vip" 57.3754
-cap "self_bias_FCOTA_0/OTA_0/m1_5124_2922#" "self_bias_FCOTA_0/vip" 1.72985
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/XM17/G0" 1.36175
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/m2_6716_10140#" 944.176
-cap "self_bias_FCOTA_0/m2_6716_10140#" "ua[1]" 1.08748
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/m1_5124_2922#" 1.279
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/m1_2718_2886#" 32.725
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/XM17/B" 19.5143
-cap "self_bias_FCOTA_0/OTA_0/va" "self_bias_FCOTA_0/vip" 0.0618047
-cap "self_bias_FCOTA_0/vip" "self_bias_FCOTA_0/OTA_0/va" 0.0618047
-cap "self_bias_FCOTA_0/vin" "self_bias_FCOTA_0/OTA_0/va" 22.3417
-cap "self_bias_FCOTA_0/vin" "self_bias_FCOTA_0/OTA_0/vdd" 34.3405
-cap "self_bias_FCOTA_0/vin" "self_bias_FCOTA_0/OTA_0/va" 207.437
-cap "self_bias_FCOTA_0/m2_6716_10140#" "self_bias_FCOTA_0/OTA_0/vin" 510.877
-cap "self_bias_FCOTA_0/OTA_0/vin" "self_bias_FCOTA_0/OTA_0/va" 81.6148
-cap "ua[0]" "self_bias_FCOTA_0/m2_6716_10140#" 0.107028
-cap "self_bias_FCOTA_0/vin" "self_bias_FCOTA_0/OTA_0/va" 1.72159
-cap "self_bias_FCOTA_0/OTA_0/vdd" "self_bias_FCOTA_0/vin" 74.9822
-cap "self_bias_FCOTA_0/OTA_0/va" "self_bias_FCOTA_0/vin" 174.461
-cap "self_bias_FCOTA_0/OTA_0/vin" "self_bias_FCOTA_0/OTA_0/va" 72.1615
-cap "self_bias_FCOTA_0/OTA_0/vin" "self_bias_FCOTA_0/m2_6716_10140#" 433.198
-cap "self_bias_FCOTA_0/m2_6716_10140#" "ua[0]" 0.927575
-cap "self_bias_FCOTA_0/vss" "self_bias_FCOTA_0/vdd" 0.00169957
-cap "self_bias_FCOTA_0/Beta_mult_0/XM29/D" "self_bias_FCOTA_0/vdd" 0.0690621
-cap "self_bias_FCOTA_0/vdd" "self_bias_FCOTA_0/vss" -7.73922
-merge "self_bias_FCOTA_0/vdd" "VDPWR" -435.012 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -133472 -1764 0 0 0 0 0 0 0 0 0 0
-merge "self_bias_FCOTA_0/VSUBS" "VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-merge "self_bias_FCOTA_0/vss" "VGND" -1460.41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -134248 -1772 0 0 -949646 -2992 0 0 0 0 0 0
-merge "self_bias_FCOTA_0/OTA_0/vin" "self_bias_FCOTA_0/vin" -1790 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -169488 -1648 0 0 -669012 -3314 0 0 0 0
-merge "self_bias_FCOTA_0/vin" "ua[0]"
-merge "self_bias_FCOTA_0/vip" "ua[1]" -1427.96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -133984 -1480 0 0 -669678 -3286 0 0 0 0
-merge "self_bias_FCOTA_0/vout" "ua[2]" -5022.36 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -342176 -2904 -5217300 -9459 -1295400 -4582 0 0 0 0
+cap "uio_in[7]" "uo_out[0]" 31.0231
+cap "clk" "ena" 31.0231
+cap "ui_in[2]" "ui_in[1]" 31.0231
+cap "uio_in[4]" "uio_in[5]" 31.0231
+cap "uio_out[1]" "uio_out[2]" 31.0231
+cap "uio_out[2]" "uio_out[3]" 31.0231
+cap "uio_in[7]" "uio_in[6]" 31.0231
+cap "VGND" "VDPWR" 16849.3
+cap "ui_in[3]" "ui_in[4]" 31.0231
+cap "ui_in[6]" "ui_in[7]" 31.0231
+cap "uo_out[0]" "uo_out[1]" 31.0231
+cap "uio_out[4]" "uio_out[3]" 31.0231
+cap "uo_out[6]" "uo_out[7]" 31.0231
+cap "clk" "rst_n" 31.0231
+cap "ua[1]" "ua[0]" 1.08559
+cap "uio_oe[0]" "uio_out[7]" 31.0231
+cap "uio_in[0]" "ui_in[7]" 31.0231
+cap "uio_out[5]" "uio_out[6]" 31.0231
+cap "ui_in[2]" "ui_in[3]" 31.0231
+cap "OTA_0/XM24/D" "OTA_0/vss" 2.37759
+cap "OTA_0/vss" "OTA_0/XM24/S" 0.0154956
+cap "OTA_0/XM24/D" "OTA_0/vss" 2.07482
+cap "OTA_0/vout" "OTA_0/vc" 9.25377
+cap "OTA_0/vss" "OTA_0/vdd" -0.211627
+cap "OTA_0/XM24/D" "OTA_0/vdd" 9.04014
+cap "OTA_0/XM24/D" "OTA_0/vss" 4.33798
+cap "OTA_0/XM34/G" "OTA_0/vdd" 0.0194857
+cap "OTA_0/vdd" "OTA_0/vss" -9.89986
+cap "OTA_0/XM24/S" "OTA_0/vss" 0.0705016
+cap "OTA_0/XM24/D" "OTA_0/vss" 3.64689
+cap "OTA_0/XM24/D" "OTA_0/vdd" 7.90104
+cap "OTA_0/vout" "OTA_0/vc" 8.74949
+cap "OTA_0/vdd" "OTA_0/vdo" -5.68434e-14
+cap "OTA_0/vdd" "OTA_0/XM24/D" 0.0709119
+cap "OTA_0/vdd" "OTA_0/XM34/G" 0.222137
+cap "biasing_0/VC" "biasing_0/VD" 0.0605501
+cap "biasing_0/VD" "biasing_0/VC" 9.15751
+cap "biasing_0/VC" "biasing_0/VD" 0.0610501
+cap "biasing_0/XM32/S" "biasing_0/vss" 16.4167
+cap "biasing_0/vdd" "biasing_0/vss" -5.88753
+cap "biasing_0/XM32/S" "biasing_0/vss" 10.7395
+cap "biasing_0/XM10/D0" "biasing_0/XM7/B" 1.13687e-13
+cap "biasing_0/XM10/D0" "biasing_0/VC" 0.624673
+cap "biasing_0/VD" "biasing_0/VC" 0.0160282
+cap "biasing_0/VC" "biasing_0/XM7/S" 0.0670239
+cap "biasing_0/VC" "biasing_0/VD" 9.15751
+cap "biasing_0/VC" "biasing_0/XM10/D0" 0.634127
+cap "biasing_0/XM7/B" "biasing_0/VC" 15.5374
+cap "biasing_0/VD" "biasing_0/VC" 0.0610501
+cap "biasing_0/vdo" "biasing_0/vdd" 30.2407
+cap "biasing_0/vss" "biasing_0/vdd" -6.04278
+cap "biasing_0/vss" "biasing_0/vdo" -0.0137883
+cap "biasing_0/XM32/S" "biasing_0/vdd" 0.106599
+cap "biasing_0/vdd" "biasing_0/vdo" 9.36256
+cap "biasing_0/XM32/S" "biasing_0/vdd" 0.0377939
+cap "biasing_0/vdo" "biasing_0/vss" -0.00129421
+cap "biasing_0/vdd" "biasing_0/vdo" 139.127
+cap "biasing_0/VA" "biasing_0/VB" 0.350705
+cap "biasing_0/vdo" "biasing_0/XM32/B" 105.216
+cap "biasing_0/XM11/B" "biasing_0/vdo" 0.340821
+cap "ua[0]" "biasing_0/XM12/B" 11.5256
+cap "ua[0]" "biasing_0/XM11/G" 0.00737624
+cap "biasing_0/XM12/S" "biasing_0/VB" 5.68434e-14
+cap "biasing_0/VA" "biasing_0/VB" 0.267666
+cap "ua[0]" "biasing_0/XM12/S" 19.796
+cap "ua[0]" "biasing_0/VA" 0.0348876
+cap "ua[0]" "biasing_0/XM12/S" 8.46583
+cap "ua[0]" "biasing_0/VA" 8.34433
+cap "biasing_0/VB" "biasing_0/VA" 0.549968
+cap "biasing_0/XM12/S" "biasing_0/VA" 11.0303
+cap "ua[0]" "biasing_0/vdd" 0.00233192
+cap "biasing_0/XM11/B" "ua[0]" 0.557843
+cap "biasing_0/XM12/B" "ua[0]" 11.4336
+cap "biasing_0/XM12/S" "ua[0]" 19.4444
+cap "biasing_0/VA" "ua[0]" 8.17333
+cap "biasing_0/XM12/S" "ua[0]" 8.31568
+cap "ua[0]" "Beta_mult_0/XM27/B" 11.4695
+cap "Beta_mult_0/XM27/G" "ua[0]" 1.38363
+cap "ua[0]" "Beta_mult_0/XM27/G" 116.348
+cap "Beta_mult_0/vdd" "Beta_mult_0/vss" -2.05605
+cap "Beta_mult_0/vss" "Beta_mult_0/vdd" -0.0188788
+cap "Beta_mult_0/vdd" "Beta_mult_0/vss" -2.17703
+cap "Beta_mult_0/XM29/D" "Beta_mult_0/vdd" 7.4606
+cap "Beta_mult_0/vss" "Beta_mult_0/vdd" -0.0591242
+merge "Beta_mult_0/vdd" "biasing_0/XM12/B" -10094.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -173272 -3036 0 0 -1488152 -6634 -9820800 -49504 0 0 0 0
+merge "biasing_0/XM12/B" "biasing_0/XM10/B"
+merge "biasing_0/XM10/B" "biasing_0/vdd"
+merge "biasing_0/vdd" "OTA_0/vdd"
+merge "OTA_0/vdd" "VDPWR"
+merge "Beta_mult_0/VSUBS" "biasing_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "biasing_0/VSUBS" "OTA_0/VSUBS"
+merge "OTA_0/VSUBS" "VSUBS"
+merge "Beta_mult_0/vss" "biasing_0/XM7/B" -9448.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -197888 -3148 0 0 -862912 -4290 -10380800 -52304 0 0 0 0
+merge "biasing_0/XM7/B" "biasing_0/vss"
+merge "biasing_0/vss" "OTA_0/vss"
+merge "OTA_0/vss" "VGND"
+merge "biasing_0/VA" "ua[1]" -747.354 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -360152 -3006 0 0 0 0 0 0 0 0
+merge "biasing_0/VC" "ua[2]" -652.259 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -363064 -2428 0 0 0 0 0 0 0 0
+merge "Beta_mult_0/vdo" "biasing_0/vdo" -13423.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -7753820 -32107 -1430448 -5138 0 0 0 0 0 0 0 0
+merge "biasing_0/vdo" "ua[0]"
+merge "OTA_0/vout" "m2_19020_11750#" -215.562 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -48960 -904 0 0 0 0 0 0 0 0

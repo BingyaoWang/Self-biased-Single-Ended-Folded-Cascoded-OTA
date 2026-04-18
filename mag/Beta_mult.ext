@@ -1,150 +1,154 @@
-timestamp 1776462071
+timestamp 1776553797
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use sky130_fd_pr__res_high_po_0p69_APCDV8 XR1 0 1 3204 -1 0 951
+use sky130_fd_pr__pfet_01v8_NMD27C XM1 1 0 5764 0 1 4819
+use sky130_fd_pr__pfet_01v8_NMD27C XM25 1 0 4836 0 1 4821
 use sky130_fd_pr__nfet_01v8_8SA9P7 XM31 1 0 3816 0 1 3191
 use sky130_fd_pr__nfet_01v8_8NR3P7 XM30 1 0 2835 0 1 3190
 use sky130_fd_pr__pfet_01v8_B6MYM2 XM29 1 0 2001 0 1 4422
 use sky130_fd_pr__nfet_01v8_8NR3P7 XM28 1 0 4836 0 1 3190
 use sky130_fd_pr__nfet_01v8_WVN3PK XM27 1 0 5764 0 1 2590
-use sky130_fd_pr__pfet_01v8_NMD27C XM25 1 0 4836 0 1 4821
-use sky130_fd_pr__pfet_01v8_NMD27C XM1 1 0 5764 0 1 4819
-port "vdo" 0 6774 3652 6974 3852 m1
-port "vss" 2 -1206 2202 -1006 2402 m1
-port "vdd" 1 -1200 4004 -1000 4204 m1
-node "m1_4702_882#" 2 392.621 4702 882 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 355164 5564 0 0 0 0 0 0 0 0 0 0
+use sky130_fd_pr__res_xhigh_po_1p41_6MYZWV sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0 0 1 3086 -1 0 855
+port "vdo" 1 5561 3724 6982 3882 m1
+port "vdo" 1 6774 3652 6974 3852 m1
+port "vss" 3 -1206 2202 -1006 2402 m1
+port "vdd" 2 -1200 4004 -1000 4204 m1
+node "m1_3600_714#" 2 636.768 3600 714 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1013244 8500 0 0 0 0 0 0 0 0 0 0
 node "m1_3870_3092#" 0 29.8794 3870 3092 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16740 596 0 0 0 0 0 0 0 0 0 0
-node "m1_2794_3450#" 14 1245.76 2794 3450 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130132 4940 685272 14124 0 0 0 0 0 0 0 0
-node "vdo" 13 2203.43 6774 3652 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 456212 9500 643004 12268 0 0 0 0 0 0 0 0
+node "m1_2794_3450#" 14 1245.25 2794 3450 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 130132 4940 685272 14124 0 0 0 0 0 0 0 0
 node "m1_2504_3214#" 6 826.029 2504 3214 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 107744 3020 192908 4904 0 0 0 0 0 0 0 0
 node "m1_n174_4012#" 3 214.496 -174 4012 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40056 2000 0 0 0 0 0 0 0 0 0 0
 node "m1_n164_4540#" 2 119.776 -164 4540 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42592 1912 0 0 0 0 0 0 0 0 0 0
-node "vss" 180 26702.4 -1206 2202 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21265436 36672 4616124 24992 0 0 0 0 0 0 0 0 0 0
+node "vdo" 13 2203.43 6774 3652 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 456212 9500 643004 12268 0 0 0 0 0 0 0 0
+node "vss" 137 28133.8 -1206 2202 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22695000 33692 5072356 25340 0 0 0 0 0 0 0 0 0 0
 node "vdd" 173 18206.8 -1200 4004 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11608084 26578 5724484 29968 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_4702_882#" "m1_2794_3450#" 83.6823
-cap "m1_2794_3450#" "m1_3870_3092#" 77.1063
-cap "m1_2794_3450#" "m1_2504_3214#" 345.08
-cap "m1_3870_3092#" "m1_2504_3214#" 3.05926
-cap "vdd" "vss" 344.524
-cap "m1_n164_4540#" "vss" 0.0758274
-cap "m1_2794_3450#" "vdo" 537.328
-cap "vdd" "m1_n164_4540#" 511.154
-cap "m1_3870_3092#" "vdo" 12.7537
-cap "m1_2504_3214#" "vdo" 225.431
-cap "m1_4702_882#" "vss" 2357.15
-cap "m1_n174_4012#" "vss" 28.9856
-cap "m1_2794_3450#" "vss" 3990.85
-cap "m1_3870_3092#" "vss" 183.405
-cap "vss" "m1_2504_3214#" 870.833
-cap "vdd" "m1_n174_4012#" 211.319
-cap "vdd" "m1_2794_3450#" 378.228
 cap "m1_n174_4012#" "m1_n164_4540#" 40.1605
+cap "m1_2504_3214#" "vdo" 225.431
+cap "m1_2504_3214#" "m1_2794_3450#" 345.08
+cap "vdd" "vss" 344.524
+cap "m1_2794_3450#" "m1_3600_714#" 81.875
 cap "vdd" "m1_3870_3092#" 0.556962
-cap "vdd" "m1_2504_3214#" 21.5138
-cap "vss" "vdo" 804.316
+cap "vdd" "m1_n164_4540#" 511.154
 cap "vdd" "vdo" 2571.48
-cap "XR1/B" "XM29/B" 0.0685694
-cap "XM29/B" "XR1/B" 3.0106
-cap "XM30/D" "XR1/B" 18.5684
-cap "XM29/B" "XR1/B" 2.17092
-cap "XM31/D" "XM30/G" 0.0010746
-cap "XM31/G" "XR1/B" 41.9837
-cap "XM29/B" "XM30/G" 0.014156
-cap "XM31/G" "XM30/G" 48.1304
-cap "XR1/B" "XM30/G" 67.1623
-cap "XM29/B" "XM31/S" 0.477419
-cap "XM31/G" "XR1/R2" 59.0573
-cap "XM29/B" "XR1/R2" 0.809775
-cap "XM31/S" "XR1/R2" 13.4799
-cap "XM29/B" "XM31/G" 0.00939038
-cap "XM31/S" "XM31/G" 9.57146
-cap "XM25/S" "XR1/R1" 0.0770755
-cap "XM31/S" "XR1/R1" 0.0190291
-cap "XR1/R1" "XM31/G" 0.66399
-cap "XM29/S" "XR1/R1" 1.65983
-cap "XM29/D" "XM29/B" 110.249
+cap "m1_3870_3092#" "vss" 183.405
+cap "vdd" "m1_2794_3450#" 378.228
+cap "m1_n164_4540#" "vss" 0.0758274
+cap "vss" "vdo" 804.316
+cap "m1_3870_3092#" "vdo" 12.7537
+cap "m1_2794_3450#" "vss" 3982.96
+cap "vdd" "m1_2504_3214#" 21.5138
+cap "vdd" "m1_n174_4012#" 211.319
+cap "m1_2794_3450#" "m1_3870_3092#" 77.1063
+cap "m1_2794_3450#" "vdo" 537.328
+cap "m1_2504_3214#" "vss" 870.767
+cap "m1_n174_4012#" "vss" 28.9856
+cap "m1_2504_3214#" "m1_3870_3092#" 3.05926
+cap "m1_3600_714#" "vss" 4738.89
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" -5.4097
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" -43.976
+cap "XM29/B" "vss" 0.0685694
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM29/D" 18.5684
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM29/B" 3.0106
+cap "XM30/D" "XM30/G" 0.74953
+cap "XM30/D" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" 15.4145
+cap "XM30/G" "XM29/S" 0.014156
+cap "XM30/G" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" 6.48345
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM29/S" 2.17092
+cap "XM30/D" "XM29/S" 0.00939038
+cap "XM30/D" "XM31/S" 4.88902
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM29/S" 0.809775
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM31/S" 2.78863
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "XM30/D" 29.1619
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" "XM25/S" 0.00253874
+cap "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" "XM31/G" 0.507842
+cap "XM29/B" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" 0.0079962
+cap "XM29/D" "XM29/B" 74.5417
+cap "vss" "XM29/D" 1.54549
 cap "vss" "XM29/B" 15.184
-cap "XM29/D" "vss" 1.54549
-cap "XM30/D" "XM29/B" 49.0127
-cap "XM30/B" "XM30/D" 59.03
-cap "XM30/B" "XM29/B" 69.8048
-cap "XM31/B" "XM31/G" 61.1688
-cap "XM29/B" "XM31/B" 71.9379
-cap "XM30/G" "XM31/S" 0.000429827
-cap "XM30/G" "XM31/G" 56.5263
-cap "XM29/B" "XM30/G" 0.165423
-cap "XM29/B" "XM31/G" 89.5351
-cap "XM31/D" "XM30/G" 0.0259929
-cap "XM31/B" "XM30/G" 71.3004
-cap "XM31/S" "XM31/B" 59.2865
-cap "XM29/B" "XM31/G" 44.8944
-cap "XM31/G" "XM31/S" 10.2383
-cap "XM29/B" "XM31/S" 0.235907
-cap "XM31/G" "XM31/B" 168.396
-cap "XM29/B" "XM31/B" 90.5732
-cap "XM29/G" "XM31/B" 13.1914
-cap "XM31/S" "XM31/B" 0.333743
-cap "XM31/G" "XM31/B" 1.25684
-cap "XM29/S" "XM31/B" 385.097
-cap "XM25/B" "XM28/B" 126.809
-cap "XM29/B" "vss" -3.27919
-cap "XM29/B" "XM29/D" 38.1833
+cap "XM29/B" "XM30/S" 69.8048
+cap "XM29/G" "XM30/S" 59.03
+cap "XM29/B" "XM29/G" 49.0127
+cap "XM31/S" "XM30/G" 0.000429827
+cap "XM29/S" "XM30/G" 0.165423
+cap "XM29/G" "XM30/G" 103.9
+cap "XM29/G" "XM29/S" 88.9924
+cap "XM30/S" "XM30/G" 131.01
+cap "XM31/D" "XM30/G" 0.0270675
+cap "XM30/S" "XM29/S" 71.9379
+cap "XM29/G" "XM30/S" 87.7381
+cap "XM29/G" "XM27/G" 197.695
+cap "XM31/S" "XM29/G" 14.9208
+cap "XM31/S" "XM29/S" 0.991808
+cap "XM29/S" "XM27/G" 89.3867
+cap "XM31/S" "XM27/G" 69.9778
+cap "XM29/S" "XM29/G" 44.5932
+cap "XM29/B" "XM27/G" 218.978
+cap "XM31/G" "XM27/G" 1.41299
+cap "XM29/G" "XM27/G" 7.29919
+cap "XM31/S" "XM27/G" 0.352772
+cap "XM25/S" "XM27/G" 79.9781
+cap "XM29/D" "XM29/B" 73.8907
+cap "vss" "XM29/B" -3.27919
 cap "XM30/B" "XM29/B" -17.1546
-cap "XM30/D" "XM29/B" 428.878
-cap "XM30/S" "XM29/B" -13.3235
-cap "XM31/G" "XM29/B" 436.006
-cap "XM30/G" "XM29/B" -1.40075
-cap "XM31/G" "XM28/D" 0.0686039
-cap "XM29/B" "XM30/S" -15.5054
-cap "XM31/G" "XM29/B" 334.946
-cap "XM31/D" "XM29/B" -7.42714
-cap "XM31/D" "XM31/G" 0.174271
-cap "XM29/S" "XM31/D" 476.026
-cap "XM28/D" "XM31/D" 218.202
-cap "XM28/D" "XM29/S" 195.196
-cap "XM29/G" "XM31/D" 3.3846
-cap "XM25/B" "XM27/D" 206.309
-merge "XM1/S" "XM25/S" -10977.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2322155 -28398 -1094648 -6048 0 0 0 0 0 0 0 0 0 0
-merge "XM25/S" "XM1/B"
-merge "XM1/B" "XM25/B"
-merge "XM25/B" "XM29/S"
-merge "XM29/S" "XM29/B"
-merge "XM29/B" "vdd"
-merge "XM1/VSUBS" "XM1/G" -12275.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1076098 -40296 -96252 -5146 0 0 0 0 0 0 0 0 0 0
+cap "XM29/B" "XM29/G" 428.878
+cap "XM29/S" "XM29/G" 436.006
+cap "XM29/S" "XM30/S" -13.3235
+cap "XM29/S" "XM30/G" -1.40075
+cap "XM27/D" "XM29/S" -7.42714
+cap "XM28/S" "XM29/S" -15.5054
+cap "XM29/G" "XM27/G" 0.0686039
+cap "XM29/S" "XM29/G" 334.946
+cap "XM27/D" "XM29/G" 0.174271
+cap "XM27/D" "XM27/G" 262.412
+cap "XM29/B" "XM27/G" 223.281
+cap "XM29/B" "XM27/D" 608.581
+cap "XM27/D" "XM29/G" 9.27682
+cap "XM27/D" "XM28/S" 0.156687
+cap "XM27/D" "XM25/S" 252.524
+cap "XM29/B" "XM25/D" 2.93533
+cap "XM1/D" "XM29/B" 2.89786
+cap "XM25/G" "XM29/B" -0.0759718
+merge "XM28/D" "XM25/G" -13533.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2522982 -34714 -898184 -9564 0 0 0 0 0 0 0 0 0 0
+merge "XM25/G" "XM1/G"
 merge "XM1/G" "XM1/D"
-merge "XM1/D" "XM25/VSUBS"
-merge "XM25/VSUBS" "XM25/G"
-merge "XM25/G" "XM25/D"
-merge "XM25/D" "XM29/VSUBS"
+merge "XM1/D" "XM31/D"
+merge "XM31/D" "vdo"
+merge "vdo" "XM25/VSUBS"
+merge "XM25/VSUBS" "XM25/D"
+merge "XM25/D" "XM1/VSUBS"
+merge "XM1/VSUBS" "XM29/VSUBS"
 merge "XM29/VSUBS" "XM27/G"
 merge "XM27/G" "XM28/G"
-merge "XM28/G" "XM28/D"
-merge "XM28/D" "XM30/G"
+merge "XM28/G" "XM30/G"
 merge "XM30/G" "m1_2794_3450#"
-merge "m1_2794_3450#" "XR1/R1"
-merge "XR1/R1" "m1_4702_882#"
-merge "m1_4702_882#" "XM31/D"
-merge "XM31/D" "vdo"
-merge "vdo" "XM27/S"
+merge "m1_2794_3450#" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1"
+merge "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R1" "m1_3600_714#"
+merge "m1_3600_714#" "XM27/S"
 merge "XM27/S" "XM27/D"
 merge "XM27/D" "XM27/B"
 merge "XM27/B" "XM28/S"
 merge "XM28/S" "XM28/B"
 merge "XM28/B" "XM31/B"
-merge "XM31/B" "XM30/S"
-merge "XM30/S" "XM30/B"
-merge "XM30/B" "XR1/R2"
-merge "XR1/R2" "VSUBS"
-merge "VSUBS" "XR1/B"
-merge "XR1/B" "vss"
-merge "XM29/D" "XM31/G" -1811.51 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8612 -1260 0 0 0 0 0 0 0 0 0 0
-merge "XM31/G" "XM30/D"
-merge "XM30/D" "m1_2504_3214#"
-merge "m1_2504_3214#" "m1_n174_4012#"
-merge "m1_n174_4012#" "XM29/G"
-merge "XM29/G" "m1_n164_4540#"
-merge "XM31/S" "m1_3870_3092#" -96.5011 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1224 -172 0 0 0 0 0 0 0 0 0 0
+merge "XM31/B" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2"
+merge "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/R2" "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/B"
+merge "sky130_fd_pr__res_xhigh_po_1p41_6MYZWV_0/B" "XM30/S"
+merge "XM30/S" "VSUBS"
+merge "VSUBS" "XM30/B"
+merge "XM30/B" "vss"
+merge "XM25/S" "XM1/S" -10985.9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2322155 -28398 -1094648 -6067 0 0 0 0 0 0 0 0 0 0
+merge "XM1/S" "XM25/B"
+merge "XM25/B" "XM1/B"
+merge "XM1/B" "XM29/S"
+merge "XM29/S" "XM29/B"
+merge "XM29/B" "vdd"
+merge "XM29/G" "XM30/D" -1813.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8612 -1260 0 0 0 0 0 0 0 0 0 0
+merge "XM30/D" "XM31/G"
+merge "XM31/G" "m1_2504_3214#"
+merge "m1_2504_3214#" "XM29/D"
+merge "XM29/D" "m1_n174_4012#"
+merge "m1_n174_4012#" "m1_n164_4540#"
+merge "XM31/S" "m1_3870_3092#" -96.7046 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1224 -172 0 0 0 0 0 0 0 0 0 0
