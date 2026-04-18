@@ -320,7 +320,7 @@ MACRO tt_um_Bingyao_FCOTA
     END
   END uo_out[7]
   PIN VDPWR
-    ANTENNADIFFAREA 79.958397 ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT 1.000 5.000 3.000 220.760 ;
