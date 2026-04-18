@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1776462439
+timestamp 1776522573
 << metal1 >>
 rect 778 4538 812 4539
 rect 150 4523 394 4525
@@ -109,7 +109,7 @@ timestamp 1776462071
 transform 1 0 599 0 1 2515
 box -201 -1 3003 3608
 use OTA  OTA_0
-timestamp 1776462439
+timestamp 1776480220
 transform 1 0 4507 0 1 1111
 box -102 -608 8269 4222
 << labels >>
