@@ -1,0 +1,37 @@
+* NGSPICE file created from Beta_mult.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_NMD27C B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_WVN3PK B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_8NR3P7 B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_B6MYM2 B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=20
+.ends
+
+.subckt sky130_fd_pr__res_high_po_0p69_APCDV8 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_high_po_0p69 l=15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_8SA9P7 B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.2
+.ends
+
+.subckt Beta_mult vss vdd
+XXM25 vdd vss vdd vss sky130_fd_pr__pfet_01v8_NMD27C
+XXM27 vss vss vss vss sky130_fd_pr__nfet_01v8_WVN3PK
+XXM28 vss vss vss vss sky130_fd_pr__nfet_01v8_8NR3P7
+XXM29 vdd XM31/G vdd XM31/G sky130_fd_pr__pfet_01v8_B6MYM2
+XXR1 vss vss vss sky130_fd_pr__res_high_po_0p69_APCDV8
+XXM1 vdd vss vdd vss sky130_fd_pr__pfet_01v8_NMD27C
+XXM30 vss XM31/G vss vss sky130_fd_pr__nfet_01v8_8NR3P7
+XXM31 vss vss XM31/S XM31/G sky130_fd_pr__nfet_01v8_8SA9P7
+.ends
+

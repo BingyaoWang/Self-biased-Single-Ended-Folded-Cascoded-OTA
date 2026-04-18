@@ -1,0 +1,252 @@
+* NGSPICE file created from self_bias_FCOTA_flat.ext - technology: sky130A
+
+.subckt self_bias_FCOTA_flat vout vdd vss vin vip
+X0 vss Beta_mult_0.XM31.S Beta_mult_0.XM31.S vss sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.4
+X1 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X2 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X3 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X4 OTA_0.vc OTA_0.vdo vdd vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+X5 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X6 vdd OTA_0.va OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X7 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X8 OTA_0.vb OTA_0.vb biasing_0.XM12.D vdd sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.4
+X9 OTA_0.XM21.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X10 OTA_0.XM23.D0 OTA_0.XM34.S vss vss sky130_fd_pr__nfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X11 OTA_0.XM15.D OTA_0.XM17.D0 vss vss sky130_fd_pr__nfet_01v8 ad=2.61 pd=18.58 as=2.61 ps=18.58 w=9 l=0.4
+X12 biasing_0.XM2.D OTA_0.vc OTA_0.vc vss sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+X13 vss biasing_0.VD biasing_0.XM4.D vss sky130_fd_pr__nfet_01v8 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=0.4
+X14 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X15 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X16 OTA_0.XM16.D OTA_0.vc vout vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X17 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X18 vdd OTA_0.va OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X19 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X20 vdd OTA_0.va OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X21 vss biasing_0.VD biasing_0.XM6.D vss sky130_fd_pr__nfet_01v8 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=0.4
+X22 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X23 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X24 OTA_0.XM17.D0 OTA_0.vc OTA_0.XM15.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X25 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X26 OTA_0.XM22.D0 vin OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X27 OTA_0.XM21.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.4
+X28 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X29 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X30 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X31 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X32 OTA_0.XM34.S OTA_0.vdo vdd vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+X33 vdd OTA_0.vb biasing_0.XM12.D vdd sky130_fd_pr__pfet_01v8 ad=0.348 pd=2.98 as=0.348 ps=2.98 w=1.2 l=0.4
+X34 vss OTA_0.vc biasing_0.XM2.D vss sky130_fd_pr__nfet_01v8 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=0.4
+X35 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X36 vdd OTA_0.va OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.4
+X37 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X38 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X39 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X40 vdd OTA_0.va biasing_0.XM11.D vdd sky130_fd_pr__pfet_01v8 ad=0.348 pd=2.98 as=0.348 ps=2.98 w=1.2 l=0.4
+X41 OTA_0.XM22.D0 vin OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X42 OTA_0.XM21.D0 vip OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X43 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X44 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X45 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X46 OTA_0.XM23.D0 vin OTA_0.XM22.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X47 OTA_0.XM23.D0 vin OTA_0.XM22.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X48 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X49 OTA_0.XM22.D0 vin OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X50 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X51 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X52 biasing_0.XM6.D OTA_0.vc OTA_0.va vss sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+X53 vdd OTA_0.vdo OTA_0.vdo vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+X54 vss Beta_mult_0.XR1.R1 vss sky130_fd_pr__res_high_po_0p69 l=15
+X55 OTA_0.XM22.D0 vin OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X56 biasing_0.VD OTA_0.vdo vdd vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+X57 Beta_mult_0.XM31.S Beta_mult_0.XM31.G OTA_0.vdo vss sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.2
+X58 vss Beta_mult_0.XM31.S Beta_mult_0.XM31.G vss sky130_fd_pr__nfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.4
+X59 OTA_0.XM23.D0 vin OTA_0.XM22.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X60 biasing_0.XM12.D OTA_0.vb OTA_0.vb vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.4
+X61 OTA_0.va OTA_0.vb biasing_0.XM11.D vdd sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.4
+X62 vss OTA_0.XM34.S OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X63 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X64 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X65 OTA_0.XM23.D0 vin OTA_0.XM22.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X66 vdd OTA_0.vdo Beta_mult_0.XM31.S vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+X67 biasing_0.XM4.D OTA_0.vc biasing_0.VD vss sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+X68 OTA_0.XM15.D OTA_0.vc OTA_0.XM17.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X69 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X70 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X71 OTA_0.XM16.D OTA_0.XM17.D0 vss vss sky130_fd_pr__nfet_01v8 ad=2.61 pd=18.58 as=2.61 ps=18.58 w=9 l=0.4
+X72 vdd OTA_0.va OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=1.16 ps=8.58 w=4 l=0.4
+X73 OTA_0.XM21.D0 vip OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X74 biasing_0.XM11.D OTA_0.vb OTA_0.va vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.4
+X75 OTA_0.XM17.D0 OTA_0.vc OTA_0.XM15.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X76 OTA_0.XM17.D0 OTA_0.vc OTA_0.XM15.D vss sky130_fd_pr__nfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X77 OTA_0.XM23.D0 vip OTA_0.XM21.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X78 OTA_0.XM15.D OTA_0.vc OTA_0.XM17.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X79 OTA_0.XM23.D0 vip OTA_0.XM21.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X80 OTA_0.XM22.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X81 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X82 OTA_0.XM16.D OTA_0.vc vout vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X83 OTA_0.XM23.D0 vip OTA_0.XM21.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X84 OTA_0.XM15.D OTA_0.vc OTA_0.XM17.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X85 Beta_mult_0.XR1.R1 Beta_mult_0.XM31.S OTA_0.vdo vss sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+X86 OTA_0.XM21.D0 vip OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X87 OTA_0.XM17.D0 OTA_0.vc OTA_0.XM15.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X88 OTA_0.XM21.D0 vip OTA_0.XM23.D0 vss sky130_fd_pr__nfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X89 OTA_0.XM17.D0 OTA_0.vc OTA_0.XM15.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X90 OTA_0.XM22.D0 OTA_0.vb vout vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X91 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X92 vout OTA_0.vc OTA_0.XM16.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X93 vout OTA_0.vc OTA_0.XM16.D vss sky130_fd_pr__nfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X94 OTA_0.XM16.D OTA_0.vc vout vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X95 OTA_0.XM22.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.58 as=0.58 ps=4.29 w=4 l=0.4
+X96 OTA_0.XM23.D0 vip OTA_0.XM21.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X97 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X98 OTA_0.XM15.D OTA_0.vc OTA_0.XM17.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X99 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=3.48 pd=24.58 as=1.74 ps=12.29 w=12 l=0.4
+X100 vdd OTA_0.va OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X101 OTA_0.XM16.D OTA_0.vc vout vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X102 vss OTA_0.XM34.S OTA_0.XM34.S vss sky130_fd_pr__nfet_01v8 ad=0.464 pd=3.78 as=0.464 ps=3.78 w=1.6 l=0.4
+X103 vout OTA_0.vc OTA_0.XM16.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X104 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X105 vout OTA_0.vc OTA_0.XM16.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X106 OTA_0.XM21.D0 OTA_0.vb OTA_0.XM17.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X107 OTA_0.XM21.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X108 vout OTA_0.vc OTA_0.XM16.D vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X109 vss biasing_0.VD biasing_0.XM8.D vss sky130_fd_pr__nfet_01v8 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=0.4
+X110 biasing_0.XM8.D OTA_0.vc OTA_0.vb vss sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+X111 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X112 OTA_0.XM22.D0 OTA_0.va vdd vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.29 as=0.58 ps=4.29 w=4 l=0.4
+X113 vdd Beta_mult_0.XM31.G Beta_mult_0.XM31.G vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=20
+X114 OTA_0.XM15.D OTA_0.vc OTA_0.XM17.D0 vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=3.48 ps=24.58 w=12 l=0.4
+X115 vout OTA_0.vb OTA_0.XM22.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X116 OTA_0.XM16.D OTA_0.vc vout vss sky130_fd_pr__nfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+X117 OTA_0.XM17.D0 OTA_0.vb OTA_0.XM21.D0 vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.29 as=1.74 ps=12.29 w=12 l=0.4
+C0 biasing_0.XM8.D OTA_0.vc 1.27617f
+C1 OTA_0.va OTA_0.XM17.D0 0
+C2 vin OTA_0.va 0.18943f
+C3 biasing_0.VD OTA_0.vb 0.00201f
+C4 OTA_0.XM17.D0 vout 0.00662f
+C5 OTA_0.XM21.D0 OTA_0.vb 9.99327f
+C6 OTA_0.XM22.D0 OTA_0.vb 10.4586f
+C7 biasing_0.XM11.D OTA_0.vb 0.8486f
+C8 vip vdd 4.92129f
+C9 OTA_0.vc OTA_0.vb 1.73963f
+C10 OTA_0.vdo biasing_0.VD 1.11843f
+C11 OTA_0.XM34.S vip 0
+C12 OTA_0.XM22.D0 OTA_0.vdo 0
+C13 OTA_0.vdo biasing_0.XM11.D 0.17626f
+C14 OTA_0.vdo Beta_mult_0.XR1.R1 0.57911f
+C15 OTA_0.vdo OTA_0.vc 3.2073f
+C16 Beta_mult_0.XM31.G OTA_0.vdo 0.5944f
+C17 OTA_0.XM23.D0 OTA_0.XM17.D0 0.00485f
+C18 OTA_0.XM15.D OTA_0.XM17.D0 15.6795f
+C19 OTA_0.vb OTA_0.va 3.79034f
+C20 biasing_0.VD vdd 2.12249f
+C21 OTA_0.XM21.D0 vdd 10.165f
+C22 OTA_0.XM22.D0 vdd 13.0301f
+C23 biasing_0.XM11.D vdd 0.88118f
+C24 OTA_0.vdo Beta_mult_0.XM31.S 3.16623f
+C25 OTA_0.XM23.D0 vin 3.81022f
+C26 OTA_0.XM34.S OTA_0.XM21.D0 0
+C27 OTA_0.vb vout 10.5327f
+C28 OTA_0.XM22.D0 OTA_0.XM34.S 0.00837f
+C29 OTA_0.vc vdd 5.84443f
+C30 OTA_0.vdo OTA_0.va 1.28199f
+C31 Beta_mult_0.XM31.G vdd 10.1857f
+C32 OTA_0.vc OTA_0.XM16.D 6.53425f
+C33 OTA_0.XM34.S OTA_0.vc 0.56262f
+C34 Beta_mult_0.XM31.S vdd 1.72215f
+C35 biasing_0.VD biasing_0.XM2.D 0.18886f
+C36 OTA_0.va vdd 21.0839f
+C37 OTA_0.XM34.S OTA_0.va 0
+C38 OTA_0.XM15.D OTA_0.vb 0.00101f
+C39 OTA_0.vc biasing_0.XM2.D 2.65217f
+C40 biasing_0.XM6.D OTA_0.vb 0.00462f
+C41 vdd vout 5.61589f
+C42 OTA_0.vb biasing_0.XM12.D 3.61269f
+C43 OTA_0.XM16.D vout 14.1237f
+C44 OTA_0.vb OTA_0.XM17.D0 10.4685f
+C45 OTA_0.XM21.D0 vip 6.75696f
+C46 OTA_0.vdo biasing_0.XM6.D 0.00257f
+C47 OTA_0.XM22.D0 vip 0.48952f
+C48 OTA_0.vdo biasing_0.XM12.D 0.03003f
+C49 vin OTA_0.vb 0.01862f
+C50 vip OTA_0.vc 0.55327f
+C51 biasing_0.VD biasing_0.XM4.D 0.51631f
+C52 biasing_0.XM8.D OTA_0.vb 0.37199f
+C53 biasing_0.XM6.D vdd 0.00148f
+C54 vdd biasing_0.XM12.D 0.95246f
+C55 OTA_0.XM34.S OTA_0.XM23.D0 1.85326f
+C56 OTA_0.vdo vin 0.03064f
+C57 biasing_0.XM4.D OTA_0.vc 1.22787f
+C58 vip OTA_0.va 0.18276f
+C59 OTA_0.XM22.D0 OTA_0.XM21.D0 0.76077f
+C60 biasing_0.XM8.D OTA_0.vdo 0.0033f
+C61 vdd OTA_0.XM17.D0 5.00954f
+C62 biasing_0.VD OTA_0.vc 3.22928f
+C63 OTA_0.XM16.D OTA_0.XM17.D0 1.30327f
+C64 OTA_0.XM21.D0 OTA_0.vc 0.53225f
+C65 OTA_0.XM22.D0 OTA_0.vc 0.51895f
+C66 vin vdd 4.1603f
+C67 OTA_0.XM34.S vin 0.05302f
+C68 biasing_0.XM8.D vdd 0.00308f
+C69 biasing_0.VD OTA_0.va 0.0273f
+C70 OTA_0.XM21.D0 OTA_0.va 1.86565f
+C71 Beta_mult_0.XM31.S Beta_mult_0.XR1.R1 1.33255f
+C72 OTA_0.vdo OTA_0.vb 1.60589f
+C73 OTA_0.XM22.D0 OTA_0.va 5.40226f
+C74 biasing_0.XM11.D OTA_0.va 2.57281f
+C75 Beta_mult_0.XM31.G Beta_mult_0.XM31.S 0.52754f
+C76 OTA_0.vc OTA_0.va 1.56015f
+C77 OTA_0.XM21.D0 vout 0
+C78 OTA_0.XM23.D0 vip 3.80861f
+C79 OTA_0.XM22.D0 vout 28.2977f
+C80 OTA_0.vb vdd 27.5092f
+C81 OTA_0.vb OTA_0.XM16.D 0
+C82 OTA_0.vc vout 8.04607f
+C83 vip OTA_0.XM17.D0 0.06257f
+C84 OTA_0.vdo vdd 18.57f
+C85 vip vin 0.00203f
+C86 biasing_0.XM6.D biasing_0.VD 0.16991f
+C87 OTA_0.vdo OTA_0.XM34.S 0.84589f
+C88 OTA_0.XM21.D0 OTA_0.XM23.D0 10.8708f
+C89 OTA_0.XM22.D0 OTA_0.XM23.D0 10.8793f
+C90 biasing_0.XM11.D biasing_0.XM12.D 0.03728f
+C91 OTA_0.XM23.D0 OTA_0.vc 0.67457f
+C92 OTA_0.XM15.D OTA_0.vc 5.29487f
+C93 biasing_0.XM6.D OTA_0.vc 1.2621f
+C94 OTA_0.XM21.D0 OTA_0.XM17.D0 28.4563f
+C95 OTA_0.XM34.S vdd 1.86705f
+C96 OTA_0.XM22.D0 OTA_0.XM17.D0 0.00655f
+C97 OTA_0.XM21.D0 vin 0
+C98 OTA_0.vc OTA_0.XM17.D0 7.06137f
+C99 OTA_0.XM22.D0 vin 5.09691f
+C100 OTA_0.XM23.D0 OTA_0.va 0
+C101 biasing_0.XM8.D biasing_0.VD 0.16935f
+C102 biasing_0.XM6.D OTA_0.va 0.37254f
+C103 vip OTA_0.vb 0.05093f
+C104 OTA_0.va biasing_0.XM12.D 0.01832f
+C105 vin OTA_0.vc 0.54661f
+C106 vip vss 6.23759f
+C107 vin vss 6.31868f
+C108 vout vss 3.92814f
+C109 vdd vss 0.17238p
+C110 Beta_mult_0.XR1.R1 vss 3.72278f
+C111 OTA_0.XM16.D vss 4.76035f
+C112 OTA_0.XM15.D vss 4.63851f
+C113 OTA_0.XM23.D0 vss 8.44145f
+C114 Beta_mult_0.XM31.S vss 5.84487f
+C115 Beta_mult_0.XM31.G vss 4.40976f
+C116 OTA_0.XM17.D0 vss 10.5917f
+C117 OTA_0.XM21.D0 vss 1.87296f
+C118 OTA_0.XM22.D0 vss 3.90595f
+C119 OTA_0.XM34.S vss 10.4807f
+C120 biasing_0.XM8.D vss 2.87662f
+C121 biasing_0.XM6.D vss 2.71368f
+C122 biasing_0.XM4.D vss 2.73785f
+C123 biasing_0.XM2.D vss 2.79878f
+C124 biasing_0.VD vss 12.2584f
+C125 OTA_0.vc vss 36.2968f
+C126 OTA_0.vdo vss 12.4934f
+C127 OTA_0.vb vss 16.523f
+C128 OTA_0.va vss 10.3144f
+.ends
+

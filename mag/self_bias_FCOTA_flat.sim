@@ -1,0 +1,498 @@
+| units: 500000 tech: sky130A format: MIT
+x Beta_mult_0.XM31.S Beta_mult_0.XM31.S vss vss s=23200,916 d=23200,916 l=80 w=400 x=5792 y=1216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=139200,4916 d=69600,2458 l=80 w=2400 x=16609 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=23202 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17437 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vdo vdd OTA_0.vc vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=2194 y=8849 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18265 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va OTA_0.XM22.D0 vdd vdd s=23200,858 d=23200,858 l=80 w=800 x=12361 y=6442 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=19093 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb biasing_0.XM12.D OTA_0.vb vdd s=46400,1658 d=92800,3316 l=80 w=1600 x=5719 y=8850 sky130_fd_pr__pfet_01v8
+x OTA_0.va vdd OTA_0.XM21.D0 vdd s=23200,858 d=23200,858 l=80 w=800 x=14589 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.XM34.S vss OTA_0.XM23.D0 vss s=69600,2458 d=139200,4916 l=80 w=2400 x=12316 y=1738 sky130_fd_pr__nfet_01v8
+x OTA_0.XM17.D0 vss OTA_0.XM15.D vss s=104400,3716 d=104400,3716 l=80 w=1800 x=17000 y=1618 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.vc biasing_0.XM2.D vss s=92800,3316 d=92800,3316 l=80 w=1600 x=2194 y=6420 sky130_fd_pr__nfet_01v8
+x biasing_0.VD biasing_0.XM4.D vss vss s=6960,356 d=6960,356 l=80 w=120 x=3122 y=5642 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22512 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=16747 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc vout OTA_0.XM16.D vss s=139200,4916 d=69600,2458 l=80 w=2400 x=21301 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17575 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va OTA_0.XM21.D0 vdd vdd s=23200,858 d=23200,858 l=80 w=800 x=15003 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=139200,4916 l=80 w=2400 x=23340 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va OTA_0.XM22.D0 vdd vdd s=23200,858 d=23200,858 l=80 w=800 x=12085 y=6442 sky130_fd_pr__pfet_01v8
+x biasing_0.VD biasing_0.XM6.D vss vss s=6960,356 d=6960,356 l=80 w=120 x=4393 y=5642 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21822 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=16885 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM15.D OTA_0.XM17.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=18091 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22650 y=6440 sky130_fd_pr__pfet_01v8
+x vin OTA_0.XM23.D0 OTA_0.XM22.D0 vss s=69600,2458 d=139200,4916 l=80 w=2400 x=12778 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.va vdd OTA_0.XM21.D0 vdd s=23200,858 d=46400,1716 l=80 w=800 x=15141 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21408 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22236 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=23064 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17299 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vdo vdd OTA_0.XM34.S vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=10614 y=6442 sky130_fd_pr__pfet_01v8
+x OTA_0.vb biasing_0.XM12.D vdd vdd s=13920,596 d=13920,596 l=80 w=240 x=5635 y=11249 sky130_fd_pr__pfet_01v8
+x OTA_0.vc biasing_0.XM2.D vss vss s=6960,356 d=6960,356 l=80 w=120 x=2194 y=5641 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21960 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va OTA_0.XM21.D0 vdd vdd s=46400,1716 d=23200,858 l=80 w=800 x=14451 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=139200,4916 d=69600,2458 l=80 w=2400 x=20718 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21546 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22374 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va biasing_0.XM11.D vdd vdd s=13920,596 d=13920,596 l=80 w=240 x=4456 y=11250 sky130_fd_pr__pfet_01v8
+x vin OTA_0.XM23.D0 OTA_0.XM22.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=12502 y=3216 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM23.D0 OTA_0.XM21.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=14909 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=20856 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17023 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21684 y=6440 sky130_fd_pr__pfet_01v8
+x vin OTA_0.XM22.D0 OTA_0.XM23.D0 vss s=139200,4916 d=69600,2458 l=80 w=2400 x=11812 y=3216 sky130_fd_pr__nfet_01v8
+x vin OTA_0.XM22.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=12640 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22098 y=6440 sky130_fd_pr__pfet_01v8
+x vin OTA_0.XM23.D0 OTA_0.XM22.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=12226 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=20994 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17161 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.va biasing_0.XM6.D vss s=92800,3316 d=92800,3316 l=80 w=1600 x=4394 y=6420 sky130_fd_pr__nfet_01v8
+x OTA_0.vdo OTA_0.vdo vdd vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=6720 y=2445 sky130_fd_pr__pfet_01v8
+x a_2631_n4# vss Beta_mult_0.XR1.R1 vss s=59616,1140 d=59616,1140 l=2968 w=0 x=2631 y=-3 sky130_fd_pr__res_high_po_0p69
+x vin OTA_0.XM23.D0 OTA_0.XM22.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=11950 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vdo vdd biasing_0.VD vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=3121 y=8850 sky130_fd_pr__pfet_01v8
+x Beta_mult_0.XM31.G OTA_0.vdo Beta_mult_0.XM31.S vss s=23200,916 d=23200,916 l=40 w=400 x=4792 y=1217 sky130_fd_pr__nfet_01v8
+x Beta_mult_0.XM31.S Beta_mult_0.XM31.G vss vss s=23200,916 d=23200,916 l=80 w=400 x=3791 y=1216 sky130_fd_pr__nfet_01v8
+x vin OTA_0.XM22.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=12364 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.vb biasing_0.XM12.D vdd s=92800,3316 d=46400,1658 l=80 w=1600 x=5581 y=8850 sky130_fd_pr__pfet_01v8
+x OTA_0.vb biasing_0.XM11.D OTA_0.va vdd s=46400,1658 d=92800,3316 l=80 w=1600 x=4532 y=8852 sky130_fd_pr__pfet_01v8
+x OTA_0.XM34.S OTA_0.XM23.D0 vss vss s=139200,4916 d=69600,2458 l=80 w=2400 x=12316 y=1600 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21132 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18817 y=6440 sky130_fd_pr__pfet_01v8
+x vin OTA_0.XM22.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=12088 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vdo Beta_mult_0.XM31.S vdd vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=5792 y=2447 sky130_fd_pr__pfet_01v8
+x OTA_0.vc biasing_0.VD biasing_0.XM4.D vss s=92800,3316 d=92800,3316 l=80 w=1600 x=3122 y=6420 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM17.D0 OTA_0.XM15.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=18505 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=21270 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18955 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.XM17.D0 vss OTA_0.XM16.D vss s=104400,3716 d=104400,3716 l=80 w=1800 x=21226 y=1625 sky130_fd_pr__nfet_01v8
+x OTA_0.va OTA_0.XM22.D0 vdd vdd s=46400,1716 d=23200,858 l=80 w=800 x=11809 y=6442 sky130_fd_pr__pfet_01v8
+x vip OTA_0.XM23.D0 OTA_0.XM21.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=14633 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.va biasing_0.XM11.D vdd s=92800,3316 d=46400,1658 l=80 w=1600 x=4394 y=8852 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM15.D OTA_0.XM17.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=17815 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM15.D OTA_0.XM17.D0 vss s=69600,2458 d=139200,4916 l=80 w=2400 x=18643 y=3212 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM21.D0 OTA_0.XM23.D0 vss s=139200,4916 d=69600,2458 l=80 w=2400 x=14219 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM17.D0 OTA_0.XM15.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=18229 y=3212 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM21.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=15047 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.va vdd OTA_0.XM22.D0 vdd s=23200,858 d=23200,858 l=80 w=800 x=11947 y=6442 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18679 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc vout OTA_0.XM16.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=22405 y=3216 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM21.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=14771 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM17.D0 OTA_0.XM15.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=17953 y=3212 sky130_fd_pr__nfet_01v8
+x Beta_mult_0.XM31.S OTA_0.vdo Beta_mult_0.XR1.R1 vss s=92800,3316 d=92800,3316 l=80 w=1600 x=6720 y=16 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM23.D0 OTA_0.XM21.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=14357 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM15.D OTA_0.XM17.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=17539 y=3212 sky130_fd_pr__nfet_01v8
+x vip OTA_0.XM23.D0 OTA_0.XM21.D0 vss s=69600,2458 d=139200,4916 l=80 w=2400 x=15185 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM15.D OTA_0.XM17.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=18367 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vb vout OTA_0.XM22.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22926 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17989 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM16.D vout vss s=69600,2458 d=69600,2458 l=80 w=2400 x=21715 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM16.D vout vss s=69600,2458 d=139200,4916 l=80 w=2400 x=22543 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vc vout OTA_0.XM16.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=22129 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.va vdd OTA_0.XM22.D0 vdd s=23200,858 d=46400,1716 l=80 w=800 x=12499 y=6442 sky130_fd_pr__pfet_01v8
+x vip OTA_0.XM21.D0 OTA_0.XM23.D0 vss s=69600,2458 d=69600,2458 l=80 w=2400 x=14495 y=3210 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18403 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM17.D0 OTA_0.XM15.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=17677 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=139200,4916 l=80 w=2400 x=19231 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va OTA_0.XM21.D0 vdd vdd s=23200,858 d=23200,858 l=80 w=800 x=14727 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc vout OTA_0.XM16.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=21853 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.XM34.S OTA_0.XM34.S vss vss s=18560,756 d=18560,756 l=80 w=320 x=10614 y=5296 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.XM16.D vout vss s=69600,2458 d=69600,2458 l=80 w=2400 x=21439 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17713 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM16.D vout vss s=69600,2458 d=69600,2458 l=80 w=2400 x=22267 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM17.D0 OTA_0.XM21.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18541 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va vdd OTA_0.XM21.D0 vdd s=23200,858 d=23200,858 l=80 w=800 x=14865 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM16.D vout vss s=69600,2458 d=69600,2458 l=80 w=2400 x=21991 y=3216 sky130_fd_pr__nfet_01v8
+x biasing_0.VD biasing_0.XM8.D vss vss s=6960,356 d=6960,356 l=80 w=120 x=5720 y=5642 sky130_fd_pr__nfet_01v8
+x OTA_0.vc OTA_0.vb biasing_0.XM8.D vss s=92800,3316 d=92800,3316 l=80 w=1600 x=5722 y=6420 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=18127 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.va vdd OTA_0.XM22.D0 vdd s=23200,858 d=23200,858 l=80 w=800 x=12223 y=6442 sky130_fd_pr__pfet_01v8
+x Beta_mult_0.XM31.G Beta_mult_0.XM31.G vdd vdd s=23200,916 d=23200,916 l=4000 w=400 x=997 y=2448 sky130_fd_pr__pfet_01v8
+x OTA_0.vc OTA_0.XM17.D0 OTA_0.XM15.D vss s=139200,4916 d=69600,2458 l=80 w=2400 x=17401 y=3212 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM22.D0 vout vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=22788 y=6440 sky130_fd_pr__pfet_01v8
+x OTA_0.vc vout OTA_0.XM16.D vss s=69600,2458 d=69600,2458 l=80 w=2400 x=21577 y=3216 sky130_fd_pr__nfet_01v8
+x OTA_0.vb OTA_0.XM21.D0 OTA_0.XM17.D0 vdd s=69600,2458 d=69600,2458 l=80 w=2400 x=17851 y=6440 sky130_fd_pr__pfet_01v8
+C OTA_0.vc OTA_0.XM16.D 6.5
+C OTA_0.XM22.D0 OTA_0.va 5.4
+C vdd OTA_0.XM22.D0 13.0
+C OTA_0.vc biasing_0.VD 3.2
+C vout OTA_0.XM22.D0 28.3
+C vdd OTA_0.va 21.1
+C vin OTA_0.XM22.D0 5.1
+C OTA_0.vc OTA_0.XM17.D0 7.1
+C vip OTA_0.XM23.D0 3.8
+C vout vdd 5.6
+C vdd OTA_0.XM21.D0 10.2
+C OTA_0.vdo Beta_mult_0.XM31.S 3.2
+C OTA_0.vb OTA_0.XM17.D0 10.5
+C vdd vin 4.2
+C OTA_0.vdo OTA_0.vc 3.2
+C OTA_0.vc biasing_0.XM2.D 2.7
+C vdd biasing_0.VD 2.1
+C vout OTA_0.XM16.D 14.1
+C vip vdd 4.9
+C OTA_0.XM15.D OTA_0.XM17.D0 15.7
+C vdd OTA_0.XM17.D0 5.0
+C OTA_0.va biasing_0.XM11.D 2.6
+C vip OTA_0.XM21.D0 6.8
+C OTA_0.vb OTA_0.XM22.D0 10.5
+C OTA_0.vc OTA_0.XM15.D 5.3
+C OTA_0.XM23.D0 OTA_0.XM22.D0 10.9
+C OTA_0.vdo vdd 18.6
+C OTA_0.XM17.D0 OTA_0.XM21.D0 28.5
+C OTA_0.vc vdd 5.8
+C OTA_0.vb OTA_0.va 3.8
+C vdd OTA_0.vb 27.5
+C vout OTA_0.vc 8.0
+C biasing_0.XM12.D OTA_0.vb 3.6
+C vdd Beta_mult_0.XM31.G 10.2
+C vout OTA_0.vb 10.5
+C OTA_0.vb OTA_0.XM21.D0 10.0
+C OTA_0.XM23.D0 OTA_0.XM21.D0 10.9
+C OTA_0.XM23.D0 vin 3.8
+C vip0 6.2
+R vip 14065
+= vip OTA_0.XM21.G7
+= vip OTA_0.XM21.G6
+= vip OTA_0.XM21.G5
+= vip OTA_0.XM21.G4
+= vip OTA_0.XM21.G3
+= vip OTA_0.XM21.G2
+= vip OTA_0.XM21.G1
+= vip OTA_0.XM21.G0
+= vip OTA_0.vip
+C vin0 6.3
+R vin 14065
+= vin OTA_0.XM22.G7
+= vin OTA_0.XM22.G6
+= vin OTA_0.XM22.G5
+= vin OTA_0.XM22.G4
+= vin OTA_0.XM22.G3
+= vin OTA_0.XM22.G2
+= vin OTA_0.XM22.G1
+= vin OTA_0.XM22.G0
+= vin OTA_0.vin
+C vout0 3.9
+R vout 140599
+= vout OTA_0.XM14.D8
+= vout OTA_0.XM14.D6
+= vout OTA_0.XM14.D4
+= vout OTA_0.XM14.D2
+= vout OTA_0.XM14.D0
+= vout OTA_0.XM18.D18
+= vout OTA_0.XM18.D16
+= vout OTA_0.XM18.D14
+= vout OTA_0.XM18.D12
+= vout OTA_0.XM18.D10
+= vout OTA_0.XM18.D8
+= vout OTA_0.XM18.D6
+= vout OTA_0.XM18.D4
+= vout OTA_0.XM18.D2
+= vout OTA_0.XM18.D0
+= vout OTA_0.vout
+C vdd0 172.4
+R vdd 355018
+= vdd Beta_mult_0.XM1.S
+= vdd Beta_mult_0.XM1.B
+= vdd Beta_mult_0.XM25.S
+= vdd Beta_mult_0.XM25.B
+= vdd Beta_mult_0.XM29.S
+= vdd Beta_mult_0.XM29.B
+= vdd Beta_mult_0.vdd
+= vdd biasing_0.XM9.B
+= vdd biasing_0.XM10.B
+= vdd biasing_0.XM11.S
+= vdd biasing_0.XM11.B
+= vdd biasing_0.XM12.S
+= vdd biasing_0.XM12.B
+= vdd biasing_0.XM32.D
+= vdd biasing_0.XM32.B
+= vdd biasing_0.XM33.D
+= vdd biasing_0.XM33.B
+= vdd biasing_0.vdd
+= vdd OTA_0.XM17.B
+= vdd OTA_0.XM18.B
+= vdd OTA_0.XM19.S5
+= vdd OTA_0.XM19.S3
+= vdd OTA_0.XM19.S1
+= vdd OTA_0.XM19.B
+= vdd OTA_0.XM20.S5
+= vdd OTA_0.XM20.S3
+= vdd OTA_0.XM20.S1
+= vdd OTA_0.XM20.B
+= vdd OTA_0.XM34.D
+= vdd OTA_0.XM34.B
+= vdd OTA_0.vdd
+R vss 576820
+= vss Beta_mult_0.XM27.B
+= vss Beta_mult_0.XM28.S
+= vss Beta_mult_0.XM28.B
+= vss Beta_mult_0.XM30.S
+= vss Beta_mult_0.XM30.B
+= vss Beta_mult_0.XM31.B
+= vss Beta_mult_0.XR1.R2
+= vss Beta_mult_0.XR1.B
+= vss Beta_mult_0.vss
+= vss biasing_0.XM1.B
+= vss biasing_0.XM2.S
+= vss biasing_0.XM2.B
+= vss biasing_0.XM3.B
+= vss biasing_0.XM4.S
+= vss biasing_0.XM4.B
+= vss biasing_0.XM5.B
+= vss biasing_0.XM6.S
+= vss biasing_0.XM6.B
+= vss biasing_0.XM7.B
+= vss biasing_0.XM8.S
+= vss biasing_0.XM8.B
+= vss biasing_0.vss
+= vss OTA_0.XM13.B
+= vss OTA_0.XM14.B
+= vss OTA_0.XM15.S
+= vss OTA_0.XM15.B
+= vss OTA_0.XM16.S
+= vss OTA_0.XM16.B
+= vss OTA_0.XM21.B
+= vss OTA_0.XM22.B
+= vss OTA_0.XM23.S1
+= vss OTA_0.XM23.B
+= vss OTA_0.XM24.S
+= vss OTA_0.XM24.B
+= vss OTA_0.vss
+C Beta_mult_0.XR1.R10 3.7
+R Beta_mult_0.XR1.R1 3856
+= Beta_mult_0.XR1.R1 Beta_mult_0.XM27.S
+R a_2631_n4# 6878
+C OTA_0.XM16.D0 4.8
+R OTA_0.XM16.D 35140
+= OTA_0.XM16.D OTA_0.XM14.S9
+= OTA_0.XM16.D OTA_0.XM14.S7
+= OTA_0.XM16.D OTA_0.XM14.S5
+= OTA_0.XM16.D OTA_0.XM14.S3
+= OTA_0.XM16.D OTA_0.XM14.S1
+C OTA_0.XM15.D0 4.6
+R OTA_0.XM15.D 35140
+= OTA_0.XM15.D OTA_0.XM13.S9
+= OTA_0.XM15.D OTA_0.XM13.S7
+= OTA_0.XM15.D OTA_0.XM13.S5
+= OTA_0.XM15.D OTA_0.XM13.S3
+= OTA_0.XM15.D OTA_0.XM13.S1
+C OTA_0.XM23.D00 8.4
+R OTA_0.XM23.D0 61212
+= OTA_0.XM23.D0 OTA_0.XM21.S7
+= OTA_0.XM23.D0 OTA_0.XM21.S5
+= OTA_0.XM23.D0 OTA_0.XM21.S3
+= OTA_0.XM23.D0 OTA_0.XM21.S1
+= OTA_0.XM23.D0 OTA_0.XM22.S7
+= OTA_0.XM23.D0 OTA_0.XM22.S5
+= OTA_0.XM23.D0 OTA_0.XM22.S3
+= OTA_0.XM23.D0 OTA_0.XM22.S1
+C Beta_mult_0.XM31.S0 5.8
+R Beta_mult_0.XM31.S 9143
+= Beta_mult_0.XM31.S Beta_mult_0.XM25.D
+= Beta_mult_0.XM31.S Beta_mult_0.XM27.G
+= Beta_mult_0.XM31.S Beta_mult_0.XM28.G
+= Beta_mult_0.XM31.S Beta_mult_0.XM28.D
+= Beta_mult_0.XM31.S Beta_mult_0.XM30.G
+C Beta_mult_0.XM31.G0 4.4
+R Beta_mult_0.XM31.G 6143
+= Beta_mult_0.XM31.G Beta_mult_0.XM29.G
+= Beta_mult_0.XM31.G Beta_mult_0.XM29.D
+= Beta_mult_0.XM31.G Beta_mult_0.XM30.D
+C OTA_0.XM17.D00 10.6
+R OTA_0.XM17.D0 143329
+= OTA_0.XM17.D0 OTA_0.XM13.D8
+= OTA_0.XM17.D0 OTA_0.XM13.D6
+= OTA_0.XM17.D0 OTA_0.XM13.D4
+= OTA_0.XM17.D0 OTA_0.XM13.D2
+= OTA_0.XM17.D0 OTA_0.XM13.D0
+= OTA_0.XM17.D0 OTA_0.XM15.G
+= OTA_0.XM17.D0 OTA_0.XM16.G
+= OTA_0.XM17.D0 OTA_0.XM17.D18
+= OTA_0.XM17.D0 OTA_0.XM17.D16
+= OTA_0.XM17.D0 OTA_0.XM17.D14
+= OTA_0.XM17.D0 OTA_0.XM17.D12
+= OTA_0.XM17.D0 OTA_0.XM17.D10
+= OTA_0.XM17.D0 OTA_0.XM17.D8
+= OTA_0.XM17.D0 OTA_0.XM17.D6
+= OTA_0.XM17.D0 OTA_0.XM17.D4
+= OTA_0.XM17.D0 OTA_0.XM17.D2
+R OTA_0.XM21.D0 138782
+= OTA_0.XM21.D0 OTA_0.XM17.S19
+= OTA_0.XM21.D0 OTA_0.XM17.S17
+= OTA_0.XM21.D0 OTA_0.XM17.S15
+= OTA_0.XM21.D0 OTA_0.XM17.S13
+= OTA_0.XM21.D0 OTA_0.XM17.S11
+= OTA_0.XM21.D0 OTA_0.XM17.S9
+= OTA_0.XM21.D0 OTA_0.XM17.S7
+= OTA_0.XM21.D0 OTA_0.XM17.S5
+= OTA_0.XM21.D0 OTA_0.XM17.S3
+= OTA_0.XM21.D0 OTA_0.XM17.S1
+= OTA_0.XM21.D0 OTA_0.XM20.D4
+= OTA_0.XM21.D0 OTA_0.XM20.D2
+= OTA_0.XM21.D0 OTA_0.XM20.D0
+= OTA_0.XM21.D0 OTA_0.XM21.D6
+= OTA_0.XM21.D0 OTA_0.XM21.D4
+= OTA_0.XM21.D0 OTA_0.XM21.D2
+C OTA_0.XM22.D00 3.9
+R OTA_0.XM22.D0 138783
+= OTA_0.XM22.D0 OTA_0.XM18.S19
+= OTA_0.XM22.D0 OTA_0.XM18.S17
+= OTA_0.XM22.D0 OTA_0.XM18.S15
+= OTA_0.XM22.D0 OTA_0.XM18.S13
+= OTA_0.XM22.D0 OTA_0.XM18.S11
+= OTA_0.XM22.D0 OTA_0.XM18.S9
+= OTA_0.XM22.D0 OTA_0.XM18.S7
+= OTA_0.XM22.D0 OTA_0.XM18.S5
+= OTA_0.XM22.D0 OTA_0.XM18.S3
+= OTA_0.XM22.D0 OTA_0.XM18.S1
+= OTA_0.XM22.D0 OTA_0.XM19.D4
+= OTA_0.XM22.D0 OTA_0.XM19.D2
+= OTA_0.XM22.D0 OTA_0.XM19.D0
+= OTA_0.XM22.D0 OTA_0.XM22.D6
+= OTA_0.XM22.D0 OTA_0.XM22.D4
+= OTA_0.XM22.D0 OTA_0.XM22.D2
+C OTA_0.XM34.S0 10.5
+R OTA_0.XM34.S 9304
+= OTA_0.XM34.S OTA_0.XM23.G1
+= OTA_0.XM34.S OTA_0.XM23.G0
+= OTA_0.XM34.S OTA_0.XM24.G
+= OTA_0.XM34.S OTA_0.XM24.D
+C biasing_0.XM8.D0 2.9
+R biasing_0.XM8.D 4494
+= biasing_0.XM8.D biasing_0.XM7.S
+C biasing_0.XM6.D0 2.7
+R biasing_0.XM6.D 4494
+= biasing_0.XM6.D biasing_0.XM5.S
+C biasing_0.XM4.D0 2.7
+R biasing_0.XM4.D 4494
+= biasing_0.XM4.D biasing_0.XM3.S
+C biasing_0.XM2.D0 2.8
+R biasing_0.XM2.D 4494
+= biasing_0.XM2.D biasing_0.XM1.S
+C biasing_0.VD0 12.3
+R biasing_0.VD 9592
+= biasing_0.VD biasing_0.XM3.D
+= biasing_0.VD biasing_0.XM4.G
+= biasing_0.VD biasing_0.XM6.G
+= biasing_0.VD biasing_0.XM8.G
+= biasing_0.VD biasing_0.XM33.S
+C OTA_0.vc0 36.3
+R OTA_0.vc 49324
+= OTA_0.vc biasing_0.XM1.G
+= OTA_0.vc biasing_0.XM1.D
+= OTA_0.vc biasing_0.XM2.G
+= OTA_0.vc biasing_0.XM3.G
+= OTA_0.vc biasing_0.XM5.G
+= OTA_0.vc biasing_0.XM7.G
+= OTA_0.vc biasing_0.XM32.S
+= OTA_0.vc biasing_0.VC
+= OTA_0.vc OTA_0.XM13.G9
+= OTA_0.vc OTA_0.XM13.G8
+= OTA_0.vc OTA_0.XM13.G7
+= OTA_0.vc OTA_0.XM13.G6
+= OTA_0.vc OTA_0.XM13.G5
+= OTA_0.vc OTA_0.XM13.G4
+= OTA_0.vc OTA_0.XM13.G3
+= OTA_0.vc OTA_0.XM13.G2
+= OTA_0.vc OTA_0.XM13.G1
+= OTA_0.vc OTA_0.XM13.G0
+= OTA_0.vc OTA_0.XM14.G9
+= OTA_0.vc OTA_0.XM14.G8
+= OTA_0.vc OTA_0.XM14.G7
+= OTA_0.vc OTA_0.XM14.G6
+= OTA_0.vc OTA_0.XM14.G5
+= OTA_0.vc OTA_0.XM14.G4
+= OTA_0.vc OTA_0.XM14.G3
+= OTA_0.vc OTA_0.XM14.G2
+= OTA_0.vc OTA_0.XM14.G1
+= OTA_0.vc OTA_0.XM14.G0
+C OTA_0.vdo0 12.5
+R OTA_0.vdo 14928
+= OTA_0.vdo Beta_mult_0.XM1.G
+= OTA_0.vdo Beta_mult_0.XM1.D
+= OTA_0.vdo Beta_mult_0.XM25.G
+= OTA_0.vdo Beta_mult_0.XM27.D
+= OTA_0.vdo Beta_mult_0.XM31.D
+= OTA_0.vdo Beta_mult_0.vdo
+= OTA_0.vdo biasing_0.XM32.G
+= OTA_0.vdo biasing_0.XM33.G
+= OTA_0.vdo biasing_0.vdo
+= OTA_0.vdo OTA_0.XM34.G
+R biasing_0.XM12.D 7394
+= biasing_0.XM12.D biasing_0.XM10.S1
+C OTA_0.vb0 16.5
+R OTA_0.vb 93243
+= OTA_0.vb biasing_0.XM7.D
+= OTA_0.vb biasing_0.XM9.G1
+= OTA_0.vb biasing_0.XM9.G0
+= OTA_0.vb biasing_0.XM10.G1
+= OTA_0.vb biasing_0.XM10.G0
+= OTA_0.vb biasing_0.XM10.D0
+= OTA_0.vb biasing_0.XM12.G
+= OTA_0.vb biasing_0.VB
+= OTA_0.vb OTA_0.XM17.G19
+= OTA_0.vb OTA_0.XM17.G18
+= OTA_0.vb OTA_0.XM17.G17
+= OTA_0.vb OTA_0.XM17.G16
+= OTA_0.vb OTA_0.XM17.G15
+= OTA_0.vb OTA_0.XM17.G14
+= OTA_0.vb OTA_0.XM17.G13
+= OTA_0.vb OTA_0.XM17.G12
+= OTA_0.vb OTA_0.XM17.G11
+= OTA_0.vb OTA_0.XM17.G10
+= OTA_0.vb OTA_0.XM17.G9
+= OTA_0.vb OTA_0.XM17.G8
+= OTA_0.vb OTA_0.XM17.G7
+= OTA_0.vb OTA_0.XM17.G6
+= OTA_0.vb OTA_0.XM17.G5
+= OTA_0.vb OTA_0.XM17.G4
+= OTA_0.vb OTA_0.XM17.G3
+= OTA_0.vb OTA_0.XM17.G2
+= OTA_0.vb OTA_0.XM17.G1
+= OTA_0.vb OTA_0.XM17.G0
+= OTA_0.vb OTA_0.XM18.G19
+= OTA_0.vb OTA_0.XM18.G18
+= OTA_0.vb OTA_0.XM18.G17
+= OTA_0.vb OTA_0.XM18.G16
+= OTA_0.vb OTA_0.XM18.G15
+= OTA_0.vb OTA_0.XM18.G14
+= OTA_0.vb OTA_0.XM18.G13
+= OTA_0.vb OTA_0.XM18.G12
+= OTA_0.vb OTA_0.XM18.G11
+= OTA_0.vb OTA_0.XM18.G10
+= OTA_0.vb OTA_0.XM18.G9
+= OTA_0.vb OTA_0.XM18.G8
+= OTA_0.vb OTA_0.XM18.G7
+= OTA_0.vb OTA_0.XM18.G6
+= OTA_0.vb OTA_0.XM18.G5
+= OTA_0.vb OTA_0.XM18.G4
+= OTA_0.vb OTA_0.XM18.G3
+= OTA_0.vb OTA_0.XM18.G2
+= OTA_0.vb OTA_0.XM18.G1
+= OTA_0.vb OTA_0.XM18.G0
+R biasing_0.XM11.D 7394
+= biasing_0.XM11.D biasing_0.XM9.S1
+C OTA_0.va0 10.3
+R OTA_0.va 26633
+= OTA_0.va biasing_0.XM5.D
+= OTA_0.va biasing_0.XM9.D0
+= OTA_0.va biasing_0.XM11.G
+= OTA_0.va biasing_0.VA
+= OTA_0.va OTA_0.XM19.G5
+= OTA_0.va OTA_0.XM19.G4
+= OTA_0.va OTA_0.XM19.G3
+= OTA_0.va OTA_0.XM19.G2
+= OTA_0.va OTA_0.XM19.G1
+= OTA_0.va OTA_0.XM19.G0
+= OTA_0.va OTA_0.XM20.G5
+= OTA_0.va OTA_0.XM20.G4
+= OTA_0.va OTA_0.XM20.G3
+= OTA_0.va OTA_0.XM20.G2
+= OTA_0.va OTA_0.XM20.G1
+= OTA_0.va OTA_0.XM20.G0

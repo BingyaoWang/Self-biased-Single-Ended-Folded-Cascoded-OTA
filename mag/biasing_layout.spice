@@ -1,0 +1,40 @@
+* NGSPICE file created from biasing.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_NJEU8C B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.348 pd=2.98 as=0.348 ps=2.98 w=1.2 l=0.4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_WVN3PK B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=0.4
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_J89NCU B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.174 pd=1.78 as=0.174 ps=1.78 w=0.6 l=0.4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_NM5A7C B D0 G0 S1 G1 a_109_n800#
+X0 S1 G0 D0 B sky130_fd_pr__pfet_01v8 ad=1.16 pd=8.29 as=2.32 ps=16.58 w=8 l=0.4
+X1 a_109_n800# G1 S1 B sky130_fd_pr__pfet_01v8 ad=2.32 pd=16.58 as=1.16 ps=8.29 w=8 l=0.4
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_NMD27C B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=1.74 pd=12.58 as=1.74 ps=12.58 w=6 l=0.4
+.ends
+
+.subckt biasing vdo VA vdd vss VB VC VD
+XXM12 vdd XM12/D vdd VB sky130_fd_pr__pfet_01v8_NJEU8C
+XXM1 vss VC XM2/D VC sky130_fd_pr__nfet_01v8_WVN3PK
+XXM2 vss XM2/D vss VC sky130_fd_pr__nfet_01v8_J89NCU
+XXM3 vss VD XM4/D VC sky130_fd_pr__nfet_01v8_WVN3PK
+XXM4 vss XM4/D vss VD sky130_fd_pr__nfet_01v8_J89NCU
+XXM5 vss VA XM6/D VC sky130_fd_pr__nfet_01v8_WVN3PK
+XXM6 vss XM6/D vss VD sky130_fd_pr__nfet_01v8_J89NCU
+XXM7 vss VB XM8/D VC sky130_fd_pr__nfet_01v8_WVN3PK
+XXM9 vdd VA VB XM9/S1 VB VA sky130_fd_pr__pfet_01v8_NM5A7C
+XXM8 vss XM8/D vss VD sky130_fd_pr__nfet_01v8_J89NCU
+XXM10 vdd VB VB XM12/D VB VB sky130_fd_pr__pfet_01v8_NM5A7C
+XXM32 vdd vdd VC vdo sky130_fd_pr__pfet_01v8_NMD27C
+XXM11 vdd XM9/S1 vdd VA sky130_fd_pr__pfet_01v8_NJEU8C
+XXM33 vdd vdd VD vdo sky130_fd_pr__pfet_01v8_NMD27C
+.ends
+

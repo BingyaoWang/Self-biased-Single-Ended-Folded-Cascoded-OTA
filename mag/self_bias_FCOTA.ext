@@ -1,0 +1,410 @@
+timestamp 1776462439
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use OTA OTA_0 1 0 9014 0 1 2222
+use biasing biasing_0 1 0 1198 0 1 5030
+use Beta_mult Beta_mult_0 1 0 996 0 1 -1774
+port "vout" 3 24526 5494 25570 6650 m2
+port "vip" 7 15042 10020 16070 10900 m2
+port "vin" 6 10646 9958 11674 10838 m2
+port "vss" 5 -464 354 -6 1046 m1
+port "vdd" 4 -460 2076 -2 2768 m1
+node "vout" 0 1358.72 24526 5494 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1206864 4400 0 0 0 0 0 0 0 0
+node "m2_6598_6540#" 3 9711.41 6598 6540 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2794972 12288 6664172 27732 0 0 0 0 0 0
+node "vip" 0 1054.55 15042 10020 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 904640 3816 0 0 0 0 0 0 0 0
+node "vin" 0 1038.56 10646 9958 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 904640 3816 0 0 0 0 0 0 0 0
+node "m2_6716_10140#" 2 11205.2 6716 10140 v2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 406032 3568 11220120 39860 0 0 0 0 0 0
+node "m2_6580_11624#" 2 6172.95 6580 11624 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5990984 19660 0 0 0 0 0 0 0 0
+node "m1_6270_n780#" 2 7073.85 6270 -780 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5392636 19148 0 0 0 0 0 0 0 0 0 0
+node "vss" 0 641.026 -464 354 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 316936 2300 0 0 0 0 0 0 0 0 0 0
+node "m1_7234_1894#" 3 10602.6 7234 1894 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16384 512 1311848 7768 11917628 37600 0 0 0 0 0 0
+node "vdd" 0 649.702 -460 2076 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 316936 2300 0 0 0 0 0 0 0 0 0 0
+node "m1_7260_2832#" 1 4344.17 7260 2832 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3466392 11816 0 0 0 0 0 0 0 0 0 0
+node "m1_1308_540#" 3 4716.59 1308 540 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119808 1960 3417920 16416 0 0 0 0 0 0 0 0
+node "m1_296_8620#" 2 4685.17 296 8620 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3029904 13680 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "m1_6270_n780#" "m1_7260_2832#" 267.216
+cap "m2_6598_6540#" "m1_7234_1894#" 2072.09
+cap "vss" "vdd" 18.4963
+cap "m1_296_8620#" "m1_1308_540#" 205.111
+cap "vss" "m1_1308_540#" 10.3446
+cap "m2_6580_11624#" "m2_6716_10140#" 1888.86
+cap "m1_7234_1894#" "m1_296_8620#" 32.943
+cap "m1_7260_2832#" "m1_7234_1894#" 2636.83
+cap "m2_6580_11624#" "vip" 47.6821
+cap "m2_6580_11624#" "vin" 60.7565
+cap "vdd" "m1_1308_540#" 3.80866
+cap "m2_6598_6540#" "m1_7260_2832#" 2854.09
+cap "m1_6270_n780#" "m1_7234_1894#" 278.954
+cap "m2_6598_6540#" "m1_6270_n780#" 1385.5
+cap "m2_6716_10140#" "m1_7234_1894#" 488.397
+cap "m2_6716_10140#" "vin" 14.7279
+cap "Beta_mult_0/vdd" "Beta_mult_0/vss" -3.26579
+cap "m1_6270_n780#" "OTA_0/XM23/G1" 1.12561
+cap "m1_6270_n780#" "OTA_0/XM23/B" 23.1052
+cap "m1_6270_n780#" "OTA_0/XM23/B" 5.20343
+cap "Beta_mult_0/vdd" "Beta_mult_0/vss" -1.31887
+cap "Beta_mult_0/XM29/D" "Beta_mult_0/vss" 0.995788
+cap "Beta_mult_0/vss" "Beta_mult_0/vdd" 121.33
+cap "Beta_mult_0/vss" "Beta_mult_0/XM30/D" 658.643
+cap "Beta_mult_0/vdd" "Beta_mult_0/XM30/D" 0.155884
+cap "Beta_mult_0/vdo" "Beta_mult_0/XM29/S" 169.229
+cap "Beta_mult_0/vdo" "m1_6270_n780#" -1.53834
+cap "Beta_mult_0/XM29/S" "m1_6270_n780#" 8.48256
+cap "Beta_mult_0/vdo" "Beta_mult_0/XM1/B" 1.1938
+cap "Beta_mult_0/vdo" "m1_6270_n780#" 9.28607
+cap "m1_6270_n780#" "Beta_mult_0/XM1/B" 8.24757
+cap "OTA_0/vss" "Beta_mult_0/vdo" 10.4556
+cap "OTA_0/XM23/G1" "m1_6270_n780#" 5.74274
+cap "m1_7234_1894#" "OTA_0/XM22/B" 2.85922
+cap "m1_6270_n780#" "OTA_0/XM22/B" 84.4809
+cap "m2_6598_6540#" "OTA_0/XM22/B" 0.0032036
+cap "m1_6270_n780#" "OTA_0/XM22/B" 18.8709
+cap "Beta_mult_0/vdd" "m1_1308_540#" 1.89374
+cap "Beta_mult_0/XM29/D" "m1_1308_540#" 0.772307
+cap "Beta_mult_0/vdd" "biasing_0/XM2/B" 13.0297
+cap "Beta_mult_0/vdd" "m1_1308_540#" 1954.89
+cap "m1_1308_540#" "Beta_mult_0/XM30/D" 446.96
+cap "biasing_0/XM2/B" "Beta_mult_0/XM29/B" 24.3671
+cap "biasing_0/XM2/B" "Beta_mult_0/XM29/B" 24.3671
+cap "Beta_mult_0/vdo" "biasing_0/XM6/B" 0.375134
+cap "Beta_mult_0/XM29/S" "biasing_0/XM6/B" 2.61076
+cap "Beta_mult_0/XM29/S" "OTA_0/vss" 1.61815
+cap "Beta_mult_0/XM29/S" "Beta_mult_0/vdo" 153.377
+cap "m2_6598_6540#" "Beta_mult_0/XM29/S" 0.00242568
+cap "Beta_mult_0/XM1/B" "Beta_mult_0/vdo" 0.917193
+cap "Beta_mult_0/vdo" "OTA_0/vss" 10.2122
+cap "Beta_mult_0/XM1/B" "OTA_0/vss" 0.479965
+cap "OTA_0/vss" "m1_7234_1894#" 1.7974
+cap "OTA_0/XM24/D" "OTA_0/vss" 5.74274
+cap "m2_6598_6540#" "OTA_0/vss" 191.158
+cap "m2_6598_6540#" "OTA_0/XM24/D" 41.6103
+cap "OTA_0/vss" "m1_7260_2832#" 0.753383
+cap "m2_6598_6540#" "OTA_0/XM22/G0" 95.5887
+cap "m2_6598_6540#" "OTA_0/XM24/D" 75.5112
+cap "OTA_0/vss" "m2_6598_6540#" 196.763
+cap "OTA_0/XM22/S1" "m2_6598_6540#" 27.1466
+cap "OTA_0/XM22/D0" "m2_6598_6540#" 35.43
+cap "m2_6598_6540#" "OTA_0/XM22/B" 149.016
+cap "m2_6598_6540#" "OTA_0/XM22/D0" 54.4228
+cap "OTA_0/XM22/G0" "m2_6598_6540#" 103.522
+cap "m2_6598_6540#" "OTA_0/XM22/S1" 86.3448
+cap "OTA_0/XM21/G0" "m2_6598_6540#" 99.7888
+cap "OTA_0/XM22/B" "m2_6598_6540#" 147.536
+cap "OTA_0/XM22/S3" "m2_6598_6540#" 87.2999
+cap "m2_6598_6540#" "OTA_0/XM21/D0" 54.6426
+cap "OTA_0/XM21/G0" "m2_6598_6540#" 92.9672
+cap "m2_6598_6540#" "OTA_0/XM21/S1" 27.5764
+cap "m2_6598_6540#" "OTA_0/XM21/B" 226.091
+cap "m2_6598_6540#" "OTA_0/XM21/D0" 36.0753
+cap "m2_6598_6540#" "OTA_0/XM13/D0" 37.7185
+cap "m2_6598_6540#" "OTA_0/XM13/G0" 52.3212
+cap "m2_6598_6540#" "OTA_0/XM13/S1" 34.272
+cap "m2_6598_6540#" "OTA_0/m1_7508_4756#" 125.368
+cap "m2_6598_6540#" "OTA_0/XM21/B" 193.929
+cap "OTA_0/XM13/D0" "OTA_0/XM13/G0" 68.62
+cap "OTA_0/XM13/G0" "OTA_0/XM13/B" 76.5946
+cap "OTA_0/XM13/G0" "OTA_0/XM13/S1" 126.341
+cap "OTA_0/XM13/G1" "OTA_0/XM13/B" 181.181
+cap "OTA_0/XM14/G0" "OTA_0/XM14/B" 2.15549
+cap "OTA_0/XM14/S1" "OTA_0/XM14/G0" -2.27374e-13
+cap "biasing_0/XM1/B" "Beta_mult_0/vdd" 14.7682
+cap "m1_1308_540#" "Beta_mult_0/vdd" -0.565022
+cap "Beta_mult_0/vdd" "m1_1308_540#" 220.986
+cap "biasing_0/XM2/G" "biasing_0/XM1/B" -0.278617
+cap "biasing_0/XM1/B" "m1_1308_540#" 481.975
+cap "Beta_mult_0/vdd" "biasing_0/XM1/B" 71.2281
+cap "biasing_0/XM2/G" "m1_1308_540#" 8.42046
+cap "biasing_0/XM2/G" "Beta_mult_0/vdd" 1.15816
+cap "biasing_0/XM4/G" "Beta_mult_0/XM29/S" 1.11062
+cap "biasing_0/XM1/B" "Beta_mult_0/XM29/S" 100.855
+cap "Beta_mult_0/XM29/S" "biasing_0/XM4/G" 1.17489
+cap "Beta_mult_0/XM29/S" "biasing_0/XM1/B" 100.855
+cap "biasing_0/VD" "Beta_mult_0/XM29/S" 1.20393
+cap "Beta_mult_0/XM29/S" "biasing_0/XM5/B" 134.106
+cap "OTA_0/vss" "biasing_0/VD" 0.00211553
+cap "biasing_0/XM7/B" "OTA_0/vdd" 6.83262
+cap "OTA_0/vss" "OTA_0/vdd" 0.18894
+cap "biasing_0/VD" "m2_6598_6540#" 0.00652772
+cap "biasing_0/VD" "m1_7234_1894#" 8.25574
+cap "m2_6598_6540#" "OTA_0/vdd" 0.00961909
+cap "m1_7234_1894#" "OTA_0/vdd" 24.2486
+cap "biasing_0/XM7/B" "m1_7234_1894#" 4.09331
+cap "biasing_0/VD" "OTA_0/vdd" 50.8736
+cap "OTA_0/vss" "m2_6598_6540#" 1.13687e-13
+cap "OTA_0/vss" "OTA_0/vdd" -1.42109e-14
+cap "OTA_0/vss" "OTA_0/vdd" 0.771006
+cap "OTA_0/vss" "OTA_0/XM24/D" 2.6234
+cap "OTA_0/vss" "m2_6598_6540#" 717.221
+cap "OTA_0/vss" "m1_7234_1894#" 1.75899
+cap "OTA_0/XM24/D" "m2_6598_6540#" 182.666
+cap "m2_6598_6540#" "OTA_0/XM24/D" 258.695
+cap "m2_6598_6540#" "OTA_0/vss" 414.17
+cap "m2_6598_6540#" "OTA_0/XM22/S1" 59.5121
+cap "m2_6598_6540#" "OTA_0/XM22/D0" 133.703
+cap "m2_6598_6540#" "OTA_0/XM22/G0" 180.228
+cap "OTA_0/XM22/D0" "m2_6598_6540#" 262.604
+cap "OTA_0/XM22/G0" "m2_6598_6540#" 152.628
+cap "OTA_0/XM22/B" "m2_6598_6540#" 300.718
+cap "OTA_0/XM22/S1" "m2_6598_6540#" 176.965
+cap "m2_6598_6540#" "OTA_0/XM22/B" 296.444
+cap "OTA_0/XM21/G0" "m2_6598_6540#" 153.739
+cap "OTA_0/XM22/S3" "m2_6598_6540#" 178.414
+cap "OTA_0/XM21/D0" "m2_6598_6540#" 240.831
+cap "OTA_0/XM21/D0" "m2_6598_6540#" 170.587
+cap "OTA_0/XM21/B" "m2_6598_6540#" 442.738
+cap "OTA_0/XM21/S1" "m2_6598_6540#" 59.7142
+cap "m2_6598_6540#" "OTA_0/XM21/G0" 191.749
+cap "OTA_0/XM13/G0" "m2_6598_6540#" 78.5099
+cap "OTA_0/XM13/D0" "m2_6598_6540#" 611.746
+cap "OTA_0/XM21/B" "m2_6598_6540#" 376.858
+cap "OTA_0/XM13/S1" "m2_6598_6540#" 58.9962
+cap "OTA_0/XM13/D0" "OTA_0/XM13/G0" 317.4
+cap "OTA_0/XM13/G0" "OTA_0/XM13/B" 116.643
+cap "OTA_0/XM13/G0" "OTA_0/XM13/S1" 234.603
+cap "OTA_0/XM13/G1" "OTA_0/XM13/B" 220.249
+cap "OTA_0/XM14/G0" "OTA_0/XM14/S1" 2.27374e-13
+cap "OTA_0/XM14/G0" "OTA_0/XM14/D0" 9.09495e-13
+cap "OTA_0/XM14/G0" "OTA_0/XM14/B" 2.36933
+cap "OTA_0/vout" "OTA_0/vc" 8.22655
+cap "OTA_0/vout" "OTA_0/XM14/B" 22.3525
+cap "OTA_0/vc" "OTA_0/vout" 43.7373
+cap "biasing_0/vss" "m1_296_8620#" 34.8475
+cap "biasing_0/XM1/D" "biasing_0/vss" 94.3668
+cap "Beta_mult_0/vdd" "biasing_0/XM1/D" 0.475292
+cap "biasing_0/XM1/D" "m1_296_8620#" 0.217027
+cap "biasing_0/vss" "biasing_0/XM1/S" 8.84308
+cap "m1_296_8620#" "biasing_0/vss" 42.5716
+cap "Beta_mult_0/vdd" "biasing_0/XM3/D" 6.08373
+cap "biasing_0/XM1/D" "Beta_mult_0/vdd" 3.14048
+cap "biasing_0/vss" "biasing_0/XM3/D" 0.000730829
+cap "biasing_0/XM1/D" "biasing_0/vss" 8.95807
+cap "biasing_0/XM3/D" "Beta_mult_0/vdd" 10.1406
+cap "biasing_0/XM7/S" "biasing_0/VC" 1.13687e-13
+cap "Beta_mult_0/vdd" "biasing_0/VD" 6.35922
+cap "biasing_0/XM5/B" "biasing_0/VC" 44.2347
+cap "m1_7260_2832#" "biasing_0/XM5/B" 15.7088
+cap "biasing_0/VD" "biasing_0/VC" 62.2032
+cap "biasing_0/XM7/B" "OTA_0/vdd" 13.5516
+cap "OTA_0/vdo" "biasing_0/XM7/B" 8.79392
+cap "biasing_0/XM7/B" "biasing_0/VC" 27.2908
+cap "biasing_0/VD" "OTA_0/vss" 0.000348441
+cap "biasing_0/XM7/S" "biasing_0/VC" 1.20018
+cap "Beta_mult_0/vdd" "biasing_0/VD" 0.287334
+cap "biasing_0/VD" "OTA_0/vdd" 48.1968
+cap "OTA_0/vdo" "biasing_0/VD" 22.1856
+cap "OTA_0/vdd" "OTA_0/vss" -20.445
+cap "OTA_0/vss" "OTA_0/vdo" 0.0722308
+cap "OTA_0/vdd" "OTA_0/vdo" 14.5691
+cap "OTA_0/vss" "biasing_0/VC" 8.45046
+cap "OTA_0/vdd" "biasing_0/VC" 330.918
+cap "OTA_0/vdd" "m2_6598_6540#" 531.241
+cap "OTA_0/XM24/D" "OTA_0/vss" -0.11872
+cap "OTA_0/vdo" "OTA_0/vss" 0.529179
+cap "m2_6598_6540#" "OTA_0/vss" 63.0734
+cap "OTA_0/XM24/D" "m2_6598_6540#" 51.5299
+cap "m2_6598_6540#" "OTA_0/vdo" 0.881412
+cap "OTA_0/vdd" "OTA_0/vss" 2.70317
+cap "OTA_0/vdd" "OTA_0/XM24/D" -2.42268
+cap "OTA_0/vdd" "OTA_0/vdo" 4.68717
+cap "OTA_0/XM22/G0" "m2_6598_6540#" 4.64495
+cap "OTA_0/vss" "m2_6598_6540#" 0.470918
+cap "OTA_0/XM22/D0" "OTA_0/XM22/S7" -0.446719
+cap "OTA_0/XM22/G0" "OTA_0/XM22/D0" -8.92956
+cap "OTA_0/XM22/D0" "OTA_0/XM22/S3" -0.439461
+cap "OTA_0/XM24/B" "m2_6598_6540#" 0.562613
+cap "OTA_0/XM22/S5" "OTA_0/XM22/D0" -0.439461
+cap "OTA_0/XM22/D0" "m2_6598_6540#" 28.3053
+cap "OTA_0/XM22/G0" "m2_6598_6540#" 5.19554
+cap "OTA_0/XM22/D0" "OTA_0/XM24/B" -2.17093
+cap "OTA_0/XM21/S3" "OTA_0/XM21/D0" -0.131708
+cap "OTA_0/XM21/D0" "OTA_0/XM21/G0" -3.85311
+cap "m2_6598_6540#" "OTA_0/XM21/G0" 5.1964
+cap "m2_6598_6540#" "OTA_0/XM22/B" 0.594175
+cap "m2_6598_6540#" "OTA_0/XM21/D0" 8.45714
+cap "OTA_0/XM21/S5" "OTA_0/XM21/D0" -0.417924
+cap "OTA_0/XM21/D0" "OTA_0/XM21/G0" -5.01975
+cap "OTA_0/XM21/D0" "OTA_0/XM21/S7" -0.417924
+cap "OTA_0/XM21/D0" "OTA_0/XM21/B" -5.83312
+cap "OTA_0/XM21/G0" "m2_6598_6540#" 4.23538
+cap "OTA_0/XM21/B" "m2_6598_6540#" 0.440168
+cap "OTA_0/XM21/D0" "m2_6598_6540#" 33.9311
+cap "OTA_0/XM13/G0" "m2_6598_6540#" 2.42767
+cap "OTA_0/XM21/B" "m2_6598_6540#" 0.437548
+cap "OTA_0/XM13/D0" "m2_6598_6540#" 0.50391
+cap "OTA_0/XM13/B" "OTA_0/XM13/G0" 0.668023
+cap "OTA_0/XM14/B" "OTA_0/vout" 0.00953047
+cap "OTA_0/XM18/S1" "OTA_0/vout" -9.09495e-13
+cap "OTA_0/vout" "OTA_0/XM14/B" 46.4123
+cap "OTA_0/vout" "OTA_0/vc" -4.30328
+cap "OTA_0/vout" "OTA_0/XM18/B" 115.977
+cap "OTA_0/XM18/G7" "OTA_0/vout" 2.97612
+cap "OTA_0/vout" "OTA_0/XM18/S9" 0.330439
+cap "OTA_0/vc" "OTA_0/vout" -8.07377
+cap "biasing_0/XM1/D" "biasing_0/vdd" 2.91693
+cap "biasing_0/vss" "biasing_0/vdd" 27.5342
+cap "biasing_0/XM32/G" "biasing_0/vss" 5.25998
+cap "biasing_0/XM1/D" "biasing_0/vss" 99.7013
+cap "biasing_0/vdd" "biasing_0/XM1/D" 3.00494
+cap "biasing_0/vdd" "biasing_0/vss" 28.0259
+cap "biasing_0/XM1/D" "biasing_0/vss" 1.37932
+cap "m1_7234_1894#" "biasing_0/XM1/B" 0.444653
+cap "m1_7234_1894#" "biasing_0/XM5/D" 0.924165
+cap "biasing_0/VC" "biasing_0/XM5/B" 50.22
+cap "biasing_0/VC" "biasing_0/XM7/S" -1.13687e-13
+cap "m1_7234_1894#" "biasing_0/XM5/B" 0.812738
+cap "biasing_0/VC" "m1_7234_1894#" 1.49243
+cap "biasing_0/XM5/B" "m1_7234_1894#" 5.58406
+cap "biasing_0/VC" "biasing_0/XM7/D" 0.120796
+cap "m1_7234_1894#" "biasing_0/XM7/D" 0.47429
+cap "biasing_0/VC" "biasing_0/XM7/B" 37.1994
+cap "biasing_0/VC" "OTA_0/vdo" 22.283
+cap "OTA_0/vdo" "biasing_0/XM7/B" 7.05281
+cap "biasing_0/VC" "biasing_0/XM7/S" 1.23668
+cap "biasing_0/XM7/D" "biasing_0/VC" 0.129983
+cap "OTA_0/vdd" "OTA_0/vdo" 2.26785
+cap "m2_6598_6540#" "OTA_0/vdd" 1.91083
+cap "OTA_0/XM24/D" "m2_6598_6540#" 0.0155047
+cap "OTA_0/vdo" "m2_6598_6540#" 0.053964
+cap "OTA_0/vdo" "OTA_0/vdd" 265.374
+cap "OTA_0/vdo" "OTA_0/XM24/D" 0.789865
+cap "OTA_0/vdd" "OTA_0/vdo" -2.27374e-13
+cap "biasing_0/vdd" "biasing_0/XM1/D" 1.19489
+cap "biasing_0/vdd" "biasing_0/vdo" 2.18301
+cap "biasing_0/vdo" "biasing_0/vdd" 6.33681
+cap "biasing_0/vdo" "biasing_0/XM1/D" 0.05921
+cap "biasing_0/vdd" "biasing_0/XM1/D" 1.55172
+cap "biasing_0/vdd" "biasing_0/vss" -15.379
+cap "biasing_0/vss" "biasing_0/vdo" 2.94045
+cap "biasing_0/XM1/D" "biasing_0/vdo" 2.21721
+cap "biasing_0/vdd" "biasing_0/XM1/D" 0.356834
+cap "biasing_0/vdd" "biasing_0/vdo" 207.21
+cap "biasing_0/XM3/D" "biasing_0/vdo" 14.6452
+cap "biasing_0/vdd" "biasing_0/XM3/D" -1.17149
+cap "biasing_0/XM5/D" "m1_7234_1894#" 839.05
+cap "m1_7234_1894#" "biasing_0/XM10/S1" 0.266326
+cap "m1_7234_1894#" "biasing_0/XM5/S" 0.801866
+cap "m1_7234_1894#" "biasing_0/XM1/B" 25.5799
+cap "m1_7234_1894#" "biasing_0/XM32/B" 609.07
+cap "m1_7234_1894#" "biasing_0/XM7/D" 438.359
+cap "m1_7234_1894#" "biasing_0/XM1/G" 0.873683
+cap "biasing_0/XM11/G" "m1_7234_1894#" 0.122108
+cap "biasing_0/XM9/S1" "m1_7234_1894#" 79.2498
+cap "biasing_0/XM5/B" "m1_7234_1894#" 19.8434
+cap "m1_7234_1894#" "biasing_0/VC" 2.51198
+cap "m1_7234_1894#" "biasing_0/XM10/S1" 79.6751
+cap "m1_7234_1894#" "biasing_0/VB" 707.749
+cap "m1_7234_1894#" "biasing_0/XM7/S" 0.543827
+cap "biasing_0/XM9/B" "m1_7234_1894#" 727.651
+cap "biasing_0/VC" "OTA_0/vdo" 0.310789
+cap "OTA_0/vdo" "biasing_0/VB" 0.501882
+cap "OTA_0/XM19/S1" "OTA_0/vdo" 223.373
+cap "OTA_0/XM19/S1" "OTA_0/vin" 0.134008
+cap "OTA_0/vin" "OTA_0/XM19/S1" 0.262728
+cap "OTA_0/m1_2718_2886#" "OTA_0/va" 1.7388
+cap "OTA_0/va" "OTA_0/XM17/B" 0.540778
+cap "OTA_0/va" "OTA_0/m1_2718_2886#" 40.1745
+cap "OTA_0/vip" "OTA_0/m1_2718_2886#" 33.7788
+cap "OTA_0/XM17/B" "OTA_0/vip" 0.178685
+cap "OTA_0/m1_2718_2886#" "OTA_0/vb" 55.4017
+cap "OTA_0/XM18/S1" "OTA_0/vb" 27.1204
+cap "biasing_0/vdd" "biasing_0/vdo" 4.41029
+cap "biasing_0/vdo" "biasing_0/vss" -0.0130244
+cap "biasing_0/XM32/S" "biasing_0/vdo" 19.3324
+cap "biasing_0/vdo" "biasing_0/vss" -1.73472e-18
+cap "biasing_0/vdo" "biasing_0/vdd" 585.931
+cap "biasing_0/vdo" "m1_1308_540#" 5.25998
+cap "biasing_0/XM32/S" "biasing_0/vdo" 3.00184
+cap "biasing_0/XM33/S" "biasing_0/vdo" 51.2621
+cap "biasing_0/vdd" "biasing_0/vdo" 1150.7
+cap "m1_7234_1894#" "biasing_0/XM9/S1" 268.148
+cap "m1_7234_1894#" "biasing_0/XM32/B" 301.589
+cap "m1_7234_1894#" "biasing_0/XM9/G0" 57.1461
+cap "m1_7234_1894#" "biasing_0/XM9/D0" 514.99
+cap "m1_7234_1894#" "biasing_0/XM10/S1" 2.00967
+cap "m1_7234_1894#" "biasing_0/XM10/S1" 6.96059
+cap "m1_7234_1894#" "biasing_0/XM9/B" 1.39564
+cap "biasing_0/VB" "biasing_0/XM9/B" 10.6393
+cap "biasing_0/VB" "m1_7234_1894#" 11.4691
+cap "biasing_0/VB" "biasing_0/XM10/S1" 2.85796
+cap "biasing_0/XM10/B" "biasing_0/VB" 59.082
+cap "biasing_0/VA" "biasing_0/VB" -7.2163
+cap "m1_7234_1894#" "biasing_0/VB" 25.2589
+cap "biasing_0/VA" "biasing_0/VB" 1.77636e-15
+cap "OTA_0/vin" "OTA_0/vdd" 17.5927
+cap "OTA_0/vin" "OTA_0/va" 13.4746
+cap "OTA_0/vin" "OTA_0/vdd" 36.7195
+cap "OTA_0/vin" "m2_6716_10140#" 3.8886
+cap "OTA_0/va" "OTA_0/vin" 10.5464
+cap "OTA_0/va" "OTA_0/vdd" 1.39846
+cap "OTA_0/m1_2718_2886#" "OTA_0/va" 14.8517
+cap "OTA_0/va" "OTA_0/XM17/B" 85.9589
+cap "OTA_0/va" "OTA_0/vip" -9.1054
+cap "OTA_0/vip" "OTA_0/va" -6.81656
+cap "OTA_0/m1_2718_2886#" "OTA_0/vip" 12.6446
+cap "OTA_0/vip" "OTA_0/XM17/B" 72.7721
+cap "OTA_0/m1_5124_2922#" "OTA_0/vip" 0.524914
+cap "OTA_0/vb" "OTA_0/XM18/G0" 0.4643
+cap "OTA_0/m1_2718_2886#" "OTA_0/vb" 70.9414
+cap "OTA_0/XM17/B" "OTA_0/vb" 81.694
+cap "OTA_0/vb" "OTA_0/XM17/B" 42.3849
+cap "OTA_0/vb" "OTA_0/XM18/G0" 0.129808
+cap "OTA_0/vb" "OTA_0/XM18/S1" 29.6276
+cap "OTA_0/vb" "OTA_0/XM18/D0" 0.0632955
+cap "biasing_0/XM11/B" "m1_7234_1894#" 0.257434
+cap "biasing_0/XM11/G" "m1_7234_1894#" 0.891519
+cap "m1_7234_1894#" "biasing_0/XM9/S1" 1.15018
+cap "biasing_0/VA" "biasing_0/XM11/B" 11.5717
+cap "biasing_0/VA" "biasing_0/VB" 0.215983
+cap "biasing_0/XM12/B" "biasing_0/VA" 4.51066
+cap "biasing_0/VA" "biasing_0/VB" -9.01737
+merge "OTA_0/XM22/G0" "OTA_0/vin" -855.978 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -543224 -2956 0 0 0 0 0 0 0 0
+merge "OTA_0/vin" "vin"
+merge "biasing_0/VSUBS" "OTA_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "OTA_0/VSUBS" "Beta_mult_0/VSUBS"
+merge "Beta_mult_0/VSUBS" "VSUBS"
+merge "biasing_0/XM11/G" "biasing_0/VA" -1975.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1382416 -6912 0 0 0 0 0 0 0 0
+merge "biasing_0/VA" "biasing_0/XM9/D0"
+merge "biasing_0/XM9/D0" "OTA_0/va"
+merge "OTA_0/va" "m2_6580_11624#"
+merge "biasing_0/XM10/G0" "biasing_0/XM9/G0" -2332.58 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -142584 -1888 -1788016 -6290 0 0 0 0 0 0
+merge "biasing_0/XM9/G0" "OTA_0/vb"
+merge "OTA_0/vb" "biasing_0/VB"
+merge "biasing_0/VB" "biasing_0/XM7/D"
+merge "biasing_0/XM7/D" "m2_6716_10140#"
+merge "OTA_0/XM19/S1" "OTA_0/XM34/D" -3702.55 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1261488 -9122 0 0 0 0 0 0 0 0 0 0
+merge "OTA_0/XM34/D" "biasing_0/vdd"
+merge "biasing_0/vdd" "Beta_mult_0/XM1/S"
+merge "Beta_mult_0/XM1/S" "OTA_0/vdd"
+merge "OTA_0/vdd" "Beta_mult_0/XM1/B"
+merge "Beta_mult_0/XM1/B" "Beta_mult_0/XM29/S"
+merge "Beta_mult_0/XM29/S" "m1_7260_2832#"
+merge "m1_7260_2832#" "Beta_mult_0/XM29/B"
+merge "Beta_mult_0/XM29/B" "Beta_mult_0/vdd"
+merge "Beta_mult_0/vdd" "m1_296_8620#"
+merge "m1_296_8620#" "vdd"
+merge "OTA_0/XM24/S" "biasing_0/vdo" -13235.1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1789756 -14718 -1387812 -7532 -2949712 -9190 0 0 0 0 0 0
+merge "biasing_0/vdo" "OTA_0/vdo"
+merge "OTA_0/vdo" "biasing_0/vss"
+merge "biasing_0/vss" "OTA_0/vss"
+merge "OTA_0/vss" "Beta_mult_0/XM31/B"
+merge "Beta_mult_0/XM31/B" "Beta_mult_0/vdo"
+merge "Beta_mult_0/vdo" "m1_7234_1894#"
+merge "m1_7234_1894#" "Beta_mult_0/XM27/B"
+merge "Beta_mult_0/XM27/B" "Beta_mult_0/XR1/R1"
+merge "Beta_mult_0/XR1/R1" "Beta_mult_0/XR1/B"
+merge "Beta_mult_0/XR1/B" "m1_6270_n780#"
+merge "m1_6270_n780#" "Beta_mult_0/vss"
+merge "Beta_mult_0/vss" "vss"
+merge "vss" "m1_1308_540#"
+merge "biasing_0/VC" "biasing_0/XM1/G" -7949.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -628748 -5340 -4213072 -19030 0 0 0 0 0 0
+merge "biasing_0/XM1/G" "OTA_0/XM14/G0"
+merge "OTA_0/XM14/G0" "OTA_0/XM13/G1"
+merge "OTA_0/XM13/G1" "OTA_0/XM13/G0"
+merge "OTA_0/XM13/G0" "OTA_0/vc"
+merge "OTA_0/vc" "m2_6598_6540#"
+merge "OTA_0/vip" "vip" -637.19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -364812 -2416 0 0 0 0 0 0 0 0
+merge "OTA_0/vout" "vout" -542.659 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -164288 -1752 0 0 0 0 0 0 0 0

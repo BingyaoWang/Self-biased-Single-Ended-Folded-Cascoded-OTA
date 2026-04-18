@@ -1,0 +1,562 @@
+timestamp 1776360513
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__pfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+parameters sky130_fd_pr__res_high_po_5p73 l=l+32
+parameters sky130_fd_pr__res_high_po_2p85 l=l+32
+parameters sky130_fd_pr__res_high_po_1p41 l=l+32
+parameters sky130_fd_pr__res_high_po_0p69 l=l+32
+parameters sky130_fd_pr__res_high_po_0p35 l=l+32
+parameters sky130_fd_pr__res_high_po l=l+32 w=w
+port "vip" 7 15042 10020 16070 10900 m2
+port "vin" 6 10646 9958 11674 10838 m2
+port "vout" 3 24526 5494 25570 6650 m2
+port "vdd" 4 -460 2076 -2 2768 m1
+port "vss" 5 -464 354 -6 1046 m1
+node "Beta_mult_0.XR1.R1" 3856 3722.78 5599 -4 xpc 0 0 0 0 0 0 0 0 92800 3316 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 173904 5564 395120 5104 433116 3360 0 0 0 0 0 0 0 0
+equiv "Beta_mult_0.XR1.R1" "Beta_mult_0.XM27.S"
+node "a_2631_n4#" 6878 0 2631 -4 ppres 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 409584 6212 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "OTA_0.XM16.D" 35140 4760.35 21226 1705 ndif 0 0 0 0 0 0 0 0 800400 28296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470832 28104 967120 29322 1244796 5792 0 0 0 0 0 0 0 0
+equiv "OTA_0.XM16.D" "OTA_0.XM14.S9"
+equiv "OTA_0.XM16.D" "OTA_0.XM14.S7"
+equiv "OTA_0.XM16.D" "OTA_0.XM14.S5"
+equiv "OTA_0.XM16.D" "OTA_0.XM14.S3"
+equiv "OTA_0.XM16.D" "OTA_0.XM14.S1"
+node "OTA_0.XM15.D" 35140 4638.51 17000 1698 ndif 0 0 0 0 0 0 0 0 800400 28296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 470832 28104 965344 29320 1233628 5760 0 0 0 0 0 0 0 0
+equiv "OTA_0.XM15.D" "OTA_0.XM13.S9"
+equiv "OTA_0.XM15.D" "OTA_0.XM13.S7"
+equiv "OTA_0.XM15.D" "OTA_0.XM13.S5"
+equiv "OTA_0.XM15.D" "OTA_0.XM13.S3"
+equiv "OTA_0.XM15.D" "OTA_0.XM13.S1"
+node "vip" 14065 6237.59 15042 10020 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1648640 42496 0 0 43520 3648 724552 13018 1923020 13564 0 0 0 0 0 0 0 0
+equiv "vip" "OTA_0.XM21.G7"
+equiv "vip" "OTA_0.XM21.G6"
+equiv "vip" "OTA_0.XM21.G5"
+equiv "vip" "OTA_0.XM21.G4"
+equiv "vip" "OTA_0.XM21.G3"
+equiv "vip" "OTA_0.XM21.G2"
+equiv "vip" "OTA_0.XM21.G1"
+equiv "vip" "OTA_0.XM21.G0"
+equiv "vip" "OTA_0.vip"
+node "OTA_0.XM23.D0" 61212 8441.45 11892 3216 ndif 0 0 0 0 0 0 0 0 1392000 49160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 818720 48840 1182568 50320 1082252 11920 0 0 0 0 0 0 0 0
+equiv "OTA_0.XM23.D0" "OTA_0.XM21.S7"
+equiv "OTA_0.XM23.D0" "OTA_0.XM21.S5"
+equiv "OTA_0.XM23.D0" "OTA_0.XM21.S3"
+equiv "OTA_0.XM23.D0" "OTA_0.XM21.S1"
+equiv "OTA_0.XM23.D0" "OTA_0.XM22.S7"
+equiv "OTA_0.XM23.D0" "OTA_0.XM22.S5"
+equiv "OTA_0.XM23.D0" "OTA_0.XM22.S3"
+equiv "OTA_0.XM23.D0" "OTA_0.XM22.S1"
+node "vin" 14065 6318.68 10646 9958 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1648640 42496 0 0 43520 3648 763924 13176 1924612 13244 0 0 0 0 0 0 0 0
+equiv "vin" "OTA_0.XM22.G7"
+equiv "vin" "OTA_0.XM22.G6"
+equiv "vin" "OTA_0.XM22.G5"
+equiv "vin" "OTA_0.XM22.G4"
+equiv "vin" "OTA_0.XM22.G3"
+equiv "vin" "OTA_0.XM22.G2"
+equiv "vin" "OTA_0.XM22.G1"
+equiv "vin" "OTA_0.XM22.G0"
+equiv "vin" "OTA_0.vin"
+node "Beta_mult_0.XM31.S" 9143 5844.87 3791 1128 p 0 0 0 0 0 0 0 0 46400 1832 69600 2516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 234240 6336 0 0 85136 5620 540796 14388 446108 7476 0 0 0 0 0 0 0 0
+equiv "Beta_mult_0.XM31.S" "Beta_mult_0.XM25.D"
+equiv "Beta_mult_0.XM31.S" "Beta_mult_0.XM27.G"
+equiv "Beta_mult_0.XM31.S" "Beta_mult_0.XM28.G"
+equiv "Beta_mult_0.XM31.S" "Beta_mult_0.XM28.D"
+equiv "Beta_mult_0.XM31.S" "Beta_mult_0.XM30.G"
+node "Beta_mult_0.XM31.G" 6143 4409.76 939 2448 pdif 0 0 0 0 0 0 0 0 23200 916 23200 916 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2402472 10524 0 0 304232 18304 2351137 18508 0 0 0 0 0 0 0 0 0 0
+equiv "Beta_mult_0.XM31.G" "Beta_mult_0.XM29.G"
+equiv "Beta_mult_0.XM31.G" "Beta_mult_0.XM29.D"
+equiv "Beta_mult_0.XM31.G" "Beta_mult_0.XM30.D"
+node "vout" 140599 3928.14 24526 5494 m2 0 0 0 0 0 0 0 0 835200 29496 1531200 54076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1391824 83028 2362192 88080 3357568 18400 0 0 0 0 0 0 0 0
+equiv "vout" "OTA_0.XM14.D8"
+equiv "vout" "OTA_0.XM14.D6"
+equiv "vout" "OTA_0.XM14.D4"
+equiv "vout" "OTA_0.XM14.D2"
+equiv "vout" "OTA_0.XM14.D0"
+equiv "vout" "OTA_0.XM18.D18"
+equiv "vout" "OTA_0.XM18.D16"
+equiv "vout" "OTA_0.XM18.D14"
+equiv "vout" "OTA_0.XM18.D12"
+equiv "vout" "OTA_0.XM18.D10"
+equiv "vout" "OTA_0.XM18.D8"
+equiv "vout" "OTA_0.XM18.D6"
+equiv "vout" "OTA_0.XM18.D4"
+equiv "vout" "OTA_0.XM18.D2"
+equiv "vout" "OTA_0.XM18.D0"
+equiv "vout" "OTA_0.vout"
+node "OTA_0.XM17.D0" 143329 10591.7 16551 6440 pdif 0 0 0 0 0 0 0 0 835200 29496 1531200 54076 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 316160 8224 0 0 1402704 83940 2293816 95430 2944128 26056 0 0 0 0 0 0 0 0
+equiv "OTA_0.XM17.D0" "OTA_0.XM13.D8"
+equiv "OTA_0.XM17.D0" "OTA_0.XM13.D6"
+equiv "OTA_0.XM17.D0" "OTA_0.XM13.D4"
+equiv "OTA_0.XM17.D0" "OTA_0.XM13.D2"
+equiv "OTA_0.XM17.D0" "OTA_0.XM13.D0"
+equiv "OTA_0.XM17.D0" "OTA_0.XM15.G"
+equiv "OTA_0.XM17.D0" "OTA_0.XM16.G"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D18"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D16"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D14"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D12"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D10"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D8"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D6"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D4"
+equiv "OTA_0.XM17.D0" "OTA_0.XM17.D2"
+node "OTA_0.XM21.D0" 138782 1872.96 14161 3210 ndif 0 0 0 0 0 0 0 0 696000 24580 1577600 56024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1337968 79996 2017672 83132 1329316 12300 2269436 14504 0 0 0 0 0 0
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S19"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S17"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S15"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S13"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S11"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S9"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S7"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S5"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S3"
+equiv "OTA_0.XM21.D0" "OTA_0.XM17.S1"
+equiv "OTA_0.XM21.D0" "OTA_0.XM20.D4"
+equiv "OTA_0.XM21.D0" "OTA_0.XM20.D2"
+equiv "OTA_0.XM21.D0" "OTA_0.XM20.D0"
+equiv "OTA_0.XM21.D0" "OTA_0.XM21.D6"
+equiv "OTA_0.XM21.D0" "OTA_0.XM21.D4"
+equiv "OTA_0.XM21.D0" "OTA_0.XM21.D2"
+node "OTA_0.XM22.D0" 138783 3905.95 11751 6442 pdif 0 0 0 0 0 0 0 0 696000 24580 1577600 56024 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1337968 79996 2017672 83132 1334820 12372 5068200 29100 0 0 0 0 0 0
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S19"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S17"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S15"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S13"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S11"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S9"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S7"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S5"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S3"
+equiv "OTA_0.XM22.D0" "OTA_0.XM18.S1"
+equiv "OTA_0.XM22.D0" "OTA_0.XM19.D4"
+equiv "OTA_0.XM22.D0" "OTA_0.XM19.D2"
+equiv "OTA_0.XM22.D0" "OTA_0.XM19.D0"
+equiv "OTA_0.XM22.D0" "OTA_0.XM22.D6"
+equiv "OTA_0.XM22.D0" "OTA_0.XM22.D4"
+equiv "OTA_0.XM22.D0" "OTA_0.XM22.D2"
+node "OTA_0.XM34.S" 9304 10480.7 10556 5296 ndif 0 0 0 0 0 0 0 0 18560 756 69600 2516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 451840 11776 0 0 68544 4576 762316 15788 1246176 11620 0 0 0 0 0 0 0 0
+equiv "OTA_0.XM34.S" "OTA_0.XM23.G1"
+equiv "OTA_0.XM34.S" "OTA_0.XM23.G0"
+equiv "OTA_0.XM34.S" "OTA_0.XM24.G"
+equiv "OTA_0.XM34.S" "OTA_0.XM24.D"
+node "biasing_0.XM8.D" 4494 2876.62 5662 5642 ndif 0 0 0 0 0 0 0 0 99760 3672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59024 3608 409928 6224 0 0 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM8.D" "biasing_0.XM7.S"
+node "biasing_0.XM6.D" 4494 2713.68 4335 5642 ndif 0 0 0 0 0 0 0 0 99760 3672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59024 3608 409488 6214 0 0 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM6.D" "biasing_0.XM5.S"
+node "biasing_0.XM4.D" 4494 2737.85 3064 5642 ndif 0 0 0 0 0 0 0 0 99760 3672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59024 3608 411168 6140 0 0 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM4.D" "biasing_0.XM3.S"
+node "biasing_0.XM2.D" 4494 2798.78 2136 5641 ndif 0 0 0 0 0 0 0 0 99760 3672 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 59024 3608 411168 6140 0 0 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM2.D" "biasing_0.XM1.S"
+node "biasing_0.VD" 9592 12258.4 3064 6420 ndif 0 0 0 0 0 0 0 0 92800 3316 69600 2516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 71040 2256 0 0 112064 7136 1117218 14320 1612928 20420 0 0 0 0 0 0 0 0
+equiv "biasing_0.VD" "biasing_0.XM3.D"
+equiv "biasing_0.VD" "biasing_0.XM4.G"
+equiv "biasing_0.VD" "biasing_0.XM6.G"
+equiv "biasing_0.VD" "biasing_0.XM8.G"
+equiv "biasing_0.VD" "biasing_0.XM33.S"
+node "OTA_0.vc" 49324 36296.8 2136 6420 ndif 0 0 0 0 0 0 0 0 92800 3316 69600 2516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4713600 121840 0 0 231744 17168 2808456 54450 7456100 38968 6664172 27732 0 0 0 0 0 0
+equiv "OTA_0.vc" "biasing_0.XM1.G"
+equiv "OTA_0.vc" "biasing_0.XM1.D"
+equiv "OTA_0.vc" "biasing_0.XM2.G"
+equiv "OTA_0.vc" "biasing_0.XM3.G"
+equiv "OTA_0.vc" "biasing_0.XM5.G"
+equiv "OTA_0.vc" "biasing_0.XM7.G"
+equiv "OTA_0.vc" "biasing_0.XM32.S"
+equiv "OTA_0.vc" "biasing_0.VC"
+equiv "OTA_0.vc" "OTA_0.XM13.G9"
+equiv "OTA_0.vc" "OTA_0.XM13.G8"
+equiv "OTA_0.vc" "OTA_0.XM13.G7"
+equiv "OTA_0.vc" "OTA_0.XM13.G6"
+equiv "OTA_0.vc" "OTA_0.XM13.G5"
+equiv "OTA_0.vc" "OTA_0.XM13.G4"
+equiv "OTA_0.vc" "OTA_0.XM13.G3"
+equiv "OTA_0.vc" "OTA_0.XM13.G2"
+equiv "OTA_0.vc" "OTA_0.XM13.G1"
+equiv "OTA_0.vc" "OTA_0.XM13.G0"
+equiv "OTA_0.vc" "OTA_0.XM14.G9"
+equiv "OTA_0.vc" "OTA_0.XM14.G8"
+equiv "OTA_0.vc" "OTA_0.XM14.G7"
+equiv "OTA_0.vc" "OTA_0.XM14.G6"
+equiv "OTA_0.vc" "OTA_0.XM14.G5"
+equiv "OTA_0.vc" "OTA_0.XM14.G4"
+equiv "OTA_0.vc" "OTA_0.XM14.G3"
+equiv "OTA_0.vc" "OTA_0.XM14.G2"
+equiv "OTA_0.vc" "OTA_0.XM14.G1"
+equiv "OTA_0.vc" "OTA_0.XM14.G0"
+node "OTA_0.vdo" 14928 12493.4 2194 8752 p 0 0 0 0 0 0 0 0 116000 4232 69600 2516 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 557600 14740 0 0 136816 8932 1727723 31582 2459044 21860 11917628 37600 0 0 0 0 0 0
+equiv "OTA_0.vdo" "Beta_mult_0.XM1.G"
+equiv "OTA_0.vdo" "Beta_mult_0.XM1.D"
+equiv "OTA_0.vdo" "Beta_mult_0.XM25.G"
+equiv "OTA_0.vdo" "Beta_mult_0.XM27.D"
+equiv "OTA_0.vdo" "Beta_mult_0.XM31.D"
+equiv "OTA_0.vdo" "Beta_mult_0.vdo"
+equiv "OTA_0.vdo" "biasing_0.XM32.G"
+equiv "OTA_0.vdo" "biasing_0.XM33.G"
+equiv "OTA_0.vdo" "biasing_0.vdo"
+equiv "OTA_0.vdo" "OTA_0.XM34.G"
+node "biasing_0.XM12.D" 7394 0 5577 11249 pdif 0 0 0 0 0 0 0 0 0 0 106720 3912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63104 3848 124476 4282 142304 2912 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM12.D" "biasing_0.XM10.S1"
+node "OTA_0.vb" 93243 16523 4394 8755 p 0 0 0 0 0 0 0 0 92800 3316 185600 6632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8909600 229940 0 0 408816 30372 2681882 62060 3201372 24136 11220120 39860 0 0 0 0 0 0
+equiv "OTA_0.vb" "biasing_0.XM7.D"
+equiv "OTA_0.vb" "biasing_0.XM9.G1"
+equiv "OTA_0.vb" "biasing_0.XM9.G0"
+equiv "OTA_0.vb" "biasing_0.XM10.G1"
+equiv "OTA_0.vb" "biasing_0.XM10.G0"
+equiv "OTA_0.vb" "biasing_0.XM10.D0"
+equiv "OTA_0.vb" "biasing_0.XM12.G"
+equiv "OTA_0.vb" "biasing_0.VB"
+equiv "OTA_0.vb" "OTA_0.XM17.G19"
+equiv "OTA_0.vb" "OTA_0.XM17.G18"
+equiv "OTA_0.vb" "OTA_0.XM17.G17"
+equiv "OTA_0.vb" "OTA_0.XM17.G16"
+equiv "OTA_0.vb" "OTA_0.XM17.G15"
+equiv "OTA_0.vb" "OTA_0.XM17.G14"
+equiv "OTA_0.vb" "OTA_0.XM17.G13"
+equiv "OTA_0.vb" "OTA_0.XM17.G12"
+equiv "OTA_0.vb" "OTA_0.XM17.G11"
+equiv "OTA_0.vb" "OTA_0.XM17.G10"
+equiv "OTA_0.vb" "OTA_0.XM17.G9"
+equiv "OTA_0.vb" "OTA_0.XM17.G8"
+equiv "OTA_0.vb" "OTA_0.XM17.G7"
+equiv "OTA_0.vb" "OTA_0.XM17.G6"
+equiv "OTA_0.vb" "OTA_0.XM17.G5"
+equiv "OTA_0.vb" "OTA_0.XM17.G4"
+equiv "OTA_0.vb" "OTA_0.XM17.G3"
+equiv "OTA_0.vb" "OTA_0.XM17.G2"
+equiv "OTA_0.vb" "OTA_0.XM17.G1"
+equiv "OTA_0.vb" "OTA_0.XM17.G0"
+equiv "OTA_0.vb" "OTA_0.XM18.G19"
+equiv "OTA_0.vb" "OTA_0.XM18.G18"
+equiv "OTA_0.vb" "OTA_0.XM18.G17"
+equiv "OTA_0.vb" "OTA_0.XM18.G16"
+equiv "OTA_0.vb" "OTA_0.XM18.G15"
+equiv "OTA_0.vb" "OTA_0.XM18.G14"
+equiv "OTA_0.vb" "OTA_0.XM18.G13"
+equiv "OTA_0.vb" "OTA_0.XM18.G12"
+equiv "OTA_0.vb" "OTA_0.XM18.G11"
+equiv "OTA_0.vb" "OTA_0.XM18.G10"
+equiv "OTA_0.vb" "OTA_0.XM18.G9"
+equiv "OTA_0.vb" "OTA_0.XM18.G8"
+equiv "OTA_0.vb" "OTA_0.XM18.G7"
+equiv "OTA_0.vb" "OTA_0.XM18.G6"
+equiv "OTA_0.vb" "OTA_0.XM18.G5"
+equiv "OTA_0.vb" "OTA_0.XM18.G4"
+equiv "OTA_0.vb" "OTA_0.XM18.G3"
+equiv "OTA_0.vb" "OTA_0.XM18.G2"
+equiv "OTA_0.vb" "OTA_0.XM18.G1"
+equiv "OTA_0.vb" "OTA_0.XM18.G0"
+node "biasing_0.XM11.D" 7394 0 4398 11250 pdif 0 0 0 0 0 0 0 0 0 0 106720 3912 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63104 3848 124696 4284 142332 2912 0 0 0 0 0 0 0 0
+equiv "biasing_0.XM11.D" "biasing_0.XM9.S1"
+node "OTA_0.va" 26633 10314.4 4336 6420 ndif 0 0 0 0 0 0 0 0 92800 3316 185600 6632 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 988960 26804 0 0 234736 15780 1713514 29974 8593276 43296 0 0 0 0 0 0 0 0
+equiv "OTA_0.va" "biasing_0.XM5.D"
+equiv "OTA_0.va" "biasing_0.XM9.D0"
+equiv "OTA_0.va" "biasing_0.XM11.G"
+equiv "OTA_0.va" "biasing_0.VA"
+equiv "OTA_0.va" "OTA_0.XM19.G5"
+equiv "OTA_0.va" "OTA_0.XM19.G4"
+equiv "OTA_0.va" "OTA_0.XM19.G3"
+equiv "OTA_0.va" "OTA_0.XM19.G2"
+equiv "OTA_0.va" "OTA_0.XM19.G1"
+equiv "OTA_0.va" "OTA_0.XM19.G0"
+equiv "OTA_0.va" "OTA_0.XM20.G5"
+equiv "OTA_0.va" "OTA_0.XM20.G4"
+equiv "OTA_0.va" "OTA_0.XM20.G3"
+equiv "OTA_0.va" "OTA_0.XM20.G2"
+equiv "OTA_0.va" "OTA_0.XM20.G1"
+equiv "OTA_0.va" "OTA_0.XM20.G0"
+node "vdd" 355018 172377 -460 2076 m1 0 0 0 0 31111224 80080 0 0 2520896 148288 677440 24984 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60024595 170528 33592184 171190 894100 7800 0 0 0 0 0 0 0 0
+equiv "vdd" "Beta_mult_0.XM1.S"
+equiv "vdd" "Beta_mult_0.XM1.B"
+equiv "vdd" "Beta_mult_0.XM25.S"
+equiv "vdd" "Beta_mult_0.XM25.B"
+equiv "vdd" "Beta_mult_0.XM29.S"
+equiv "vdd" "Beta_mult_0.XM29.B"
+equiv "vdd" "Beta_mult_0.vdd"
+equiv "vdd" "biasing_0.XM9.B"
+equiv "vdd" "biasing_0.XM10.B"
+equiv "vdd" "biasing_0.XM11.S"
+equiv "vdd" "biasing_0.XM11.B"
+equiv "vdd" "biasing_0.XM12.S"
+equiv "vdd" "biasing_0.XM12.B"
+equiv "vdd" "biasing_0.XM32.D"
+equiv "vdd" "biasing_0.XM32.B"
+equiv "vdd" "biasing_0.XM33.D"
+equiv "vdd" "biasing_0.XM33.B"
+equiv "vdd" "biasing_0.vdd"
+equiv "vdd" "OTA_0.XM17.B"
+equiv "vdd" "OTA_0.XM18.B"
+equiv "vdd" "OTA_0.XM19.S5"
+equiv "vdd" "OTA_0.XM19.S3"
+equiv "vdd" "OTA_0.XM19.S1"
+equiv "vdd" "OTA_0.XM19.B"
+equiv "vdd" "OTA_0.XM20.S5"
+equiv "vdd" "OTA_0.XM20.S3"
+equiv "vdd" "OTA_0.XM20.S1"
+equiv "vdd" "OTA_0.XM20.B"
+equiv "vdd" "OTA_0.XM34.D"
+equiv "vdd" "OTA_0.XM34.B"
+equiv "vdd" "OTA_0.vdd"
+substrate "vss" 0 0 -464 354 m1 0 0 0 0 0 0 0 0 440800 16360 3273248 192544 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77966508 185998 36430036 176046 3513824 18408 0 0 0 0 0 0 0 0
+equiv "vss" "Beta_mult_0.XM27.B"
+equiv "vss" "Beta_mult_0.XM28.S"
+equiv "vss" "Beta_mult_0.XM28.B"
+equiv "vss" "Beta_mult_0.XM30.S"
+equiv "vss" "Beta_mult_0.XM30.B"
+equiv "vss" "Beta_mult_0.XM31.B"
+equiv "vss" "Beta_mult_0.XR1.R2"
+equiv "vss" "Beta_mult_0.XR1.B"
+equiv "vss" "Beta_mult_0.vss"
+equiv "vss" "biasing_0.XM1.B"
+equiv "vss" "biasing_0.XM2.S"
+equiv "vss" "biasing_0.XM2.B"
+equiv "vss" "biasing_0.XM3.B"
+equiv "vss" "biasing_0.XM4.S"
+equiv "vss" "biasing_0.XM4.B"
+equiv "vss" "biasing_0.XM5.B"
+equiv "vss" "biasing_0.XM6.S"
+equiv "vss" "biasing_0.XM6.B"
+equiv "vss" "biasing_0.XM7.B"
+equiv "vss" "biasing_0.XM8.S"
+equiv "vss" "biasing_0.XM8.B"
+equiv "vss" "biasing_0.vss"
+equiv "vss" "OTA_0.XM13.B"
+equiv "vss" "OTA_0.XM14.B"
+equiv "vss" "OTA_0.XM15.S"
+equiv "vss" "OTA_0.XM15.B"
+equiv "vss" "OTA_0.XM16.S"
+equiv "vss" "OTA_0.XM16.B"
+equiv "vss" "OTA_0.XM21.B"
+equiv "vss" "OTA_0.XM22.B"
+equiv "vss" "OTA_0.XM23.S1"
+equiv "vss" "OTA_0.XM23.B"
+equiv "vss" "OTA_0.XM24.S"
+equiv "vss" "OTA_0.XM24.B"
+equiv "vss" "OTA_0.vss"
+cap "biasing_0.XM2.D" "biasing_0.VD" 188.864
+cap "biasing_0.VD" "OTA_0.vb" 2.01461
+cap "OTA_0.XM21.D0" "vout" 0.00136493
+cap "OTA_0.XM22.D0" "OTA_0.va" 5402.26
+cap "biasing_0.XM8.D" "OTA_0.vb" 371.992
+cap "biasing_0.XM6.D" "biasing_0.VD" 169.906
+cap "OTA_0.vdo" "biasing_0.XM11.D" 176.258
+cap "biasing_0.XM2.D" "OTA_0.vc" 2652.17
+cap "biasing_0.XM11.D" "vdd" 881.181
+cap "OTA_0.vc" "OTA_0.vb" 1739.63
+cap "OTA_0.XM23.D0" "OTA_0.vc" 674.57
+cap "OTA_0.XM16.D" "OTA_0.vb" 0.858683
+cap "OTA_0.XM22.D0" "OTA_0.XM34.S" 8.37005
+cap "OTA_0.vc" "biasing_0.XM6.D" 1262.1
+cap "OTA_0.vdo" "vdd" 18570
+cap "OTA_0.va" "OTA_0.vb" 3790.34
+cap "OTA_0.XM23.D0" "OTA_0.va" 0.757098
+cap "vin" "OTA_0.vdo" 30.6434
+cap "OTA_0.XM17.D0" "vdd" 5009.54
+cap "OTA_0.va" "biasing_0.XM6.D" 372.542
+cap "vin" "vdd" 4160.3
+cap "Beta_mult_0.XR1.R1" "OTA_0.vdo" 579.113
+cap "OTA_0.XM21.D0" "vdd" 10165
+cap "vout" "OTA_0.vc" 8046.07
+cap "OTA_0.vb" "biasing_0.XM12.D" 3612.69
+cap "OTA_0.XM21.D0" "OTA_0.XM17.D0" 28456.3
+cap "OTA_0.XM15.D" "OTA_0.vb" 1.00782
+cap "vout" "OTA_0.XM16.D" 14123.7
+cap "OTA_0.XM21.D0" "vin" 0.139929
+cap "OTA_0.XM23.D0" "OTA_0.XM34.S" 1853.26
+cap "vip" "vdd" 4921.29
+cap "Beta_mult_0.XM31.G" "OTA_0.vdo" 594.402
+cap "OTA_0.XM17.D0" "vip" 62.5669
+cap "OTA_0.vdo" "biasing_0.VD" 1118.43
+cap "vin" "vip" 2.02822
+cap "OTA_0.vdo" "biasing_0.XM8.D" 3.30163
+cap "Beta_mult_0.XM31.G" "vdd" 10185.7
+cap "OTA_0.XM21.D0" "vip" 6756.96
+cap "OTA_0.XM22.D0" "OTA_0.vb" 10458.6
+cap "biasing_0.VD" "vdd" 2122.49
+cap "OTA_0.XM23.D0" "OTA_0.XM22.D0" 10879.3
+cap "biasing_0.XM8.D" "vdd" 3.07913
+cap "OTA_0.vdo" "OTA_0.vc" 3207.3
+cap "OTA_0.va" "biasing_0.XM11.D" 2572.81
+cap "OTA_0.vc" "vdd" 5844.43
+cap "OTA_0.XM17.D0" "OTA_0.vc" 7061.37
+cap "OTA_0.vdo" "OTA_0.va" 1281.99
+cap "OTA_0.XM16.D" "OTA_0.XM17.D0" 1303.27
+cap "vin" "OTA_0.vc" 546.614
+cap "vout" "OTA_0.XM22.D0" 28297.7
+cap "biasing_0.XM11.D" "biasing_0.XM12.D" 37.2767
+cap "OTA_0.XM21.D0" "OTA_0.vc" 532.255
+cap "OTA_0.va" "vdd" 21083.9
+cap "OTA_0.XM17.D0" "OTA_0.va" 0.0229882
+cap "OTA_0.vdo" "biasing_0.XM12.D" 30.0326
+cap "biasing_0.XM6.D" "OTA_0.vb" 4.61933
+cap "vin" "OTA_0.va" 189.431
+cap "biasing_0.XM8.D" "biasing_0.VD" 169.354
+cap "OTA_0.XM21.D0" "OTA_0.va" 1865.65
+cap "vip" "OTA_0.vc" 553.272
+cap "biasing_0.XM12.D" "vdd" 952.462
+cap "OTA_0.vdo" "OTA_0.XM34.S" 845.891
+cap "OTA_0.XM15.D" "OTA_0.XM17.D0" 15679.5
+cap "vip" "OTA_0.va" 182.756
+cap "OTA_0.XM34.S" "vdd" 1867.05
+cap "OTA_0.vc" "biasing_0.VD" 3229.28
+cap "vout" "OTA_0.vb" 10532.7
+cap "OTA_0.vc" "biasing_0.XM8.D" 1276.17
+cap "vin" "OTA_0.XM34.S" 53.023
+cap "OTA_0.vdo" "OTA_0.XM22.D0" 0.000970924
+cap "OTA_0.XM21.D0" "OTA_0.XM34.S" 0.0404365
+cap "OTA_0.va" "biasing_0.VD" 27.2975
+cap "Beta_mult_0.XM31.S" "OTA_0.vdo" 3166.23
+cap "OTA_0.XM22.D0" "vdd" 13030.1
+cap "OTA_0.XM17.D0" "OTA_0.XM22.D0" 6.54711
+cap "OTA_0.XM16.D" "OTA_0.vc" 6534.25
+cap "Beta_mult_0.XM31.S" "vdd" 1722.15
+cap "vip" "OTA_0.XM34.S" 0.425513
+cap "vin" "OTA_0.XM22.D0" 5096.91
+cap "OTA_0.XM21.D0" "OTA_0.XM22.D0" 760.77
+cap "biasing_0.XM11.D" "OTA_0.vb" 848.599
+cap "biasing_0.XM4.D" "biasing_0.VD" 516.313
+cap "OTA_0.vc" "OTA_0.va" 1560.15
+cap "OTA_0.vdo" "OTA_0.vb" 1605.89
+cap "Beta_mult_0.XM31.S" "Beta_mult_0.XR1.R1" 1332.55
+cap "vip" "OTA_0.XM22.D0" 489.522
+cap "OTA_0.vdo" "biasing_0.XM6.D" 2.56555
+cap "OTA_0.vb" "vdd" 27509.2
+cap "OTA_0.XM17.D0" "OTA_0.vb" 10468.5
+cap "biasing_0.XM4.D" "OTA_0.vc" 1227.87
+cap "OTA_0.XM15.D" "OTA_0.vc" 5294.87
+cap "OTA_0.XM23.D0" "OTA_0.XM17.D0" 4.85235
+cap "vin" "OTA_0.vb" 18.6165
+cap "biasing_0.XM6.D" "vdd" 1.48463
+cap "vin" "OTA_0.XM23.D0" 3810.22
+cap "Beta_mult_0.XM31.G" "Beta_mult_0.XM31.S" 527.544
+cap "OTA_0.vc" "OTA_0.XM34.S" 562.621
+cap "OTA_0.XM21.D0" "OTA_0.vb" 9993.27
+cap "OTA_0.XM21.D0" "OTA_0.XM23.D0" 10870.8
+cap "OTA_0.va" "biasing_0.XM12.D" 18.3179
+cap "OTA_0.va" "OTA_0.XM34.S" 0.106357
+cap "vip" "OTA_0.vb" 50.9295
+cap "OTA_0.vc" "OTA_0.XM22.D0" 518.954
+cap "OTA_0.XM23.D0" "vip" 3808.61
+cap "vout" "vdd" 5615.89
+cap "vout" "OTA_0.XM17.D0" 6.61662
+device msubckt sky130_fd_pr__nfet_01v8 21226 1625 21227 1626 l=80 w=1800 "vss" "OTA_0.XM17.D0" 160 0 "vss" 1800 104400,3716 "OTA_0.XM16.D" 1800 104400,3716
+device msubckt sky130_fd_pr__nfet_01v8 17000 1618 17001 1619 l=80 w=1800 "vss" "OTA_0.XM17.D0" 160 0 "vss" 1800 104400,3716 "OTA_0.XM15.D" 1800 104400,3716
+device msubckt sky130_fd_pr__nfet_01v8 12316 1600 12317 1601 l=80 w=2400 "vss" "OTA_0.XM34.S" 160 0 "OTA_0.XM23.D0" 2400 139200,4916 "vss" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12316 1738 12317 1739 l=80 w=2400 "vss" "OTA_0.XM34.S" 160 0 "vss" 2400 69600,2458 "OTA_0.XM23.D0" 2400 139200,4916
+device msubckt sky130_fd_pr__nfet_01v8 6720 16 6721 17 l=80 w=1600 "vss" "Beta_mult_0.XM31.S" 160 0 "OTA_0.vdo" 1600 92800,3316 "Beta_mult_0.XR1.R1" 1600 92800,3316
+device rsubckt sky130_fd_pr__res_high_po_0p69 2631 -4 2632 -3 l=2968 "vss" "a_2631_n4#" 0 0 "vss" 138 59616,1140 "Beta_mult_0.XR1.R1" 138 59616,1140
+device msubckt sky130_fd_pr__nfet_01v8 5792 1216 5793 1217 l=80 w=400 "vss" "Beta_mult_0.XM31.S" 160 0 "Beta_mult_0.XM31.S" 400 23200,916 "vss" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 4792 1217 4793 1218 l=40 w=400 "vss" "Beta_mult_0.XM31.G" 80 0 "OTA_0.vdo" 400 23200,916 "Beta_mult_0.XM31.S" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 3791 1216 3792 1217 l=80 w=400 "vss" "Beta_mult_0.XM31.S" 160 0 "Beta_mult_0.XM31.G" 400 23200,916 "vss" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 22543 3216 22544 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM16.D" 2400 69600,2458 "vout" 2400 139200,4916
+device msubckt sky130_fd_pr__nfet_01v8 22405 3216 22406 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "vout" 2400 69600,2458 "OTA_0.XM16.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 22267 3216 22268 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM16.D" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 22129 3216 22130 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "vout" 2400 69600,2458 "OTA_0.XM16.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21991 3216 21992 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM16.D" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21853 3216 21854 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "vout" 2400 69600,2458 "OTA_0.XM16.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21715 3216 21716 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM16.D" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21577 3216 21578 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "vout" 2400 69600,2458 "OTA_0.XM16.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21439 3216 21440 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM16.D" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 21301 3216 21302 3217 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "vout" 2400 139200,4916 "OTA_0.XM16.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 18643 3212 18644 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM15.D" 2400 69600,2458 "OTA_0.XM17.D0" 2400 139200,4916
+device msubckt sky130_fd_pr__nfet_01v8 18505 3212 18506 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM15.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 18367 3212 18368 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM15.D" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 18229 3212 18230 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM15.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 18091 3212 18092 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM15.D" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 17953 3212 17954 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM15.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 17815 3212 17816 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM15.D" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 17677 3212 17678 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM15.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 17539 3212 17540 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM15.D" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 17401 3212 17402 3213 l=80 w=2400 "vss" "OTA_0.vc" 160 0 "OTA_0.XM17.D0" 2400 139200,4916 "OTA_0.XM15.D" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 15185 3210 15186 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 139200,4916
+device msubckt sky130_fd_pr__nfet_01v8 15047 3210 15048 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14909 3210 14910 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14771 3210 14772 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14633 3210 14634 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14495 3210 14496 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14357 3210 14358 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 14219 3210 14220 3211 l=80 w=2400 "vss" "vip" 160 0 "OTA_0.XM21.D0" 2400 139200,4916 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12778 3216 12779 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM22.D0" 2400 139200,4916
+device msubckt sky130_fd_pr__nfet_01v8 12640 3216 12641 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12502 3216 12503 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12364 3216 12365 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12226 3216 12227 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 12088 3216 12089 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 11950 3216 11951 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM23.D0" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 11812 3216 11813 3217 l=80 w=2400 "vss" "vin" 160 0 "OTA_0.XM22.D0" 2400 139200,4916 "OTA_0.XM23.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 6720 2445 6721 2446 l=80 w=1200 "vdd" "OTA_0.vdo" 160 0 "OTA_0.vdo" 1200 69600,2516 "vdd" 1200 69600,2516
+device msubckt sky130_fd_pr__pfet_01v8 5792 2447 5793 2448 l=80 w=1200 "vdd" "OTA_0.vdo" 160 0 "Beta_mult_0.XM31.S" 1200 69600,2516 "vdd" 1200 69600,2516
+device msubckt sky130_fd_pr__pfet_01v8 997 2448 998 2449 l=4000 w=400 "vdd" "Beta_mult_0.XM31.G" 8000 0 "Beta_mult_0.XM31.G" 400 23200,916 "vdd" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 10614 5296 10615 5297 l=80 w=320 "vss" "OTA_0.XM34.S" 160 0 "OTA_0.XM34.S" 320 18560,756 "vss" 320 18560,756
+device msubckt sky130_fd_pr__nfet_01v8 5720 5642 5721 5643 l=80 w=120 "vss" "biasing_0.VD" 160 0 "biasing_0.XM8.D" 120 6960,356 "vss" 120 6960,356
+device msubckt sky130_fd_pr__nfet_01v8 4393 5642 4394 5643 l=80 w=120 "vss" "biasing_0.VD" 160 0 "biasing_0.XM6.D" 120 6960,356 "vss" 120 6960,356
+device msubckt sky130_fd_pr__nfet_01v8 3122 5642 3123 5643 l=80 w=120 "vss" "biasing_0.VD" 160 0 "biasing_0.XM4.D" 120 6960,356 "vss" 120 6960,356
+device msubckt sky130_fd_pr__nfet_01v8 2194 5641 2195 5642 l=80 w=120 "vss" "OTA_0.vc" 160 0 "biasing_0.XM2.D" 120 6960,356 "vss" 120 6960,356
+device msubckt sky130_fd_pr__pfet_01v8 23340 6440 23341 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 139200,4916
+device msubckt sky130_fd_pr__pfet_01v8 23202 6440 23203 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 23064 6440 23065 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22926 6440 22927 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22788 6440 22789 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22650 6440 22651 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22512 6440 22513 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22374 6440 22375 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22236 6440 22237 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 22098 6440 22099 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21960 6440 21961 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21822 6440 21823 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21684 6440 21685 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21546 6440 21547 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21408 6440 21409 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21270 6440 21271 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 21132 6440 21133 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 20994 6440 20995 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 69600,2458 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 20856 6440 20857 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM22.D0" 2400 69600,2458 "vout" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 20718 6440 20719 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "vout" 2400 139200,4916 "OTA_0.XM22.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 19231 6440 19232 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 139200,4916
+device msubckt sky130_fd_pr__pfet_01v8 19093 6440 19094 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18955 6440 18956 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18817 6440 18818 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18679 6440 18680 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18541 6440 18542 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18403 6440 18404 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18265 6440 18266 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 18127 6440 18128 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17989 6440 17990 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17851 6440 17852 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17713 6440 17714 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17575 6440 17576 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17437 6440 17438 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17299 6440 17300 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17161 6440 17162 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 17023 6440 17024 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 16885 6440 16886 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 69600,2458 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 16747 6440 16748 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM21.D0" 2400 69600,2458 "OTA_0.XM17.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 16609 6440 16610 6441 l=80 w=2400 "vdd" "OTA_0.vb" 160 0 "OTA_0.XM17.D0" 2400 139200,4916 "OTA_0.XM21.D0" 2400 69600,2458
+device msubckt sky130_fd_pr__pfet_01v8 15141 6440 15142 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM21.D0" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8 15003 6440 15004 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM21.D0" 800 23200,858 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 14865 6440 14866 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM21.D0" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 14727 6440 14728 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM21.D0" 800 23200,858 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 14589 6440 14590 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM21.D0" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 14451 6440 14452 6441 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM21.D0" 800 46400,1716 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 12499 6442 12500 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM22.D0" 800 46400,1716
+device msubckt sky130_fd_pr__pfet_01v8 12361 6442 12362 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM22.D0" 800 23200,858 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 12223 6442 12224 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM22.D0" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 12085 6442 12086 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM22.D0" 800 23200,858 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 11947 6442 11948 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "vdd" 800 23200,858 "OTA_0.XM22.D0" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 11809 6442 11810 6443 l=80 w=800 "vdd" "OTA_0.va" 160 0 "OTA_0.XM22.D0" 800 46400,1716 "vdd" 800 23200,858
+device msubckt sky130_fd_pr__pfet_01v8 10614 6442 10615 6443 l=80 w=1200 "vdd" "OTA_0.vdo" 160 0 "vdd" 1200 69600,2516 "OTA_0.XM34.S" 1200 69600,2516
+device msubckt sky130_fd_pr__nfet_01v8 5722 6420 5723 6421 l=80 w=1600 "vss" "OTA_0.vc" 160 0 "OTA_0.vb" 1600 92800,3316 "biasing_0.XM8.D" 1600 92800,3316
+device msubckt sky130_fd_pr__nfet_01v8 4394 6420 4395 6421 l=80 w=1600 "vss" "OTA_0.vc" 160 0 "OTA_0.va" 1600 92800,3316 "biasing_0.XM6.D" 1600 92800,3316
+device msubckt sky130_fd_pr__nfet_01v8 3122 6420 3123 6421 l=80 w=1600 "vss" "OTA_0.vc" 160 0 "biasing_0.VD" 1600 92800,3316 "biasing_0.XM4.D" 1600 92800,3316
+device msubckt sky130_fd_pr__nfet_01v8 2194 6420 2195 6421 l=80 w=1600 "vss" "OTA_0.vc" 160 0 "OTA_0.vc" 1600 92800,3316 "biasing_0.XM2.D" 1600 92800,3316
+device msubckt sky130_fd_pr__pfet_01v8 5719 8850 5720 8851 l=80 w=1600 "vdd" "OTA_0.vb" 160 0 "biasing_0.XM12.D" 1600 46400,1658 "OTA_0.vb" 1600 92800,3316
+device msubckt sky130_fd_pr__pfet_01v8 5581 8850 5582 8851 l=80 w=1600 "vdd" "OTA_0.vb" 160 0 "OTA_0.vb" 1600 92800,3316 "biasing_0.XM12.D" 1600 46400,1658
+device msubckt sky130_fd_pr__pfet_01v8 4532 8852 4533 8853 l=80 w=1600 "vdd" "OTA_0.vb" 160 0 "biasing_0.XM11.D" 1600 46400,1658 "OTA_0.va" 1600 92800,3316
+device msubckt sky130_fd_pr__pfet_01v8 4394 8852 4395 8853 l=80 w=1600 "vdd" "OTA_0.vb" 160 0 "OTA_0.va" 1600 92800,3316 "biasing_0.XM11.D" 1600 46400,1658
+device msubckt sky130_fd_pr__pfet_01v8 3121 8850 3122 8851 l=80 w=1200 "vdd" "OTA_0.vdo" 160 0 "vdd" 1200 69600,2516 "biasing_0.VD" 1200 69600,2516
+device msubckt sky130_fd_pr__pfet_01v8 2194 8849 2195 8850 l=80 w=1200 "vdd" "OTA_0.vdo" 160 0 "vdd" 1200 69600,2516 "OTA_0.vc" 1200 69600,2516
+device msubckt sky130_fd_pr__pfet_01v8 5635 11249 5636 11250 l=80 w=240 "vdd" "OTA_0.vb" 160 0 "biasing_0.XM12.D" 240 13920,596 "vdd" 240 13920,596
+device msubckt sky130_fd_pr__pfet_01v8 4456 11250 4457 11251 l=80 w=240 "vdd" "OTA_0.va" 160 0 "biasing_0.XM11.D" 240 13920,596 "vdd" 240 13920,596

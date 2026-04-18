@@ -1,0 +1,174 @@
+scale 1000 1 500000
+rnode "B.n0" 0 0 804 0 0
+rnode "B.n1" 0 0 -804 0 0
+rnode "B.n2" 0 0 804 0 0
+rnode "B.t9" 0 0 621 0 0
+rnode "B.t4" 0 0 483 0 0
+rnode "B.t2" 0 0 345 0 0
+rnode "B.t1" 0 0 207 0 0
+rnode "B.t0" 0 0 69 0 0
+rnode "B.n3" 0 0 0 1357 0
+rnode "B.n4" 0 0 0 1357 0
+rnode "B.n5" 0 0 0 1357 0
+rnode "B.t8" 0 0 -69 0 0
+rnode "B.t6" 0 0 -207 0 0
+rnode "B.t5" 0 0 -345 0 0
+rnode "B.t7" 0 0 -483 0 0
+rnode "B.t3" 0 0 -621 0 0
+rnode "B.n6" 0 0 -804 0 0
+rnode "B.n7" 0 0 0 -1357 0
+rnode "B" 0 0 0 -1357 0
+resist "B.n6" "B.n1" 15.3947
+resist "B.n2" "B.n0" 15.3947
+resist "B.n7" "B.n3" 27.8571
+resist "B" "B.n7" 27.8571
+resist "B.n5" "B.n3" 27.8571
+resist "B.n5" "B.n4" 27.8571
+resist "B.t8" "B.n3" 107.66
+resist "B.n3" "B.t0" 107.66
+resist "B.t3" "B.t7" 215.319
+resist "B.t7" "B.t5" 215.319
+resist "B.t5" "B.t6" 215.319
+resist "B.t6" "B.t8" 215.319
+resist "B.t0" "B.t1" 215.319
+resist "B.t1" "B.t2" 215.319
+resist "B.t2" "B.t4" 215.319
+resist "B.t4" "B.t9" 215.319
+resist "B.n6" "B.t3" 300.927
+resist "B.t9" "B.n2" 300.927
+resist "B" "B.n0" 807.153
+resist "B" "B.n1" 807.153
+resist "B.n4" "B.n1" 807.153
+resist "B.n4" "B.n0" 807.153
+resist "B.n7" "B.n6" 12422.6
+resist "B.n6" "B.n5" 12422.6
+resist "B.n7" "B.n2" 12422.6
+resist "B.n5" "B.n2" 12422.6
+rnode "G0.t0" 0 615.533 -621 0 0
+rnode "G0.n0" 0 213.07 -621 1255 0
+rnode "G0" 0 -2.38716 -621 1255 0
+resist "G0" "G0.n0" 152
+resist "G0.n0" "G0.t0" 756.138
+rnode "G1.t0" 0 693.383 -483 0 0
+rnode "G1.n0" 0 240.018 -483 1255 0
+rnode "G1" 0 -2.68908 -483 1255 0
+resist "G1" "G1.n0" 152
+resist "G1.n0" "G1.t0" 756.138
+rnode "G2.t0" 0 693.383 -345 0 0
+rnode "G2.n0" 0 240.018 -345 1255 0
+rnode "G2" 0 -2.68908 -345 1255 0
+resist "G2" "G2.n0" 152
+resist "G2.n0" "G2.t0" 756.138
+rnode "G3.t0" 0 693.383 -207 0 0
+rnode "G3.n0" 0 240.018 -207 1255 0
+rnode "G3" 0 -2.68908 -207 1255 0
+resist "G3" "G3.n0" 152
+resist "G3.n0" "G3.t0" 756.138
+rnode "G4.t0" 0 693.383 -69 0 0
+rnode "G4.n0" 0 240.018 -69 1255 0
+rnode "G4" 0 -2.68908 -69 1255 0
+resist "G4" "G4.n0" 152
+resist "G4.n0" "G4.t0" 756.138
+rnode "G5.t0" 0 693.383 69 0 0
+rnode "G5.n0" 0 240.018 69 1255 0
+rnode "G5" 0 -2.68908 69 1255 0
+resist "G5" "G5.n0" 152
+resist "G5.n0" "G5.t0" 756.138
+rnode "G6.t0" 0 693.383 207 0 0
+rnode "G6.n0" 0 240.018 207 1255 0
+rnode "G6" 0 -2.68908 207 1255 0
+resist "G6" "G6.n0" 152
+resist "G6.n0" "G6.t0" 756.138
+rnode "G7.t0" 0 693.383 345 0 0
+rnode "G7.n0" 0 240.018 345 1255 0
+rnode "G7" 0 -2.68908 345 1255 0
+resist "G7" "G7.n0" 152
+resist "G7.n0" "G7.t0" 756.138
+rnode "G8.t0" 0 693.383 483 0 0
+rnode "G8.n0" 0 240.018 483 1255 0
+rnode "G8" 0 -2.68908 483 1255 0
+resist "G8" "G8.n0" 152
+resist "G8.n0" "G8.t0" 756.138
+rnode "G9.t0" 0 615.533 621 0 0
+rnode "G9.n0" 0 213.07 621 1255 0
+rnode "G9" 0 -2.38716 621 1255 0
+resist "G9" "G9.n0" 152
+resist "G9.n0" "G9.t0" 756.138
+rnode "D0.t0" 0 513.224 -661 0 0
+rnode "D0.n0" 0 1539.67 -690 0 0
+rnode "D0" 0 -420.726 -690 0 0
+resist "D0.n0" "D0.t0" 1.45
+resist "D0" "D0.n0" 5.28571
+rnode "S1.t1" 0 1026.45 -523 0 0
+rnode "S1.t0" 0 1026.45 -581 0 0
+rnode "S1.n0" 0 2052.9 -552 0 0
+rnode "S1" 0 -841.451 -552 0 0
+resist "S1.n0" "S1.t0" 1.45
+resist "S1.n0" "S1.t1" 1.45
+resist "S1" "S1.n0" 5.28571
+rnode "D2.t0" 0 1026.45 -385 0 0
+rnode "D2.t1" 0 1026.45 -443 0 0
+rnode "D2.n0" 0 2052.9 -414 0 0
+rnode "D2" 0 -841.451 -414 0 0
+resist "D2.n0" "D2.t1" 1.45
+resist "D2.n0" "D2.t0" 1.45
+resist "D2" "D2.n0" 5.28571
+rnode "S3.t1" 0 1026.45 -247 0 0
+rnode "S3.t0" 0 1026.45 -305 0 0
+rnode "S3.n0" 0 2052.9 -276 0 0
+rnode "S3" 0 -841.451 -276 0 0
+resist "S3.n0" "S3.t0" 1.45
+resist "S3.n0" "S3.t1" 1.45
+resist "S3" "S3.n0" 5.28571
+rnode "D4.t1" 0 1026.45 -109 0 0
+rnode "D4.t0" 0 1026.45 -167 0 0
+rnode "D4.n0" 0 2052.9 -138 0 0
+rnode "D4" 0 -841.451 -138 0 0
+resist "D4.n0" "D4.t0" 1.45
+resist "D4.n0" "D4.t1" 1.45
+resist "D4" "D4.n0" 5.28571
+rnode "S5.t0" 0 1026.45 29 0 0
+rnode "S5.t1" 0 1026.45 -29 0 0
+rnode "S5.n0" 0 2052.9 0 0 0
+rnode "S5" 0 -841.451 0 0 0
+resist "S5.n0" "S5.t1" 1.45
+resist "S5.n0" "S5.t0" 1.45
+resist "S5" "S5.n0" 5.28571
+rnode "D6.t1" 0 1026.45 167 0 0
+rnode "D6.t0" 0 1026.45 109 0 0
+rnode "D6.n0" 0 2052.9 138 0 0
+rnode "D6" 0 -841.451 138 0 0
+resist "D6.n0" "D6.t0" 1.45
+resist "D6.n0" "D6.t1" 1.45
+resist "D6" "D6.n0" 5.28571
+rnode "S7.t0" 0 1026.45 305 0 0
+rnode "S7.t1" 0 1026.45 247 0 0
+rnode "S7.n0" 0 2052.9 276 0 0
+rnode "S7" 0 -841.451 276 0 0
+resist "S7.n0" "S7.t1" 1.45
+resist "S7.n0" "S7.t0" 1.45
+resist "S7" "S7.n0" 5.28571
+rnode "D8.t1" 0 1026.45 443 0 0
+rnode "D8.t0" 0 1026.45 385 0 0
+rnode "D8.n0" 0 2052.9 414 0 0
+rnode "D8" 0 -841.451 414 0 0
+resist "D8.n0" "D8.t0" 1.45
+resist "D8.n0" "D8.t1" 1.45
+resist "D8" "D8.n0" 5.28571
+rnode "S9.t0" 0 1026.45 581 0 0
+rnode "S9.t1" 0 1026.45 523 0 0
+rnode "S9.n0" 0 2052.9 552 0 0
+rnode "S9" 0 -841.451 552 0 0
+resist "S9.n0" "S9.t1" 1.45
+resist "S9.n0" "S9.t0" 1.45
+resist "S9" "S9.n0" 5.28571
+device msubckt sky130_fd_pr__nfet_01v8 -661 -1200 -660 -1199  "B.t3" "G0.t0" 160 0 "D0.t0" 2400 139200,4916 "S1.t0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 -523 -1200 -522 -1199  "B.t7" "G1.t0" 160 0 "S1.t1" 2400 69600,2458 "D2.t1" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 -385 -1200 -384 -1199  "B.t5" "G2.t0" 160 0 "D2.t0" 2400 69600,2458 "S3.t0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 -247 -1200 -246 -1199  "B.t6" "G3.t0" 160 0 "S3.t1" 2400 69600,2458 "D4.t0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 -109 -1200 -108 -1199  "B.t8" "G4.t0" 160 0 "D4.t1" 2400 69600,2458 "S5.t1" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 29 -1200 30 -1199  "B.t0" "G5.t0" 160 0 "S5.t0" 2400 69600,2458 "D6.t0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 167 -1200 168 -1199  "B.t1" "G6.t0" 160 0 "D6.t1" 2400 69600,2458 "S7.t1" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 305 -1200 306 -1199  "B.t2" "G7.t0" 160 0 "S7.t0" 2400 69600,2458 "D8.t0" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 443 -1200 444 -1199  "B.t4" "G8.t0" 160 0 "D8.t1" 2400 69600,2458 "S9.t1" 2400 69600,2458
+device msubckt sky130_fd_pr__nfet_01v8 581 -1200 582 -1199  "B.t9" "G9.t0" 160 0 "S9.t0" 2400 69600,2458 "a_661_n1200#" 2400 139200,4916

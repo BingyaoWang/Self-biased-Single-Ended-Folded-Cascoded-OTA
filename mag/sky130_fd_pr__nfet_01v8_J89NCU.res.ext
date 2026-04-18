@@ -1,0 +1,44 @@
+scale 1000 1 500000
+rnode "B.n0" 0 0 183 0 0
+rnode "B.n1" 0 0 -183 0 0
+rnode "B.n2" 0 0 183 0 0
+rnode "B.n3" 0 0 -183 0 0
+rnode "B.n4" 0 0 0 217 0
+rnode "B.n5" 0 0 0 217 0
+rnode "B.n6" 0 0 0 217 0
+rnode "B.t0" 0 0 0 217 0
+rnode "B.n7" 0 0 0 217 0
+rnode "B.n8" 0 0 0 -217 0
+rnode "B" 0 0 0 -217 0
+resist "B.t0" "B.n6" 78.8071
+resist "B.n7" "B.t0" 78.8071
+resist "B.n8" "B.n7" 106.809
+resist "B.n6" "B.n5" 106.809
+resist "B" "B.n0" 144.188
+resist "B" "B.n1" 144.188
+resist "B.n4" "B.n1" 144.188
+resist "B.n4" "B.n0" 144.188
+resist "B.n3" "B.n1" 146.25
+resist "B.n2" "B.n0" 146.25
+resist "B" "B.n8" 195
+resist "B.n5" "B.n4" 195
+resist "B.n7" "B.n3" 896.838
+resist "B.n6" "B.n2" 896.838
+resist "B.n5" "B.n3" 2219.15
+resist "B.n8" "B.n2" 2219.15
+rnode "G.t0" 0 26.7384 0 0 0
+rnode "G.n0" 0 12.2152 0 115 0
+rnode "G" 0 -0.998811 0 115 0
+resist "G.n0" "G.t0" 69.2875
+resist "G" "G.n0" 152
+rnode "D.t0" 0 25.2382 -40 0 0
+rnode "D.n0" 0 75.7146 -69 0 0
+rnode "D" 0 -16.9415 -69 0 0
+resist "D.n0" "D.t0" 29
+resist "D" "D.n0" 185
+rnode "S.t0" 0 25.2382 40 0 0
+rnode "S.n0" 0 75.7146 69 0 0
+rnode "S" 0 -16.9415 69 0 0
+resist "S.n0" "S.t0" 29
+resist "S" "S.n0" 185
+device msubckt sky130_fd_pr__nfet_01v8 -40 -60 -39 -59  "B.t0" "G.t0" 160 0 "D.t0" 120 6960,356 "S.t0" 120 6960,356

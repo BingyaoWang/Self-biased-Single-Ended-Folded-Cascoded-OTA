@@ -1,0 +1,60 @@
+| units: 500000 tech: sky130A format: MIT
+x vdo XM31/S vdd vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=4797 y=4222 sky130_fd_pr__pfet_01v8
+x XM31/S vdo XR1/R1 vss s=92800,3316 d=92800,3316 l=80 w=1600 x=5725 y=1791 sky130_fd_pr__nfet_01v8
+x XM31/S XM31/S vss vss s=23200,916 d=23200,916 l=80 w=400 x=4797 y=2991 sky130_fd_pr__nfet_01v8
+x XM31/G XM31/G vdd vdd s=23200,916 d=23200,916 l=4000 w=400 x=2 y=4223 sky130_fd_pr__pfet_01v8
+x XR1/a_n69_n1484# XR1/R1 vss vss s=59616,1140 d=59616,1140 l=2968 w=0 x=1636 y=1906 sky130_fd_pr__res_high_po_0p69
+x vdo vdo vdd vdd s=69600,2516 d=69600,2516 l=80 w=1200 x=5725 y=4220 sky130_fd_pr__pfet_01v8
+x XM31/S XM31/G vss vss s=23200,916 d=23200,916 l=80 w=400 x=2796 y=2991 sky130_fd_pr__nfet_01v8
+x XM31/G vdo XM31/S vss s=23200,916 d=23200,916 l=40 w=400 x=3797 y=2992 sky130_fd_pr__nfet_01v8
+C XM31/S vdo 3.1
+C vdo vdd 5.2
+C XM31/G vdd 10.2
+C vdo0 3.3
+R vdo 11752
+= vdo XM25/G
+= vdo XM1/G
+= vdo XM1/D
+= vdo XM27/D
+= vdo XM31/D
+C XM31/S0 5.9
+R XM31/S 9143
+= XM31/S XM28/D
+= XM31/S XM28/G
+= XM31/S XM25/D
+= XM31/S XM27/G
+= XM31/S XM30/G
+= XM31/S m1_2756_2816#
+R vss 116677
+= vss XM28/S
+= vss XM28/B
+= vss XM25/VSUBS
+= vss XM1/VSUBS
+= vss XM27/B
+= vss XM31/B
+= vss XM30/S
+= vss XM30/B
+= vss XM29/VSUBS
+= vss XR1/R2
+= vss VSUBS
+= vss XR1/B
+R XR1/a_n69_n1484# 6878
+C XM31/G0 3.1
+R XM31/G 6143
+= XM31/G XM30/D
+= XM31/G XM29/G
+= XM31/G XM29/D
+= XM31/G m1_396_4146#
+= XM31/G m1_n158_4132#
+C vdd0 27.4
+R vdd 87049
+= vdd XM25/S
+= vdd XM25/B
+= vdd XM1/S
+= vdd XM1/B
+= vdd XM29/S
+= vdd XM29/B
+C XR1/R10 3.7
+R XR1/R1 3856
+= XR1/R1 XM27/S
+= XR1/R1 m1_4600_1678#

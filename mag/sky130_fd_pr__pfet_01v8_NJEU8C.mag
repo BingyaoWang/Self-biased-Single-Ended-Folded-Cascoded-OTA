@@ -1,0 +1,107 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1776458670
+<< error_p >>
+rect -36 201 36 207
+rect -36 167 -24 201
+rect -36 161 36 167
+rect -36 -167 36 -161
+rect -36 -201 -24 -167
+rect -36 -207 36 -201
+<< nwell >>
+rect -236 -339 236 339
+<< pmos >>
+rect -40 -120 40 120
+<< pdiff >>
+rect -98 108 -40 120
+rect -98 -108 -86 108
+rect -52 -108 -40 108
+rect -98 -120 -40 -108
+rect 40 108 98 120
+rect 40 -108 52 108
+rect 86 -108 98 108
+rect 40 -120 98 -108
+<< pdiffc >>
+rect -86 -108 -52 108
+rect 52 -108 86 108
+<< nsubdiff >>
+rect -200 269 -104 303
+rect 104 269 200 303
+rect -200 207 -166 269
+rect 166 207 200 269
+rect -200 -269 -166 -207
+rect 166 -269 200 -207
+rect -200 -303 -104 -269
+rect 104 -303 200 -269
+<< nsubdiffcont >>
+rect -104 269 104 303
+rect -200 -207 -166 207
+rect 166 -207 200 207
+rect -104 -303 104 -269
+<< poly >>
+rect -40 201 40 217
+rect -40 167 -24 201
+rect 24 167 40 201
+rect -40 120 40 167
+rect -40 -167 40 -120
+rect -40 -201 -24 -167
+rect 24 -201 40 -167
+rect -40 -217 40 -201
+<< polycont >>
+rect -24 167 24 201
+rect -24 -201 24 -167
+<< locali >>
+rect -200 269 -104 303
+rect 104 269 200 303
+rect -200 207 -166 269
+rect 166 207 200 269
+rect -40 167 -24 201
+rect 24 167 40 201
+rect -86 108 -52 124
+rect -86 -124 -52 -108
+rect 52 108 86 124
+rect 52 -124 86 -108
+rect -40 -201 -24 -167
+rect 24 -201 40 -167
+rect -200 -269 -166 -207
+rect 166 -269 200 -207
+rect -200 -303 -104 -269
+rect 104 -303 200 -269
+<< viali >>
+rect -24 167 24 201
+rect -86 -108 -52 108
+rect 52 -108 86 108
+rect -24 -201 24 -167
+<< metal1 >>
+rect -36 201 36 207
+rect -36 167 -24 201
+rect 24 167 36 201
+rect -36 161 36 167
+rect -92 108 -46 120
+rect -92 -108 -86 108
+rect -52 -108 -46 108
+rect -92 -120 -46 -108
+rect 46 108 92 120
+rect 46 -108 52 108
+rect 86 -108 92 108
+rect 46 -120 92 -108
+rect -36 -167 36 -161
+rect -36 -201 -24 -167
+rect 24 -201 36 -167
+rect -36 -207 36 -201
+<< labels >>
+rlabel nsubdiffcont 0 -286 0 -286 0 B
+port 5 nsew
+rlabel pdiffc -69 0 -69 0 0 D
+port 6 nsew
+rlabel pdiffc 69 0 69 0 0 S
+port 7 nsew
+rlabel polycont 0 184 0 184 0 G
+port 8 nsew
+<< properties >>
+string FIXED_BBOX -183 -286 183 286
+string gencell sky130_fd_pr__pfet_01v8
+string library sky130
+string parameters w 1.2 l 0.4 m 1 nf 1 diffcov 100 polycov 100 guard 1 glc 1 grc 1 gtc 1 gbc 1 tbcov 100 rlcov 100 topc 1 botc 1 poverlap 0 doverlap 1 lmin 0.15 wmin 0.42 class mosfet compatible {sky130_fd_pr__pfet_01v8  sky130_fd_pr__pfet_01v8_lvt sky130_fd_pr__pfet_01v8_hvt  sky130_fd_pr__pfet_g5v0d10v5} full_metal 1 conn_gates 0 viasrc 100 viadrn 100 viagate 100 viagb 0 viagr 0 viagl 0 viagt 0 doports 1
+<< end >>

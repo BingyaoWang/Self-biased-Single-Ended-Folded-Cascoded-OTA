@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+Beta-multiplier provide a rough current source, and Folded Cascoded OTA work
 
 ## How to test
 
-Explain how to use your project
+VIN and VIP are input differential pair, and VOUT is single ended output
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Test with Oscilloscope

@@ -1,0 +1,731 @@
+scale 1000 1 500000
+rnode "vdd.n0" 0 315.603 1499 5400 0
+rnode "vdd.n1" 0 251.051 816 5168 0
+rnode "vdd.n2" 0 15.511 853 4419 0
+rnode "vdd.n3" 0 186.628 1800 3654 0
+rnode "vdd.n4" 0 21.8288 853 4419 0
+rnode "vdd.n5" 0 129.058 853 4419 0
+rnode "vdd.n6" 0 157.651 1036 5185 0
+rnode "XM33/D" 0 -8.32534 1894 4420 0
+rnode "vdd.n7" 0 295.485 1502 4619 0
+rnode "vdd.n8" 0 270.29 1502 4619 0
+rnode "vdd.n9" 0 129.058 1780 4420 0
+rnode "XM33/B" 0 3.82357 1963 3654 0
+rnode "vdd.n10" 0 157.651 1963 5186 0
+rnode "vdd.n11" 0 328.245 2620 4618 0
+rnode "vdd.n12" 0 267.825 3536 3656 0
+rnode "vdd.n13" 0 28.0951 3557 4622 0
+rnode "vdd.n14" 0 206.886 3557 4622 0
+rnode "vdd.n15" 0 252.811 3305 5588 0
+rnode "vdd.n16" 0 325.084 2621 6322 0
+rnode "vdd.n17" 0 909.401 1036 5185 0
+rnode "vdd.n18" 0 15.024 845 5168 0
+rnode "vdd.n19" 0 388.789 1308 5169 0
+rnode "vdd.n20" 0 217.848 3908 6800 0
+rnode "vdd.n21" 0 72.1792 4477 6625 0
+rnode "vdd.n22" 0 179.579 3298 6626 0
+rnode "vdd.n23" 0 124.795 3132 5822 0
+rnode "vdd.n24" 0 52.2878 3481 6340 0
+rnode "XM11/B" 0 30.5105 3298 6054 0
+rnode "vdd.n25" 0 68.1344 3298 6626 0
+rnode "vdd.n26" 0 336.031 3061 7206 0
+rnode "vdd.n27" 0 12.0578 3115 6340 0
+rnode "vdd.n28" 0 10.8313 3115 6340 0
+rnode "vdd.n29" 0 52.2878 3115 6340 0
+rnode "vdd.n30" 0 68.1344 3298 6054 0
+rnode "vdd.n31" 0 10.8313 3481 6340 0
+rnode "vdd.n32" 0 14.7628 3481 6340 0
+rnode "vdd.n33" 0 296.215 4314 5821 0
+rnode "vdd.n34" 0 68.1344 4477 6625 0
+rnode "vdd.n35" 0 68.1344 4477 6053 0
+rnode "vdd.n36" 0 103.376 4660 6600 0
+rnode "vdd.n37" 0 259.015 4958 6074 0
+rnode "XM12/B" 0 30.7403 4477 6053 0
+rnode "vdd.n38" 0 28.0951 4744 4620 0
+rnode "vdd.n39" 0 206.886 4744 4620 0
+rnode "XM12/S" 0 -1.84997 4546 6339 0
+rnode "vdd.n40" 0 234.014 4958 6600 0
+rnode "vdd.n41" 0 261.69 5056 7212 0
+rnode "vdd.n42" 0 283.908 4912 6339 0
+rnode "vdd.n43" 0 508.952 5058 5325 0
+rnode "vdd.n44" 0 406.262 4744 4620 0
+rnode "XM10/B" 0 45.9871 4492 3654 0
+rnode "vdd.n45" 0 246.816 4492 3654 0
+rnode "XM11/S" 0 -1.54167 3367 6340 0
+rnode "vdd.n46" 0 289.951 3764 6341 0
+rnode "vdd.n47" 0 651.913 3914 5332 0
+rnode "vdd.n48" 0 176.289 3557 4622 0
+rnode "vdd.n49" 0 239.178 4240 4620 0
+rnode "vdd.n50" 0 28.0951 4240 4620 0
+rnode "vdd.n51" 0 206.886 4240 4620 0
+rnode "vdd.n52" 0 246.816 4492 5586 0
+rnode "vdd.n53" 0 31.6041 4492 5586 0
+rnode "vdd.n54" 0 83.5604 4660 6074 0
+rnode "vdd.n55" 0 6.11604 4660 6339 0
+rnode "vdd.n56" 0 10.8313 4660 6339 0
+rnode "vdd.n57" 0 52.2878 4660 6339 0
+rnode "vdd.n58" 0 52.2878 4294 6339 0
+rnode "vdd.n59" 0 10.8313 4294 6339 0
+rnode "vdd.n60" 0 151.39 4294 6339 0
+rnode "vdd.n61" 0 167.654 3536 6390 0
+rnode "vdd.n62" 0 208.378 4314 6905 0
+rnode "vdd.n63" 0 399.428 3836 7027 0
+rnode "vdd.n64" 0 372.854 2799 6800 0
+rnode "vdd.n65" 0 505.271 2388 5601 0
+rnode "vdd.n66" 0 122.218 1593 5628 0
+rnode "vdd.n67" 0 456.287 1593 5628 0
+rnode "vdd.n68" 0 700.802 1963 5186 0
+rnode "vdd.n69" 0 634.405 2599 5169 0
+rnode "vdd.n70" 0 177.315 3053 4622 0
+rnode "vdd.n71" 0 28.0951 3053 4622 0
+rnode "vdd.n72" 0 206.886 3053 4622 0
+rnode "vdd.n73" 0 246.816 3305 3656 0
+rnode "XM9/B" 0 5.4184 3305 3656 0
+rnode "vdd.n74" 0 240.341 3070 3656 0
+rnode "vdd.n75" 0 309.578 2146 4420 0
+rnode "vdd.n76" 0 21.8288 2146 4420 0
+rnode "vdd.n77" 0 129.058 2146 4420 0
+rnode "vdd.n78" 0 157.651 1963 3654 0
+rnode "vdd.n79" 0 21.8288 1780 4420 0
+rnode "vdd.n80" 0 41.7221 1780 4420 0
+rnode "vdd.n81" 0 159.796 1219 4419 0
+rnode "vdd.n82" 0 21.8288 1219 4419 0
+rnode "vdd.n83" 0 129.058 1219 4419 0
+rnode "vdd.n84" 0 157.651 1036 3653 0
+rnode "XM32/B" 0 17.0213 1036 3653 0
+rnode "vdd.n85" 0 277.613 816 4386 0
+rnode "vdd.n86" 0 112.321 552 4614 0
+rnode "vdd.n87" 0 319.593 552 4614 0
+rnode "XM32/D" 0 -19.5122 967 4419 0
+rnode "vdd.n88" 0 241.894 967 4419 0
+rnode "vdd" 0 0.0341984 0 3601 0
+rnode "vdd.n89" 0 167.443 100 3602 0
+rnode "vdd" 0 14.2265 0 3601 0
+resist "vdd.n81" "vdd.n80" 0.0209836
+resist "vdd.n63" "vdd.n20" 0.0223399
+resist "vdd.n66" "vdd.n0" 0.0292289
+resist "vdd" "vdd.n89" 0.03125
+resist "vdd.n49" "vdd.n48" 0.0353591
+resist "vdd.n88" "vdd.n87" 0.0410354
+resist "vdd.n70" "vdd.n11" 0.0544102
+resist "vdd.n69" "vdd.n16" 0.138243
+resist "vdd.n67" "vdd.n66" 0.15
+resist "vdd.n87" "vdd.n86" 0.178846
+resist "vdd.n89" "vdd.n88" 0.185724
+resist "vdd.n46" "vdd.n20" 0.199219
+resist "vdd.n42" "vdd.n41" 0.200087
+resist "vdd.n65" "vdd.n64" 0.221252
+resist "vdd.n66" "vdd.n65" 0.247201
+resist "vdd.n64" "vdd.n16" 0.274162
+resist "vdd.n41" "vdd.n20" 0.348301
+resist "vdd.n8" "vdd.n7" 0.357692
+resist "vdd.n53" "XM12/B" 0.380198
+resist "vdd.n7" "vdd.n0" 0.391447
+resist "vdd.n65" "vdd.n11" 0.48001
+resist "vdd.n64" "vdd.n63" 0.525816
+resist "vdd.n43" "vdd.n42" 0.543437
+resist "vdd.n47" "vdd.n46" 0.543616
+resist "vdd.n87" "vdd.n0" 0.569263
+resist "vdd.n88" "XM32/D" 0.58125
+resist "vdd.n7" "XM33/D" 0.629179
+resist "vdd.n61" "vdd.n60" 0.839075
+resist "vdd.n19" "vdd.n17" 1.70918
+resist "vdd.n67" "vdd.n19" 1.79087
+resist "vdd.n63" "vdd.n62" 2.09313
+resist "vdd.n68" "vdd.n67" 2.32499
+resist "vdd.n75" "vdd.n11" 2.69331
+resist "vdd.n26" "vdd.n16" 2.79142
+resist "vdd.n42" "XM12/S" 3.30986
+resist "vdd.n46" "XM11/S" 3.32764
+resist "vdd.n62" "vdd.n21" 3.42033
+resist "vdd.n72" "vdd.n14" 3.79127
+resist "vdd.n51" "vdd.n39" 3.79127
+resist "vdd.n36" "vdd.n21" 3.84
+resist "vdd.n69" "vdd.n68" 3.99647
+resist "XM12/B" "vdd.n33" 4.13149
+resist "vdd.n80" "vdd.n8" 4.17574
+resist "vdd.n54" "vdd.n53" 4.25822
+resist "vdd.n51" "vdd.n50" 5.212
+resist "vdd.n39" "vdd.n38" 5.212
+resist "vdd.n14" "vdd.n13" 5.212
+resist "vdd.n72" "vdd.n71" 5.212
+resist "vdd.n83" "vdd.n5" 6.05212
+resist "vdd.n77" "vdd.n9" 6.05212
+resist "vdd.n5" "vdd.n4" 6.20749
+resist "vdd.n83" "vdd.n82" 6.20749
+resist "vdd.n79" "vdd.n9" 6.20749
+resist "vdd.n77" "vdd.n76" 6.20749
+resist "vdd.n40" "vdd.n36" 6.25311
+resist "vdd.n43" "vdd.n37" 6.56134
+resist "vdd.n86" "vdd.n85" 6.94857
+resist "vdd.n71" "vdd.n70" 7.11538
+resist "vdd.n48" "vdd.n13" 7.11538
+resist "vdd.n50" "vdd.n49" 7.11538
+resist "vdd.n44" "vdd.n38" 7.11538
+resist "vdd.n85" "vdd.n2" 7.28276
+resist "vdd.n70" "vdd.n69" 7.4406
+resist "vdd.n54" "vdd.n37" 7.55327
+resist "vdd.n47" "vdd.n33" 8.33607
+resist "vdd.n61" "vdd.n32" 8.42105
+resist "vdd.n62" "vdd.n61" 8.47301
+resist "vdd.n60" "vdd.n33" 8.52237
+resist "XM11/B" "vdd.n23" 9.05366
+resist "vdd.n82" "vdd.n81" 9.25
+resist "vdd.n80" "vdd.n79" 9.25
+resist "vdd.n4" "vdd.n2" 9.25
+resist "vdd.n76" "vdd.n75" 9.25
+resist "vdd.n27" "vdd.n26" 9.94064
+resist "vdd.n75" "vdd.n74" 10.3923
+resist "vdd.n41" "vdd.n40" 11.399
+resist "vdd.n89" "vdd" 12.5
+resist "vdd.n48" "vdd.n47" 12.5525
+resist "vdd.n40" "vdd.n37" 14.1445
+resist "vdd.n81" "vdd.n3" 16.0525
+resist "vdd.n86" "vdd.n1" 16.8838
+resist "vdd.n49" "vdd.n12" 17.0431
+resist "vdd.n58" "vdd.n57" 17.3642
+resist "vdd.n29" "vdd.n24" 17.3642
+resist "vdd.n44" "vdd.n43" 18.958
+resist "vdd.n57" "vdd.n56" 21.7322
+resist "vdd.n59" "vdd.n58" 21.7322
+resist "vdd.n29" "vdd.n28" 21.7322
+resist "vdd.n31" "vdd.n24" 21.7322
+resist "vdd.n60" "vdd.n59" 30.8333
+resist "vdd.n56" "vdd.n55" 30.8333
+resist "vdd.n32" "vdd.n31" 30.8333
+resist "vdd.n28" "vdd.n27" 30.8333
+resist "vdd.n17" "vdd.n1" 32.4072
+resist "XM9/B" "vdd.n73" 37
+resist "vdd.n53" "vdd.n52" 37
+resist "vdd.n45" "XM10/B" 37
+resist "vdd.n23" "vdd.n15" 46.1317
+resist "vdd.n26" "vdd.n22" 52.6938
+resist "XM32/B" "vdd.n3" 57.9975
+resist "XM33/B" "vdd.n3" 61.3647
+resist "XM32/B" "vdd.n84" 61.6667
+resist "vdd.n17" "vdd.n6" 61.6667
+resist "vdd.n68" "vdd.n10" 61.6667
+resist "vdd.n78" "XM33/B" 61.6667
+resist "XM12/B" "vdd.n35" 61.6667
+resist "vdd.n34" "vdd.n21" 61.6667
+resist "vdd.n25" "vdd.n22" 61.6667
+resist "vdd.n30" "XM11/B" 61.6667
+resist "vdd.n74" "XM33/B" 62.5077
+resist "XM9/B" "vdd.n12" 86.9647
+resist "vdd.n32" "vdd.n23" 87.2421
+resist "XM10/B" "vdd.n12" 87.3765
+resist "vdd.n74" "XM9/B" 88.4706
+resist "vdd.n61" "vdd.n22" 90.1362
+resist "vdd.n55" "vdd.n36" 98.2588
+resist "vdd.n55" "vdd.n54" 99.7647
+resist "vdd.n27" "vdd.n23" 106.942
+resist "XM10/B" "vdd.n44" 111.812
+resist "vdd.n18" "vdd.n2" 165.297
+resist "vdd.n85" "XM32/B" 222.754
+resist "vdd.n18" "vdd.n1" 371.2
+resist "vdd.n58" "vdd.n35" 449.179
+resist "vdd.n57" "vdd.n34" 449.179
+resist "vdd.n30" "vdd.n29" 449.179
+resist "vdd.n25" "vdd.n24" 449.179
+resist "vdd.n78" "vdd.n77" 1075.93
+resist "vdd.n10" "vdd.n9" 1075.93
+resist "vdd.n84" "vdd.n83" 1075.93
+resist "vdd.n6" "vdd.n5" 1075.93
+resist "vdd.n45" "vdd.n39" 1128.98
+resist "vdd.n52" "vdd.n51" 1128.98
+resist "vdd.n73" "vdd.n72" 1128.98
+resist "vdd.n15" "vdd.n14" 1128.98
+resist "vdd.n56" "vdd.n35" 1595.29
+resist "vdd.n59" "vdd.n34" 1595.29
+resist "vdd.n28" "vdd.n25" 1595.29
+resist "vdd.n31" "vdd.n30" 1595.29
+resist "vdd.n19" "vdd.n8" 2405.12
+resist "vdd.n84" "vdd.n4" 3289.41
+resist "vdd.n82" "vdd.n6" 3289.41
+resist "vdd.n79" "vdd.n78" 3289.41
+resist "vdd.n76" "vdd.n10" 3289.41
+resist "vdd.n50" "vdd.n45" 4238.82
+resist "vdd.n52" "vdd.n38" 4238.82
+resist "vdd.n73" "vdd.n13" 4238.82
+resist "vdd.n71" "vdd.n15" 4238.82
+resist "vdd.n19" "vdd.n18" 5926.4
+rnode "vss.n0" 0 263.648 1497 1684 0
+rnode "vss.n1" 0 143.92 2802 158 0
+rnode "vss" 0 144.827 -1 3000 0
+rnode "vss.n2" 0 209.212 853 2190 0
+rnode "vss.n3" 0 108.507 5059 1681 0
+rnode "vss.n4" 0 56.7543 4745 672 0
+rnode "XM7/B" 0 14.2989 4564 1233 0
+rnode "vss.n5" 0 6.05145 4562 889 0
+rnode "XM3/B" 0 14.2989 1964 1233 0
+rnode "vss.n6" 0 48.1751 1781 672 0
+rnode "vss.n7" 0 6.05194 1036 888 0
+rnode "vss.n8" 0 109.903 853 671 0
+rnode "XM1/B" 0 14.3861 1036 1233 0
+rnode "vss.n9" 0 6.05145 1964 889 0
+rnode "XM5/B" 0 14.3861 3236 1233 0
+rnode "vss.n10" 0 169.055 4379 672 0
+rnode "vss.n11" 0 498.997 3924 1677 0
+rnode "vss.n12" 0 6.05155 3235 889 0
+rnode "vss.n13" 0 485.245 2604 1669 0
+rnode "vss.n14" 0 5.55646 3052 672 0
+rnode "XM4/S" 0 -0.68703 2033 672 0
+rnode "vss.n15" 0 208.08 2398 672 0
+rnode "vss.n16" 0 113.64 2799 159 0
+rnode "vss.n17" 0 135.524 2130 236 0
+rnode "vss.n18" 0 5.57746 1964 455 0
+rnode "vss.n19" 0 668.1 3052 672 0
+rnode "vss.n20" 0 269.894 1964 3147 0
+rnode "vss.n21" 0 16.0253 1964 3147 0
+rnode "vss.n22" 0 16.0253 1964 1233 0
+rnode "vss.n23" 0 206.818 3070 3147 0
+rnode "vss.n24" 0 16.0253 3236 3147 0
+rnode "vss.n25" 0 16.0253 3236 1233 0
+rnode "vss.n26" 0 527.789 1499 3601 0
+rnode "vss.n27" 0 461.843 1219 2190 0
+rnode "vss.n28" 0 15.7063 1219 2190 0
+rnode "vss.n29" 0 495.275 1272 1799 0
+rnode "vss.n30" 0 5.55646 853 671 0
+rnode "vss.n31" 0 0 853 671 0
+rnode "vss.n32" 0 293.837 1036 454 0
+rnode "XM4/B" 0 31.6858 1964 455 0
+rnode "XM2/B" 0 107.164 1036 454 0
+rnode "vss.n33" 0 143.244 1200 236 0
+rnode "vss.n34" 0 53.7195 1219 671 0
+rnode "vss.n35" 0 5.55646 1219 671 0
+rnode "vss.n36" 0 247.245 1219 671 0
+rnode "vss.n37" 0 192.549 1036 888 0
+rnode "vss.n38" 0 312.121 1036 1233 0
+rnode "vss.n39" 0 16.0253 1036 1233 0
+rnode "vss.n40" 0 15.7063 853 2190 0
+rnode "vss.n41" 0 2.28245 1964 3147 0
+rnode "vss.n42" 0 5.55646 1781 672 0
+rnode "vss.n43" 0 342.899 1781 2190 0
+rnode "vss.n44" 0 15.7063 1781 2190 0
+rnode "vss.n45" 0 180.256 1219 2190 0
+rnode "vss.n46" 0 133.241 1200 3147 0
+rnode "vss.n47" 0 28.6737 1036 3147 0
+rnode "vss.n48" 0 16.0253 1036 3147 0
+rnode "vss.n49" 0 1381.56 1036 3147 0
+rnode "vss.n50" 0 3480.45 1499 5238 0
+rnode "vss.n51" 0 959.113 4713 5819 0
+rnode "vss.n52" 0 134.947 3236 3147 0
+rnode "vss.n53" 0 5.55646 3418 672 0
+rnode "vss.n54" 0 251.006 5059 1681 0
+rnode "XM8/S" 0 -0.865108 4631 672 0
+rnode "vss.n55" 0 94.4743 4896 672 0
+rnode "XM6/S" 0 -0.588486 3304 672 0
+rnode "vss.n56" 0 208.826 3722 672 0
+rnode "vss.n57" 0 187.631 4126 158 0
+rnode "vss.n58" 0 82.2002 5046 316 0
+rnode "vss.n59" 0 27.3885 5059 89 0
+rnode "vss.n60" 0 95.7801 4963 472 0
+rnode "vss.n61" 0 5.55646 4745 672 0
+rnode "vss.n62" 0 5.55646 4379 672 0
+rnode "vss.n63" 0 134.947 4564 3147 0
+rnode "vss.n64" 0 709.395 4379 672 0
+rnode "vss.n65" 0 16.0253 4564 3147 0
+rnode "vss.n66" 0 16.0253 4564 1233 0
+rnode "vss.n67" 0 2.29637 3236 3147 0
+rnode "vss.n68" 0 134.947 4745 672 0
+rnode "vss.n69" 0 4075.78 4747 2190 0
+rnode "vss.n70" 0 15.7063 4747 2190 0
+rnode "vss.n71" 0 214.265 4747 2190 0
+rnode "vss.n72" 0 33.2018 4564 3147 0
+rnode "vss.n73" 0 219.844 3400 3147 0
+rnode "vss.n74" 0 134.947 3418 672 0
+rnode "vss.n75" 0 708.658 3419 2190 0
+rnode "vss.n76" 0 15.7063 3419 2190 0
+rnode "vss.n77" 0 300.861 3419 2190 0
+rnode "vss.n78" 0 15.7063 4381 2190 0
+rnode "vss.n79" 0 134.947 4381 2190 0
+rnode "vss.n80" 0 134.947 4562 889 0
+rnode "vss.n81" 0 5.57746 4562 455 0
+rnode "XM8/B" 0 54.3875 4562 455 0
+rnode "vss.n82" 0 217.427 3400 236 0
+rnode "XM6/B" 0 31.879 3235 455 0
+rnode "vss.n83" 0 5.57746 3235 455 0
+rnode "vss.n84" 0 31.7087 3235 889 0
+rnode "vss.n85" 0 139.834 3193 3601 0
+rnode "vss.n86" 0 103.976 3053 2190 0
+rnode "vss.n87" 0 15.7063 3053 2190 0
+rnode "vss.n88" 0 284.349 2147 2190 0
+rnode "vss.n89" 0 15.7063 2147 2190 0
+rnode "vss.n90" 0 802.31 2147 2190 0
+rnode "vss.n91" 0 5.55646 2147 672 0
+rnode "vss.n92" 0 158.912 2147 672 0
+rnode "vss.n93" 0 864.18 2130 1062 0
+rnode "vss.n94" 0 110.353 539 1666 0
+rnode "vss.n95" 0 245.559 539 1666 0
+rnode "vss.n96" 0 233.046 1498 316 0
+rnode "vss.n97" 0 118.631 1394 672 0
+rnode "XM2/S" 0 -0.821654 1105 671 0
+resist "vss.n16" "vss.n1" 0.000309406
+resist "vss.n59" "vss.n58" 0.00514241
+resist "vss.n34" "vss.n6" 0.0212625
+resist "vss.n95" "vss.n94" 0.11625
+resist "vss.n54" "vss.n3" 0.11625
+resist "vss.n58" "vss.n55" 0.148333
+resist "vss.n16" "vss.n15" 0.158725
+resist "vss.n57" "vss.n56" 0.159035
+resist "vss.n97" "vss.n96" 0.213942
+resist "vss.n96" "vss.n1" 0.356013
+resist "vss.n58" "vss.n57" 0.363924
+resist "vss.n57" "vss.n1" 0.363924
+resist "vss.n15" "vss.n13" 0.385978
+resist "vss.n56" "vss.n11" 0.388453
+resist "vss.n55" "vss.n54" 0.420417
+resist "vss.n95" "vss" 0.65546
+resist "vss.n97" "vss.n0" 0.840673
+resist "vss.n96" "vss.n95" 0.96283
+resist "vss.n17" "vss.n16" 1.12005
+resist "vss.n86" "vss.n19" 1.2212
+resist "vss.n84" "vss.n52" 1.2212
+resist "vss.n75" "vss.n74" 1.2212
+resist "vss.n79" "vss.n64" 2.44241
+resist "vss.n80" "vss.n63" 2.44241
+resist "vss.n69" "vss.n68" 2.44241
+resist "vss.n82" "XM8/B" 4.39322
+resist "vss.n33" "XM4/B" 4.39322
+resist "vss.n33" "XM2/B" 4.44746
+resist "XM6/B" "vss.n17" 4.47458
+resist "XM6/B" "vss.n82" 4.47458
+resist "XM4/B" "vss.n17" 4.50169
+resist "vss.n93" "vss.n10" 4.992
+resist "vss.n93" "vss.n92" 5.31064
+resist "vss.n60" "vss.n4" 5.44681
+resist "vss.n82" "vss.n10" 5.5808
+resist "vss.n92" "vss.n17" 5.93702
+resist "vss.n77" "vss.n11" 6.5664
+resist "vss.n93" "XM1/B" 6.63273
+resist "vss.n93" "XM5/B" 6.63273
+resist "vss.n93" "XM3/B" 6.67317
+resist "vss.n93" "XM7/B" 6.67317
+resist "vss.n88" "vss.n13" 7.09447
+resist "vss.n93" "vss.n11" 7.872
+resist "vss.n93" "vss.n13" 8.26553
+resist "vss.n93" "vss.n6" 8.29236
+resist "vss.n34" "vss.n33" 9.24917
+resist "vss.n55" "XM8/S" 9.64505
+resist "XM2/S" "vss.n97" 9.64736
+resist "vss.n15" "XM4/S" 9.7387
+resist "vss.n56" "XM6/S" 9.84427
+resist "vss.n93" "vss.n8" 10.4703
+resist "vss.n93" "vss.n4" 10.6213
+resist "vss.n45" "vss.n0" 10.7588
+resist "XM8/B" "vss.n60" 10.8746
+resist "vss.n60" "vss.n59" 11.9034
+resist "vss.n77" "vss.n73" 12.2496
+resist "vss.n88" "vss.n23" 13.0315
+resist "vss.n93" "vss.n0" 13.2252
+resist "vss.n71" "vss.n3" 13.8621
+resist "vss.n94" "vss.n2" 14.0318
+resist "XM2/B" "vss.n8" 16.1502
+resist "vss.n94" "vss.n93" 16.1741
+resist "vss.n93" "vss.n3" 16.8579
+resist "vss.n46" "vss.n45" 20.3482
+resist "vss.n28" "vss.n27" 22.5
+resist "vss.n45" "vss.n28" 22.5
+resist "vss.n44" "vss.n43" 22.5
+resist "vss.n45" "vss.n44" 22.5
+resist "vss.n40" "vss.n27" 22.5
+resist "vss.n40" "vss.n2" 22.5
+resist "vss.n90" "vss.n89" 22.5
+resist "vss.n89" "vss.n88" 22.5
+resist "vss.n76" "vss.n75" 22.5
+resist "vss.n77" "vss.n76" 22.5
+resist "vss.n87" "vss.n86" 22.5
+resist "vss.n88" "vss.n87" 22.5
+resist "vss.n70" "vss.n69" 22.5
+resist "vss.n71" "vss.n70" 22.5
+resist "vss.n79" "vss.n78" 22.5
+resist "vss.n78" "vss.n77" 22.5
+resist "vss.n36" "vss.n31" 35.7538
+resist "vss.n85" "vss.n84" 51.2906
+resist "vss.n46" "vss.n41" 60.9882
+resist "vss.n47" "vss.n46" 61.7412
+resist "vss.n73" "vss.n72" 61.7412
+resist "vss.n73" "vss.n67" 61.7412
+resist "vss.n41" "vss.n23" 62.4941
+resist "vss.n67" "vss.n23" 62.4941
+resist "vss.n72" "vss.n71" 87.8042
+resist "vss.n47" "vss.n2" 88.1209
+resist "vss.n59" "vss.n54" 100.213
+resist "vss.n31" "vss.n30" 103.665
+resist "vss.n36" "vss.n35" 146.25
+resist "vss.n35" "vss.n34" 146.25
+resist "vss.n43" "vss.n42" 146.25
+resist "vss.n42" "vss.n6" 146.25
+resist "vss.n30" "vss.n8" 146.25
+resist "vss.n91" "vss.n90" 146.25
+resist "vss.n92" "vss.n91" 146.25
+resist "vss.n74" "vss.n53" 146.25
+resist "vss.n53" "vss.n10" 146.25
+resist "vss.n19" "vss.n14" 146.25
+resist "vss.n92" "vss.n14" 146.25
+resist "vss.n68" "vss.n61" 146.25
+resist "vss.n61" "vss.n4" 146.25
+resist "vss.n64" "vss.n62" 146.25
+resist "vss.n62" "vss.n10" 146.25
+resist "vss.n86" "vss.n85" 170.969
+resist "vss.n21" "vss.n20" 195
+resist "vss.n41" "vss.n21" 195
+resist "vss.n49" "vss.n48" 195
+resist "vss.n48" "vss.n47" 195
+resist "XM2/B" "vss.n32" 195
+resist "vss.n37" "vss.n7" 195
+resist "vss.n39" "vss.n38" 195
+resist "vss.n39" "XM1/B" 195
+resist "vss.n22" "vss.n20" 195
+resist "vss.n22" "XM3/B" 195
+resist "vss.n52" "vss.n24" 195
+resist "vss.n67" "vss.n24" 195
+resist "vss.n52" "vss.n25" 195
+resist "vss.n25" "XM5/B" 195
+resist "vss.n65" "vss.n63" 195
+resist "vss.n72" "vss.n65" 195
+resist "vss.n66" "vss.n63" 195
+resist "vss.n66" "XM7/B" 195
+resist "vss.n20" "vss.n9" 195
+resist "vss.n20" "vss.n18" 195
+resist "XM4/B" "vss.n18" 195
+resist "vss.n84" "vss.n12" 195
+resist "vss.n84" "vss.n83" 195
+resist "vss.n83" "XM6/B" 195
+resist "vss.n80" "vss.n5" 195
+resist "vss.n81" "vss.n80" 195
+resist "XM8/B" "vss.n81" 195
+resist "vss.n93" "vss.n12" 201.71
+resist "vss.n93" "vss.n7" 201.749
+resist "vss.n93" "vss.n9" 201.751
+resist "vss.n93" "vss.n5" 201.751
+resist "vss.n80" "vss.n79" 221.038
+resist "vss.n68" "vss.n63" 221.038
+resist "vss.n74" "vss.n52" 222.259
+resist "vss.n43" "vss.n20" 223.48
+resist "vss.n90" "vss.n20" 223.48
+resist "vss.n29" "vss.n26" 277.213
+resist "vss.n43" "vss.n26" 344.38
+resist "vss.n32" "vss.n31" 542.509
+resist "vss.n37" "vss.n36" 570.37
+resist "vss.n38" "vss.n37" 906.81
+resist "vss.n29" "vss.n27" 1027.72
+resist "vss.n90" "vss.n19" 1105.19
+resist "vss.n75" "vss.n64" 1172.36
+resist "vss.n38" "vss.n29" 1487.69
+resist "vss.n30" "vss.n7" 2219.15
+resist "vss.n35" "vss.n32" 2219.15
+resist "vss.n35" "vss.n7" 2219.15
+resist "vss.n81" "vss.n62" 2219.15
+resist "vss.n81" "vss.n61" 2219.15
+resist "vss.n62" "vss.n5" 2219.15
+resist "vss.n61" "vss.n5" 2219.15
+resist "vss.n83" "vss.n14" 2219.15
+resist "vss.n83" "vss.n53" 2219.15
+resist "vss.n14" "vss.n12" 2219.15
+resist "vss.n53" "vss.n12" 2219.15
+resist "vss.n42" "vss.n18" 2219.15
+resist "vss.n42" "vss.n9" 2219.15
+resist "vss.n91" "vss.n18" 2219.15
+resist "vss.n91" "vss.n9" 2219.15
+resist "vss.n49" "vss.n27" 2515.41
+resist "vss.n40" "vss.n39" 6506.79
+resist "vss.n48" "vss.n40" 6506.79
+resist "vss.n39" "vss.n28" 6506.79
+resist "vss.n48" "vss.n28" 6506.79
+resist "vss.n78" "vss.n66" 6506.79
+resist "vss.n70" "vss.n66" 6506.79
+resist "vss.n78" "vss.n65" 6506.79
+resist "vss.n70" "vss.n65" 6506.79
+resist "vss.n87" "vss.n25" 6506.79
+resist "vss.n76" "vss.n25" 6506.79
+resist "vss.n87" "vss.n24" 6506.79
+resist "vss.n76" "vss.n24" 6506.79
+resist "vss.n44" "vss.n22" 6506.79
+resist "vss.n44" "vss.n21" 6506.79
+resist "vss.n89" "vss.n22" 6506.79
+resist "vss.n89" "vss.n21" 6506.79
+resist "vss.n50" "vss.n49" 10078.5
+resist "vss.n50" "vss.n26" 15830.3
+resist "vss.n51" "vss.n50" 21130.2
+resist "vss.n69" "vss.n51" 34184.7
+resist "vss.n85" "vss.n51" 705464
+rnode "VA.n0" 0 1386.35 5600 6802 0
+rnode "XM9/D0" 0 160.469 3167 4622 0
+rnode "XM5/D" 0 1132.12 3167 2190 0
+rnode "VA.n1" 0 1939.25 3064 3401 0
+rnode "VA.n2" 0 103.017 3298 6340 0
+rnode "XM11/G" 0 26.8663 3298 6524 0
+rnode "VA.n3" 0 73.7723 3324 6527 0
+rnode "VA.n4" 0 2369.81 3126 6577 0
+rnode "VA" 0 2519.24 5600 6802 0
+resist "VA" "VA.n0" 0.192425
+resist "VA" "VA.n4" 1.30964
+resist "VA.n4" "VA.n1" 2.87071
+resist "VA.n3" "XM11/G" 4.47997
+resist "VA.n1" "XM5/D" 5.80205
+resist "VA.n1" "XM9/D0" 7.46629
+resist "VA.n4" "VA.n3" 9.21211
+resist "VA.n3" "VA.n2" 131.782
+rnode "XM33/G" 0 79.7081 1963 5084 0
+rnode "vdo.n0" 0 233.658 1963 4420 0
+rnode "vdo.n1" 0 179.011 1963 5061 0
+rnode "XM32/G" 0 79.7072 1036 5083 0
+rnode "vdo.n2" 0 233.671 1036 4419 0
+rnode "vdo.n3" 0 145.617 1035 5060 0
+rnode "vdo.n4" 0 974.713 1077 5134 0
+rnode "vdo.n5" 0 1126.11 -202 5002 0
+rnode "vdo.n6" 0 943.528 -101 5107 0
+rnode "vdo" 0 501.631 -202 5002 0
+resist "vdo" "vdo.n6" 0.0210417
+resist "vdo.n6" "vdo.n5" 0.201875
+resist "vdo.n6" "vdo.n4" 0.847113
+resist "vdo.n3" "XM32/G" 4.55565
+resist "vdo.n1" "XM33/G" 4.55617
+resist "vdo.n4" "vdo.n3" 9.20725
+resist "vdo.n4" "vdo.n1" 10.0398
+resist "vdo.n1" "vdo.n0" 277.208
+resist "vdo.n3" "vdo.n2" 277.216
+rnode "VC.n0" 0 1845.28 5601 2799 0
+rnode "XM2/G" 0 25.3196 1036 786 0
+rnode "VC.n1" 0 98.4182 1036 671 0
+rnode "VC.n2" 0 270.956 1035 763 0
+rnode "XM32/S" 0 522.911 1105 4419 0
+rnode "VC.n3" 0 395.77 996 2190 0
+rnode "XM1/D" 0 1419.55 967 2190 0
+rnode "VC.n4" 0 1756.99 1075 3360 0
+rnode "VC.n5" 0 437.615 1036 2190 0
+rnode "XM1/G" 0 158.168 1036 3045 0
+rnode "VC.n6" 0 4.35048 1010 3048 0
+rnode "VC.n7" 0 558.71 1076 3092 0
+rnode "VC.n8" 0 1645.5 1297 3030 0
+rnode "XM3/G" 0 158.177 1964 3045 0
+rnode "VC.n9" 0 437.607 1964 2190 0
+rnode "VC.n10" 0 254.243 1963 3022 0
+rnode "VC.n11" 0 933.619 2004 3094 0
+rnode "XM5/G" 0 158.178 3236 3045 0
+rnode "VC.n12" 0 437.327 3236 2190 0
+rnode "VC.n13" 0 279.604 3236 3022 0
+rnode "VC.n14" 0 1174.04 3278 3094 0
+rnode "XM7/G" 0 158.178 4564 3045 0
+rnode "VC.n15" 0 437.327 4564 2190 0
+rnode "VC.n16" 0 279.652 4564 3022 0
+rnode "VC.n17" 0 1053.41 4608 3094 0
+rnode "VC" 0 2091.8 5601 2799 0
+resist "VC" "VC.n0" 0.19346
+resist "VC.n7" "VC.n4" 0.257692
+resist "VC.n11" "VC.n8" 0.668603
+resist "VC" "VC.n17" 0.746956
+resist "VC.n14" "VC.n11" 1.18843
+resist "VC.n17" "VC.n14" 1.24067
+resist "VC.n4" "XM32/S" 1.47392
+resist "VC.n4" "XM1/D" 1.56526
+resist "VC.n2" "XM2/G" 4.45611
+resist "VC.n6" "XM1/G" 4.5631
+resist "VC.n10" "XM3/G" 4.56487
+resist "VC.n16" "XM7/G" 4.56908
+resist "VC.n13" "XM5/G" 4.56908
+resist "VC.n8" "VC.n7" 4.70928
+resist "VC.n7" "VC.n6" 4.72047
+resist "VC.n14" "VC.n13" 9.20721
+resist "VC.n17" "VC.n16" 9.20902
+resist "VC.n11" "VC.n10" 9.21021
+resist "XM1/D" "VC.n3" 10.2185
+resist "VC.n8" "VC.n2" 12.0008
+resist "VC.n2" "VC.n1" 110.871
+resist "VC.n16" "VC.n15" 335.022
+resist "VC.n13" "VC.n12" 335.022
+resist "VC.n10" "VC.n9" 335.305
+resist "VC.n6" "VC.n5" 335.309
+rnode "VD.n0" 0 1755.83 5600 601 0
+rnode "XM33/S" 0 647.201 2032 4420 0
+rnode "XM3/D" 0 688.899 1895 2190 0
+rnode "VD.n1" 0 2597.38 1782 3297 0
+rnode "XM4/G" 0 27.4657 1964 787 0
+rnode "VD.n2" 0 94.6232 1964 672 0
+rnode "VD.n3" 0 72.5963 1940 555 0
+rnode "VD.n4" 0 3377.05 2003 511 0
+rnode "XM6/G" 0 27.12 3235 787 0
+rnode "VD.n5" 0 94.6232 3235 672 0
+rnode "VD.n6" 0 71.6227 3210 554 0
+rnode "VD.n7" 0 931.097 3277 506 0
+rnode "XM8/G" 0 27.3547 4562 787 0
+rnode "VD.n8" 0 94.6232 4562 672 0
+rnode "VD.n9" 0 70.9296 4536 555 0
+rnode "VD.n10" 0 824.756 4605 504 0
+rnode "VD" 0 2028.99 5600 601 0
+resist "VD" "VD.n0" 0.165065
+resist "VD" "VD.n10" 0.751091
+resist "VD.n7" "VD.n4" 1.09582
+resist "VD.n10" "VD.n7" 1.22059
+resist "VD.n1" "XM3/D" 1.32327
+resist "VD.n1" "XM33/S" 1.75321
+resist "VD.n6" "XM6/G" 4.9088
+resist "VD.n3" "XM4/G" 4.9306
+resist "VD.n9" "XM8/G" 4.93783
+resist "VD.n4" "VD.n1" 9.26598
+resist "VD.n7" "VD.n6" 9.66431
+resist "VD.n4" "VD.n3" 9.68712
+resist "VD.n10" "VD.n9" 9.69654
+resist "VD.n9" "VD.n8" 110.402
+resist "VD.n3" "VD.n2" 110.406
+resist "VD.n6" "VD.n5" 110.417
+rnode "VB.n0" 0 1026.52 5601 5201 0
+rnode "XM12/G" 0 23.5125 4477 6523 0
+rnode "VB.n1" 0 76.2064 4477 6339 0
+rnode "VB.n2" 0 118.63 4452 6153 0
+rnode "XM10/G1" 0 90.6269 4561 5484 0
+rnode "VB.n3" 0 248.207 4561 4620 0
+rnode "VB.n4" 0 315.243 4423 3756 0
+rnode "VB.n5" 0 248.151 4423 4620 0
+rnode "XM10/G0" 0 90.5458 4423 5484 0
+rnode "VB.n6" 0 121.205 4423 5484 0
+rnode "VB.n7" 0 53.7756 4524 5534 0
+rnode "VB.n8" 0 297.026 4634 5622 0
+rnode "XM9/G1" 0 90.5831 3374 5486 0
+rnode "VB.n9" 0 248.207 3374 4622 0
+rnode "VB.n10" 0 315.14 3236 3758 0
+rnode "VB.n11" 0 248.151 3236 4622 0
+rnode "XM9/G0" 0 90.5458 3236 5486 0
+rnode "VB.n12" 0 121.417 3236 5486 0
+rnode "VB.n13" 0 128.814 3355 5532 0
+rnode "VB.n14" 0 242.025 4383 4620 0
+rnode "XM10/D0" 0 377.368 4354 4620 0
+rnode "VB.n15" 0 314.116 4601 4620 0
+rnode "XM7/D" 0 851.118 4495 2190 0
+rnode "VB.n16" 0 750.154 4572 3895 0
+rnode "VB.n17" 0 279.727 4432 3896 0
+rnode "VB.n18" 0 772.416 4432 4940 0
+rnode "VB.n19" 0 570.932 4742 5448 0
+rnode "VB" 0 1273.02 5601 5201 0
+resist "VB.n17" "VB.n16" 0.000892857
+resist "VB.n19" "VB.n8" 0.0940476
+resist "VB" "VB.n0" 0.165417
+resist "VB.n7" "VB.n6" 0.165823
+resist "VB.n13" "VB.n12" 0.223921
+resist "VB.n19" "VB.n18" 0.278984
+resist "VB" "VB.n19" 0.305497
+resist "VB.n18" "VB.n17" 1.01341
+resist "VB.n8" "VB.n7" 4.58488
+resist "VB.n2" "XM12/G" 5.23593
+resist "VB.n18" "VB.n13" 6.15799
+resist "VB.n16" "XM7/D" 6.27639
+resist "VB.n12" "VB.n10" 6.83611
+resist "VB.n6" "VB.n4" 6.83762
+resist "VB.n17" "XM10/D0" 6.88158
+resist "VB.n6" "XM10/G0" 9.3
+resist "VB.n12" "XM9/G0" 9.3
+resist "VB.n13" "XM9/G1" 9.31673
+resist "VB.n7" "XM10/G1" 9.33257
+resist "VB.n8" "VB.n2" 14.0538
+resist "XM10/D0" "VB.n14" 29.0054
+resist "VB.n16" "VB.n15" 35.8619
+resist "VB.n2" "VB.n1" 131.052
+resist "VB.n3" "XM10/G1" 672.56
+resist "XM10/G0" "VB.n5" 672.56
+resist "VB.n9" "XM9/G1" 672.56
+resist "XM9/G0" "VB.n11" 672.56
+resist "VB.n5" "VB.n4" 681.86
+resist "VB.n11" "VB.n10" 681.86
+resist "VB.n4" "VB.n3" 682.231
+resist "VB.n10" "VB.n9" 682.231
