@@ -1,36 +1,41 @@
-![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
+## Self-Biased Folded Cascode OTA
 
-# Tiny Tapeout Analog Project Template
+### Performance @ Input Common Mode = 1.0 V
 
-- [Read the documentation for project](docs/info.md)
+| Parameter | Value |
+|---|---:|
+| DC Gain | 54.2 dB |
+| Unity Gain Frequency (UGF) | 28.1 MHz |
+| Phase Margin | 86° |
 
-## What is Tiny Tapeout?
+---
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip.
+### Input Common-Mode Range Sweep
 
-To learn more and get started, visit https://tinytapeout.com.
+| Input Common Mode (V) | DC Gain | UGF | Status |
+|---:|---:|---:|---|
+| 0.0 | N/A | N/A | Reject |
+| 0.1 | N/A | N/A | Reject |
+| 0.2 | N/A | N/A | Reject |
+| 0.3 | N/A | N/A | Reject |
+| 0.4 | N/A | N/A | Reject |
+| 0.5 | N/A | N/A | Reject |
+| 0.6 | 23.9 dB | 1.7 MHz | Reject |
+| 0.7 | 39.3 dB | 8.4 MHz | Reject |
+| 0.8 | 48.3 dB | 17.5 MHz | Reject |
+| 0.9 | 53.6 dB | 26.7 MHz | Accept |
+| 1.0 | 54.2 dB | 28.1 MHz | Accept |
+| 1.1 | 54.6 dB | 29.1 MHz | Accept |
+| 1.2 | 54.9 dB | 28.5 MHz | Accept |
+| 1.3 | 55.2 dB | 28.8 MHz | Accept |
+| 1.4 | 55.5 dB | 30.0 MHz | Accept |
+| 1.5 | 55.7 dB | 30.0 MHz | Accept |
+| 1.6 | 55.9 dB | 30.0 MHz | Accept |
+| 1.7 | 56.0 dB | 31.1 MHz | Accept |
+| 1.8 | 56.2 dB | 30.6 MHz | Accept |
 
-## Analog projects
+---
 
-For specifications and instructions, see the [analog specs page](https://tinytapeout.com/specs/analog/).
+### Valid Input Common-Mode Range
 
-## Enable GitHub actions to build the results page
-
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
-
-## Resources
-
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-
-## What next?
-
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@tinytapeout](https://twitter.com/tinytapeout)
-  - Bluesky [@tinytapeout.com](https://bsky.app/profile/tinytapeout.com)
+**0.9 V – 1.8 V**
