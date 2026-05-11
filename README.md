@@ -4,6 +4,8 @@
   <img src="FCOTA_SCH.png" width="700">
 </p>
 
+This project implements a self-biased folded cascode operational transconductance amplifier (OTA) designed in the Sky130 process. A beta-multiplier reference circuit, located in the upper-left portion of the schematic, is used to generate a stable 10 μA reference current, which serves as the foundation for the entire biasing network. The upper-right section contains the bias generation circuitry, which distributes the required bias voltages and currents to ensure proper transistor operation across the amplifier. The lower part is the folded cascoded OTA core, which can provide high gain and high bandwidth.
+
 ### Performance @ Input Common Mode = 1.0 V
 
 | Parameter | Value |
