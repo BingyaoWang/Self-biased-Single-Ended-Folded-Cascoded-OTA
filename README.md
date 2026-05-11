@@ -1,5 +1,9 @@
 ## Self-Biased Folded Cascode OTA
 
+<p align="center">
+  <img src="FCOTA_SCH.png" width="700">
+</p>
+
 ### Performance @ Input Common Mode = 1.0 V
 
 | Parameter | Value |
